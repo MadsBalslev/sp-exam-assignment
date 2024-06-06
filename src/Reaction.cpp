@@ -3,6 +3,21 @@
 
 namespace SpStochLib {
 
+    ReactionCompounds &Reaction::reactants() {
+        return m_reactants;
+    }
+
+    ReactionCompounds &Reaction::products() {
+        return m_products;
+    }
+
+    std::string Reaction::name() const {
+        std::stringstream ss;
+        ss << m_reactants << " -> " << m_products << " (rate = " << rate << ")";
+
+        return ss.str();
+    };
+
 
     void Reaction::addProduct(Agent &product) {
         m_products.addAgent(product);
@@ -21,6 +36,10 @@ namespace SpStochLib {
 
         std::exponential_distribution<double> distribution(lambda);
         delay = distribution(generator);
+    }
+
+    std::ostream &operator<<(std::ostream &os, Reaction &reaction) {
+        return os << reaction.name();
     };
 
     // A + B -> C
@@ -36,7 +55,7 @@ namespace SpStochLib {
         return reaction;
     };
     // A -> B
-    Reaction operator>>=(Agent &agentL,Agent &agentR) {
+    Reaction operator>>=(Agent &agentL, Agent &agentR) {
         Reaction reaction;
 
         reaction.addReactant(agentL);
@@ -68,7 +87,5 @@ namespace SpStochLib {
 
         return reaction;
     };
-
-
 
 }

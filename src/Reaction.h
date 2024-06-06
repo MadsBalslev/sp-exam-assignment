@@ -2,6 +2,8 @@
 #define SPSTOCHLIB_REACTION_H
 
 #include <random>
+#include <sstream>
+#include <string>
 #include "ReactionCompounds.h"
 
 namespace SpStochLib {
@@ -13,10 +15,12 @@ namespace SpStochLib {
         double rate = 0;
         double delay = 0;
 
-
+        /** Returns the reaction as a human readable string.
+         * This fulfills part of requirement 2: "Pretty-print the reaction network in a human readable format". */
+        [[nodiscard]] std::string name() const;
 
         [[nodiscard]]ReactionCompounds &reactants();
-        [[nodiscard]] ReactionCompounds &products();
+        [[nodiscard]]ReactionCompounds &products();
 
         void addReactant(Agent &reactant);
         void addProduct (Agent &product);

@@ -1,9 +1,10 @@
 #include <stdexcept>
+#include <utility>
 #include "Agent.h"
 
 namespace SpStochLib {
 
-    Agent::Agent(std::string name, size_t quantity) {};
+    Agent::Agent(std::string name, size_t amount) : m_name(std::move(name)), m_amount(amount) {};
 
     std::string Agent::name() const {
         return m_name;

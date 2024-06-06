@@ -23,4 +23,4 @@ namespace SpStochLib {
 }
 
 
-#endif //SP_EXAM_TRY_2_AGENT_H
+#endif

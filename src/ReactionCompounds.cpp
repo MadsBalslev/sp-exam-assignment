@@ -2,4 +2,38 @@
 
 namespace SpStochLib {
 
+    const std::vector<Agent> &ReactionCompounds::agents() const {
+        return m_agents;
+    };
+
+    void ReactionCompounds::addAgent(const Agent& agent) {
+        m_agents.push_back(agent);
+    };
+
+    std::vector<Agent>::const_iterator ReactionCompounds::begin() const {
+        return m_agents.begin();
+    };
+
+    std::vector<Agent>::const_iterator ReactionCompounds::end() const {
+        return m_agents.end();
+    };
+
+    std::vector<Agent>::iterator ReactionCompounds::begin() {
+        return m_agents.begin();
+    };
+    std::vector<Agent>::iterator ReactionCompounds::end() {
+        return m_agents.end();
+    };
+
+    std::ostream &operator<<(std::ostream &os, const ReactionCompounds &compounds) {
+        for (size_t i = 0; i < compounds.m_agents.size(); ++i) {
+            os << compounds.m_agents[i].name();
+
+            if (i < compounds.m_agents.size() - 1) {
+                os << " + ";
+            }
+        }
+
+        return os;
+    };
 } // SpStochLib
