@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: Sp_Exam_Try_2
+# Project: SpStochLib
 # Configurations: Debug
 # =============================================================================
 
@@ -41,38 +41,38 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Github/Sp-Exam-Try-2/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Sp_Exam_Try_2Main
+# Object build statements for EXECUTABLE target SpStochLibMain
 
 
 #############################################
-# Order-only phony target for Sp_Exam_Try_2Main
+# Order-only phony target for SpStochLibMain
 
-build cmake_object_order_depends_target_Sp_Exam_Try_2Main: phony || CMakeFiles/Sp_Exam_Try_2Main.dir
+build cmake_object_order_depends_target_SpStochLibMain: phony || CMakeFiles/SpStochLibMain.dir
 
-build CMakeFiles/Sp_Exam_Try_2Main.dir/main.cpp.obj: CXX_COMPILER__Sp_Exam_Try_2Main_unscanned_Debug C$:/Github/Sp-Exam-Try-2/main.cpp || cmake_object_order_depends_target_Sp_Exam_Try_2Main
-  DEP_FILE = CMakeFiles\Sp_Exam_Try_2Main.dir\main.cpp.obj.d
+build CMakeFiles/SpStochLibMain.dir/main.cpp.obj: CXX_COMPILER__SpStochLibMain_unscanned_Debug C$:/Github/Sp-Exam-Try-2/main.cpp || cmake_object_order_depends_target_SpStochLibMain
+  DEP_FILE = CMakeFiles\SpStochLibMain.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   INCLUDES = -IC:/Github/Sp-Exam-Try-2/src
-  OBJECT_DIR = CMakeFiles\Sp_Exam_Try_2Main.dir
-  OBJECT_FILE_DIR = CMakeFiles\Sp_Exam_Try_2Main.dir
+  OBJECT_DIR = CMakeFiles\SpStochLibMain.dir
+  OBJECT_FILE_DIR = CMakeFiles\SpStochLibMain.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Sp_Exam_Try_2Main
+# Link build statements for EXECUTABLE target SpStochLibMain
 
 
 #############################################
-# Link the executable Sp_Exam_Try_2Main.exe
+# Link the executable SpStochLibMain.exe
 
-build Sp_Exam_Try_2Main.exe: CXX_EXECUTABLE_LINKER__Sp_Exam_Try_2Main_Debug CMakeFiles/Sp_Exam_Try_2Main.dir/main.cpp.obj
+build SpStochLibMain.exe: CXX_EXECUTABLE_LINKER__SpStochLibMain_Debug CMakeFiles/SpStochLibMain.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Sp_Exam_Try_2Main.dir
+  OBJECT_DIR = CMakeFiles\SpStochLibMain.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Sp_Exam_Try_2Main.exe
-  TARGET_IMPLIB = libSp_Exam_Try_2Main.dll.a
-  TARGET_PDB = Sp_Exam_Try_2Main.exe.dbg
+  TARGET_FILE = SpStochLibMain.exe
+  TARGET_IMPLIB = libSpStochLibMain.dll.a
+  TARGET_PDB = SpStochLibMain.exe.dbg
 
 
 #############################################
@@ -103,36 +103,36 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
-# Object build statements for STATIC_LIBRARY target Sp_Exam_Try_2
+# Object build statements for STATIC_LIBRARY target SpStochLib
 
 
 #############################################
-# Order-only phony target for Sp_Exam_Try_2
+# Order-only phony target for SpStochLib
 
-build cmake_object_order_depends_target_Sp_Exam_Try_2: phony || src/CMakeFiles/Sp_Exam_Try_2.dir
+build cmake_object_order_depends_target_SpStochLib: phony || src/CMakeFiles/SpStochLib.dir
 
-build src/CMakeFiles/Sp_Exam_Try_2.dir/Agent.cpp.obj: CXX_COMPILER__Sp_Exam_Try_2_unscanned_Debug C$:/Github/Sp-Exam-Try-2/src/Agent.cpp || cmake_object_order_depends_target_Sp_Exam_Try_2
-  DEP_FILE = src\CMakeFiles\Sp_Exam_Try_2.dir\Agent.cpp.obj.d
+build src/CMakeFiles/SpStochLib.dir/Agent.cpp.obj: CXX_COMPILER__SpStochLib_unscanned_Debug C$:/Github/Sp-Exam-Try-2/src/Agent.cpp || cmake_object_order_depends_target_SpStochLib
+  DEP_FILE = src\CMakeFiles\SpStochLib.dir\Agent.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   INCLUDES = -IC:/Github/Sp-Exam-Try-2/src
-  OBJECT_DIR = src\CMakeFiles\Sp_Exam_Try_2.dir
-  OBJECT_FILE_DIR = src\CMakeFiles\Sp_Exam_Try_2.dir
+  OBJECT_DIR = src\CMakeFiles\SpStochLib.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\SpStochLib.dir
 
 
 # =============================================================================
-# Link build statements for STATIC_LIBRARY target Sp_Exam_Try_2
+# Link build statements for STATIC_LIBRARY target SpStochLib
 
 
 #############################################
-# Link the static library src\libSp_Exam_Try_2.a
+# Link the static library src\libSpStochLib.a
 
-build src/libSp_Exam_Try_2.a: CXX_STATIC_LIBRARY_LINKER__Sp_Exam_Try_2_Debug src/CMakeFiles/Sp_Exam_Try_2.dir/Agent.cpp.obj
+build src/libSpStochLib.a: CXX_STATIC_LIBRARY_LINKER__SpStochLib_Debug src/CMakeFiles/SpStochLib.dir/Agent.cpp.obj
   LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = src\CMakeFiles\Sp_Exam_Try_2.dir
+  OBJECT_DIR = src\CMakeFiles\SpStochLib.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = src\libSp_Exam_Try_2.a
-  TARGET_PDB = Sp_Exam_Try_2.a.dbg
+  TARGET_FILE = src\libSpStochLib.a
+  TARGET_PDB = SpStochLib.a.dbg
 
 
 #############################################
@@ -160,11 +160,11 @@ build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Sp_Exam_Try_2: phony src/libSp_Exam_Try_2.a
+build SpStochLib: phony src/libSpStochLib.a
 
-build Sp_Exam_Try_2Main: phony Sp_Exam_Try_2Main.exe
+build SpStochLibMain: phony SpStochLibMain.exe
 
-build libSp_Exam_Try_2.a: phony src/libSp_Exam_Try_2.a
+build libSpStochLib.a: phony src/libSpStochLib.a
 
 # =============================================================================
 # Folder targets.
@@ -174,14 +174,14 @@ build libSp_Exam_Try_2.a: phony src/libSp_Exam_Try_2.a
 #############################################
 # Folder: C:/Github/Sp-Exam-Try-2/cmake-build-debug
 
-build all: phony Sp_Exam_Try_2Main.exe src/all
+build all: phony SpStochLibMain.exe src/all
 
 # =============================================================================
 
 #############################################
 # Folder: C:/Github/Sp-Exam-Try-2/cmake-build-debug/src
 
-build src/all: phony src/libSp_Exam_Try_2.a
+build src/all: phony src/libSpStochLib.a
 
 # =============================================================================
 # Built-in targets

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Sp_Exam_Try_2Main.exe"
+			"path" : "SpStochLibMain.exe"
 		},
 		{
-			"path" : "Sp_Exam_Try_2Main.pdb"
+			"path" : "SpStochLibMain.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -70,7 +70,7 @@
 			]
 		}
 	],
-	"id" : "Sp_Exam_Try_2Main::@6890427a1f51a3e7e1df",
+	"id" : "SpStochLibMain::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -90,8 +90,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Sp_Exam_Try_2Main",
-	"nameOnDisk" : "Sp_Exam_Try_2Main.exe",
+	"name" : "SpStochLibMain",
+	"nameOnDisk" : "SpStochLibMain.exe",
 	"paths" : 
 	{
 		"build" : ".",

@@ -47,7 +47,7 @@
 						0,
 						1
 					],
-					"name" : "Sp_Exam_Try_2",
+					"name" : "SpStochLib",
 					"targetIndexes" : 
 					[
 						0,
@@ -59,16 +59,16 @@
 			[
 				{
 					"directoryIndex" : 1,
-					"id" : "Sp_Exam_Try_2::@145eef247bfb46b6828c",
-					"jsonFile" : "target-Sp_Exam_Try_2-Debug-3c44c4363827e57e58ab.json",
-					"name" : "Sp_Exam_Try_2",
+					"id" : "SpStochLib::@145eef247bfb46b6828c",
+					"jsonFile" : "target-SpStochLib-Debug-5b79b8116742dfa55560.json",
+					"name" : "SpStochLib",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "Sp_Exam_Try_2Main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Sp_Exam_Try_2Main-Debug-8f63db804dee8f95f868.json",
-					"name" : "Sp_Exam_Try_2Main",
+					"id" : "SpStochLibMain::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SpStochLibMain-Debug-1cdb0351cf995131678f.json",
+					"name" : "SpStochLibMain",
 					"projectIndex" : 0
 				}
 			]

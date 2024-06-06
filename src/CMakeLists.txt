@@ -8,4 +8,4 @@ set(SOURCE_FILES
         Agent.cpp)
 
 
-add_library(Sp_Exam_Try_2 ${SOURCE_FILES})
+add_library(SpStochLib ${SOURCE_FILES})

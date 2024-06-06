@@ -1,6 +1,6 @@
-C:/Github/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/Sp_Exam_Try_2Main.dir
+C:/Github/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/SpStochLibMain.dir
 C:/Github/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Github/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Github/Sp-Exam-Try-2/cmake-build-debug/src/CMakeFiles/Sp_Exam_Try_2.dir
+C:/Github/Sp-Exam-Try-2/cmake-build-debug/src/CMakeFiles/SpStochLib.dir
 C:/Github/Sp-Exam-Try-2/cmake-build-debug/src/CMakeFiles/edit_cache.dir
 C:/Github/Sp-Exam-Try-2/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir

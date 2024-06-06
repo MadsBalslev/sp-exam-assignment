@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/libSp_Exam_Try_2.a"
+			"path" : "src/libSpStochLib.a"
 		}
 	],
 	"backtrace" : 1,
@@ -72,9 +72,9 @@
 			]
 		}
 	],
-	"id" : "Sp_Exam_Try_2::@145eef247bfb46b6828c",
-	"name" : "Sp_Exam_Try_2",
-	"nameOnDisk" : "libSp_Exam_Try_2.a",
+	"id" : "SpStochLib::@145eef247bfb46b6828c",
+	"name" : "SpStochLib",
+	"nameOnDisk" : "libSpStochLib.a",
 	"paths" : 
 	{
 		"build" : "src",

@@ -1,7 +1,10 @@
 # ninja log v5
+4	365	7393708790188490	build.ninja	8da6c9d8b1a0e7cf
 631	745	7393705773563827	Sp_Exam_Try_2Main.exe	41a979d2a9702211
-1	257	7393706252720701	build.ninja	8da6c9d8b1a0e7cf
 0	74	7393705764101797	src/CMakeFiles/Sp_Exam_Try_2.dir/Agent.cpp.obj	d18579b6ae83aad3
 74	168	7393705765034893	src/libSp_Exam_Try_2.a	1ac4acba83ffa54b
 0	628	7393705772445608	CMakeFiles/Sp_Exam_Try_2Main.dir/main.cpp.obj	5eb7c2064e32999
-1	399	7393706252720701	build.ninja	8da6c9d8b1a0e7cf
+7	208	7393709002339151	src/CMakeFiles/SpStochLib.dir/Agent.cpp.obj	3d0b64a5f6216ec
+209	301	7393709003277461	src/libSpStochLib.a	7bd8d35ca3bdf2fe
+1	543	7393709009681804	CMakeFiles/SpStochLibMain.dir/main.cpp.obj	73fc8342354eef5c
+546	672	7393709010864578	SpStochLibMain.exe	b6da5f5b7f127fce
