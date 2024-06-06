@@ -3,4 +3,8 @@ project(Sp_Exam_Try_2)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(Sp_Exam_Try_2 main.cpp)
+include_directories(src)
+
+add_subdirectory(src)
+
+add_executable(Sp_Exam_Try_2Main main.cpp)

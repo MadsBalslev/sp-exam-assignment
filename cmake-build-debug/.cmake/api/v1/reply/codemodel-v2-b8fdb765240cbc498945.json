@@ -6,6 +6,10 @@
 			[
 				{
 					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
@@ -13,6 +17,21 @@
 					},
 					"projectIndex" : 0,
 					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
 					"targetIndexes" : 
 					[
 						0
@@ -25,22 +44,31 @@
 				{
 					"directoryIndexes" : 
 					[
-						0
+						0,
+						1
 					],
 					"name" : "Sp_Exam_Try_2",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 0,
-					"id" : "Sp_Exam_Try_2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Sp_Exam_Try_2-Debug-083c46a8323e60660b44.json",
+					"directoryIndex" : 1,
+					"id" : "Sp_Exam_Try_2::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Sp_Exam_Try_2-Debug-3c44c4363827e57e58ab.json",
 					"name" : "Sp_Exam_Try_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Sp_Exam_Try_2Main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Sp_Exam_Try_2Main-Debug-8f63db804dee8f95f868.json",
+					"name" : "Sp_Exam_Try_2Main",
 					"projectIndex" : 0
 				}
 			]
