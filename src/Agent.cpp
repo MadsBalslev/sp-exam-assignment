@@ -9,7 +9,7 @@ namespace SpStochLib {
         return m_name;
     }
 
-    size_t Agent::quantity() const {
+    size_t Agent::amount() const {
         return m_amount;
     }
 

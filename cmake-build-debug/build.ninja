@@ -118,6 +118,20 @@ build src/CMakeFiles/SpStochLib.dir/Agent.cpp.obj: CXX_COMPILER__SpStochLib_unsc
   OBJECT_DIR = src\CMakeFiles\SpStochLib.dir
   OBJECT_FILE_DIR = src\CMakeFiles\SpStochLib.dir
 
+build src/CMakeFiles/SpStochLib.dir/ReactionCompounds.cpp.obj: CXX_COMPILER__SpStochLib_unscanned_Debug C$:/Github/Sp-Exam-Try-2/src/ReactionCompounds.cpp || cmake_object_order_depends_target_SpStochLib
+  DEP_FILE = src\CMakeFiles\SpStochLib.dir\ReactionCompounds.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/Github/Sp-Exam-Try-2/src
+  OBJECT_DIR = src\CMakeFiles\SpStochLib.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\SpStochLib.dir
+
+build src/CMakeFiles/SpStochLib.dir/Reaction.cpp.obj: CXX_COMPILER__SpStochLib_unscanned_Debug C$:/Github/Sp-Exam-Try-2/src/Reaction.cpp || cmake_object_order_depends_target_SpStochLib
+  DEP_FILE = src\CMakeFiles\SpStochLib.dir\Reaction.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/Github/Sp-Exam-Try-2/src
+  OBJECT_DIR = src\CMakeFiles\SpStochLib.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\SpStochLib.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target SpStochLib
@@ -126,7 +140,7 @@ build src/CMakeFiles/SpStochLib.dir/Agent.cpp.obj: CXX_COMPILER__SpStochLib_unsc
 #############################################
 # Link the static library src\libSpStochLib.a
 
-build src/libSpStochLib.a: CXX_STATIC_LIBRARY_LINKER__SpStochLib_Debug src/CMakeFiles/SpStochLib.dir/Agent.cpp.obj
+build src/libSpStochLib.a: CXX_STATIC_LIBRARY_LINKER__SpStochLib_Debug src/CMakeFiles/SpStochLib.dir/Agent.cpp.obj src/CMakeFiles/SpStochLib.dir/ReactionCompounds.cpp.obj src/CMakeFiles/SpStochLib.dir/Reaction.cpp.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = src\CMakeFiles\SpStochLib.dir
   POST_BUILD = cd .
