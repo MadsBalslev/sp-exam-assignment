@@ -25,6 +25,11 @@ namespace SpStochLib {
          * Fulfills part of requirement 2: "Pretty-print the reaction network in human readable format". */
         friend std::ostream &operator<<(std::ostream &os, const ReactionCompounds &compounds);
     };
+    // Agent + Agent
+    ReactionCompounds operator+(Agent &agentL, Agent &agentR);
+
+    //ReactionCompound + Agent
+    ReactionCompounds operator+(ReactionCompounds &&compound, Agent agent);
 } // SpStochLib
 
 

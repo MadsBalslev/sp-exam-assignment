@@ -36,4 +36,19 @@ namespace SpStochLib {
 
         return os;
     };
+
+    ReactionCompounds operator+(Agent &agentL, Agent &agentR) {
+        ReactionCompounds compounds;
+
+        compounds.addAgent(agentL);
+        compounds.addAgent(agentR);
+
+        return compounds;
+    }
+
+    ReactionCompounds operator+(ReactionCompounds &&compounds, Agent &agent)
+    {
+        compounds.addAgent(agent);
+        return compounds;
+    }
 } // SpStochLib

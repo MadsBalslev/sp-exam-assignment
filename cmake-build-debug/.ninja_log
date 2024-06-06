@@ -1,17 +1,12 @@
 # ninja log v5
-2147	2277	7393807491091558	src/libSpStochLib.a	28224948f5eedf1f
+829	927	7393822113088794	src/libSpStochLib.a	28224948f5eedf1f
 631	745	7393705773563827	Sp_Exam_Try_2Main.exe	41a979d2a9702211
-2	243	7393814109563031	build.ninja	8da6c9d8b1a0e7cf
+2	243	7393834557371745	build.ninja	8da6c9d8b1a0e7cf
 0	74	7393705764101797	src/CMakeFiles/Sp_Exam_Try_2.dir/Agent.cpp.obj	d18579b6ae83aad3
 5	1287	7393807481049579	src/CMakeFiles/SpStochLib.dir/Agent.cpp.obj	3d0b64a5f6216ec
 74	168	7393705765034893	src/libSp_Exam_Try_2.a	1ac4acba83ffa54b
 0	628	7393705772445608	CMakeFiles/Sp_Exam_Try_2Main.dir/main.cpp.obj	5eb7c2064e32999
-4	1655	7393807509148571	CMakeFiles/SpStochLibMain.dir/main.cpp.obj	73fc8342354eef5c
-1564	1756	7393805338255635	SpStochLibMain.exe	b6da5f5b7f127fce
-3	678	7393813982816876	src/CMakeFiles/SpStochLib.dir/ReactionCompounds.cpp.obj	a170ad65d87e16e3
-22	2147	7393807489803749	src/CMakeFiles/SpStochLib.dir/Reaction.cpp.obj	81b2815dbaa8d99
-3	712	7393816818646962	src/CMakeFiles/SpStochLib.dir/ReactionCompounds.cpp.obj	a170ad65d87e16e3
-10	727	7393816818797044	src/CMakeFiles/SpStochLib.dir/Reaction.cpp.obj	81b2815dbaa8d99
-727	817	7393816819704962	src/libSpStochLib.a	28224948f5eedf1f
-4	1685	7393816837558167	CMakeFiles/SpStochLibMain.dir/main.cpp.obj	73fc8342354eef5c
-1686	1835	7393816838995399	SpStochLibMain.exe	b6da5f5b7f127fce
+5	2163	7393821535177640	CMakeFiles/SpStochLibMain.dir/main.cpp.obj	73fc8342354eef5c
+2163	2313	7393821536637614	SpStochLibMain.exe	b6da5f5b7f127fce
+3	828	7393822112064245	src/CMakeFiles/SpStochLib.dir/ReactionCompounds.cpp.obj	a170ad65d87e16e3
+11	826	7393822112044210	src/CMakeFiles/SpStochLib.dir/Reaction.cpp.obj	81b2815dbaa8d99
