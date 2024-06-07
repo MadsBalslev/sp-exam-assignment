@@ -51,4 +51,5 @@ namespace SpStochLib {
         compounds.addAgent(agent);
         return compounds;
     }
+
 } // SpStochLib

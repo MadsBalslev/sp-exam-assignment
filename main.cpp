@@ -4,21 +4,16 @@
 #include "ReactionCompounds.cpp"
 #include "Simulation.cpp"
 #include "SymbolTable.hpp"
+#include "examples/Simple.cpp"
 
 using namespace SpStochLib;
+using namespace SpStochLib::Examples;
+
 
 int main() {
-    Simulation example1 = Simulation();
-    Simulation example2 = Simulation();
-    Simulation example3 = Simulation();
+    Simulation example1 = simple();
 
-    Agent A = example1.addAgent("A", 100);
-    Agent B = example1.addAgent("B", 0);
-    Agent C = example1.addAgent("C", 1);
-
-    example1.addReaction(A >>= B, 1);
-
-    example1.simulate(1,std::nullopt);
+    example1.simulate(2000, std::nullopt);
 
     return 0;
 }

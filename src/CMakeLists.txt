@@ -8,7 +8,10 @@ set(SOURCE_FILES
         ReactionCompounds.cpp
         Reaction.cpp
         Simulation.cpp
-        SymbolTable.hpp)
+        SymbolTable.hpp
+)
 
 
 add_library(SpStochLib ${SOURCE_FILES})
+
+add_subdirectory(Examples)

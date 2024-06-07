@@ -61,7 +61,7 @@ namespace SpStochLib {
         return *getMin->second;
     }
 
-    Agent &Simulation::addAgent(const std::string &name, size_t amount) {
+    Agent& Simulation::addAgent(const std::string &name, size_t amount) {
         Agent agent = Agent{name, amount};
         return m_agents->add(name, std::move(agent));
     }

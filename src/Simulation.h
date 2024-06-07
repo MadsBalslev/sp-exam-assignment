@@ -8,6 +8,7 @@
 #include <functional>
 #include "Reaction.h"
 #include "Agent.h"
+#include "ReactionCompounds.h"
 #include "SymbolTable.hpp"
 
 

@@ -32,14 +32,14 @@ namespace SpStochLib {
     };
 
 
+    // A + B -> C + D
+    Reaction operator>>= (ReactionCompounds &compoundsL, ReactionCompounds &compoundsR);
     // A + B -> C
     Reaction operator>>=(ReactionCompounds &&compounds, Agent &agent);
     // A -> B
     Reaction operator>>=(Agent &agentL,Agent &agentR);
     // A -> B + C
     Reaction operator>>=(Agent &agent, ReactionCompounds &&compounds);
-    // A + B -> C + D
-    Reaction operator>>= (ReactionCompounds &compoundsL, ReactionCompounds &compoundsR);
 
 }
 

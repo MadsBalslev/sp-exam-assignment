@@ -19,11 +19,15 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
 					"build" : "src",
+					"childIndexes" : 
+					[
+						2
+					],
 					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
 					"minimumCMakeVersion" : 
 					{
@@ -36,6 +40,21 @@
 					[
 						0
 					]
+				},
+				{
+					"build" : "src/Examples",
+					"jsonFile" : "directory-src.Examples-Debug-edf8d823114a84ce143e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/Examples",
+					"targetIndexes" : 
+					[
+						1
+					]
 				}
 			],
 			"name" : "Debug",
@@ -45,13 +64,15 @@
 					"directoryIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					],
 					"name" : "SpStochLib",
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -60,8 +81,15 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "SpStochLib::@145eef247bfb46b6828c",
-					"jsonFile" : "target-SpStochLib-Debug-5d72ae70431776d965bb.json",
+					"jsonFile" : "target-SpStochLib-Debug-51efd1862b6fde418492.json",
 					"name" : "SpStochLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SpStochLibExamples::@49f74252c2d04b365ba0",
+					"jsonFile" : "target-SpStochLibExamples-Debug-3da7114dece675a4f1b6.json",
+					"name" : "SpStochLibExamples",
 					"projectIndex" : 0
 				},
 				{
