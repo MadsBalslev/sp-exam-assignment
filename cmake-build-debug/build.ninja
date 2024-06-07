@@ -199,6 +199,20 @@ build src/Examples/CMakeFiles/SpStochLibExamples.dir/Simple.cpp.obj: CXX_COMPILE
   OBJECT_DIR = src\Examples\CMakeFiles\SpStochLibExamples.dir
   OBJECT_FILE_DIR = src\Examples\CMakeFiles\SpStochLibExamples.dir
 
+build src/Examples/CMakeFiles/SpStochLibExamples.dir/Circadian.cpp.obj: CXX_COMPILER__SpStochLibExamples_unscanned_Debug C$:/Github/Sp-Exam-Try-2/src/Examples/Circadian.cpp || cmake_object_order_depends_target_SpStochLibExamples
+  DEP_FILE = src\Examples\CMakeFiles\SpStochLibExamples.dir\Circadian.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/Github/Sp-Exam-Try-2/src
+  OBJECT_DIR = src\Examples\CMakeFiles\SpStochLibExamples.dir
+  OBJECT_FILE_DIR = src\Examples\CMakeFiles\SpStochLibExamples.dir
+
+build src/Examples/CMakeFiles/SpStochLibExamples.dir/Seihr.cpp.obj: CXX_COMPILER__SpStochLibExamples_unscanned_Debug C$:/Github/Sp-Exam-Try-2/src/Examples/Seihr.cpp || cmake_object_order_depends_target_SpStochLibExamples
+  DEP_FILE = src\Examples\CMakeFiles\SpStochLibExamples.dir\Seihr.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/Github/Sp-Exam-Try-2/src
+  OBJECT_DIR = src\Examples\CMakeFiles\SpStochLibExamples.dir
+  OBJECT_FILE_DIR = src\Examples\CMakeFiles\SpStochLibExamples.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target SpStochLibExamples
@@ -207,7 +221,7 @@ build src/Examples/CMakeFiles/SpStochLibExamples.dir/Simple.cpp.obj: CXX_COMPILE
 #############################################
 # Link the static library src\Examples\libSpStochLibExamples.a
 
-build src/Examples/libSpStochLibExamples.a: CXX_STATIC_LIBRARY_LINKER__SpStochLibExamples_Debug src/Examples/CMakeFiles/SpStochLibExamples.dir/Simple.cpp.obj
+build src/Examples/libSpStochLibExamples.a: CXX_STATIC_LIBRARY_LINKER__SpStochLibExamples_Debug src/Examples/CMakeFiles/SpStochLibExamples.dir/Simple.cpp.obj src/Examples/CMakeFiles/SpStochLibExamples.dir/Circadian.cpp.obj src/Examples/CMakeFiles/SpStochLibExamples.dir/Seihr.cpp.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = src\Examples\CMakeFiles\SpStochLibExamples.dir
   POST_BUILD = cd .
