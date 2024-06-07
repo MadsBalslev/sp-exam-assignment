@@ -2,21 +2,23 @@
 #include "Reaction.cpp"
 #include "Agent.cpp"
 #include "ReactionCompounds.cpp"
+#include "Simulation.cpp"
 #include "SymbolTable.hpp"
 
 using namespace SpStochLib;
 
 int main() {
-    Agent agentA = Agent{"A", 5};
-    Agent agentB = Agent{"B", 5};
-    Agent agentC = Agent{"C", 5};
-    auto rate = 5;
+    Simulation example1 = Simulation();
+    Simulation example2 = Simulation();
+    Simulation example3 = Simulation();
 
-    Reaction reaction = agentA + agentC >>= agentB;
-    std::cout << reaction.name();
-    SymbolTable symbolTable = SymbolTable<std::string, std::string>();
-    
+    Agent A = example1.addAgent("A", 100);
+    Agent B = example1.addAgent("B", 0);
+    Agent C = example1.addAgent("C", 1);
 
+    example1.addReaction(A >>= B, 1);
+
+    example1.simulate(1,std::nullopt);
 
     return 0;
 }

@@ -5,25 +5,29 @@
 #include "string"
 #include "memory"
 #include <stdexcept>
+#include <any>
 
 namespace SpStochLib {
 
-    template<typename KT, typename VT>
+    template<class KT, class VT>
     class SymbolTable {
-        std::unordered_map<KT, VT> m_table;
+        std::unordered_map<KT, std::unique_ptr<VT>> m_table;
 
         bool checkExists(const KT &symbol) { return m_table.find(symbol) != m_table.end(); };
 
     public:
-        VT add(const KT &symbol, VT &&object) {
+        VT& add(const KT &symbol, VT &&object) {
             if(!checkExists(symbol)) {
                 // Add
-                m_table.insert(symbol, object);
+                auto ptr = std::make_unique<VT>(std::move(object));
+                auto& ref = *ptr;
+                m_table[symbol] = std::move(ptr);
+
+                return ref;
             } else {
                 // Throw error
-                throw std::runtime_error("The symbol: [" + symbol + "] already exists in the table");
+                throw std::runtime_error("The symbol already exists in the table");
             }
-            return m_table[symbol];
         };
 
         void remove(const KT &symbol) {
@@ -31,17 +35,28 @@ namespace SpStochLib {
                 // Add
                 m_table.erase(symbol);
             } else {
-                throw std::runtime_error("The symbol: [" + symbol + "] does not exists in the table");
+                throw std::runtime_error("The symbol does not exist in the table");
             }
         };
 
         VT* get(const KT &symbol) {
             if(checkExists(symbol)) {
-                return m_table[symbol];
+
+                return m_table.find(symbol)->second.get();
             }
-            throw std::runtime_error("The symbol: [" + symbol + "] does not exists in the table");
+            throw std::runtime_error("The symbol does not exist in the table");
         };
 
+        VT& operator[](const KT &symbol) {
+            auto item = get(symbol);
+
+            return *item;
+        };
+
+        auto begin() { return m_table.begin(); }
+        auto end() { return m_table.end(); }
+        auto begin() const { return m_table.begin(); }
+        auto end() const { return m_table.end(); }
     };
 }
 
