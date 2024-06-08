@@ -8,6 +8,7 @@
 #include "examples/Seihr.cpp"
 #include "examples/Circadian.cpp"
 #include "Plotting/TrajectoryDrawer.cpp"
+#include "sciplot/sciplot.hpp"
 
 using namespace SpStochLib;
 using namespace SpStochLib::Examples;
@@ -22,9 +23,11 @@ int main() {
     TrajectoryDrawer drawer = TrajectoryDrawer();
 
 
-    example2.simulate(2000, [&drawer](const Simulation &simulation) {
+    example1.simulate(2000, [&drawer](const Simulation &simulation) {
         drawer.addToGraph(simulation);
     });
+
+    drawer.draw(2000);
 
     return 0;
 }

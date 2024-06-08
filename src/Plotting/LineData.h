@@ -1,13 +1,18 @@
 #ifndef SPSTOCHLIB_LINEDATA_H
 #define SPSTOCHLIB_LINEDATA_H
 
-namespace SpStochLib::Plots {
+#include <string>
+#include "vector"
+#include "Point.h"
 
+namespace SpStochLib::Plots {
 
     class LineData {
         std::string name;
-        std::vector<double> plotPoints;
+        std::vector<Point> plotPoints;
 
+    public:
+        void addplot(std::string name, Point point);
     };
 
 }

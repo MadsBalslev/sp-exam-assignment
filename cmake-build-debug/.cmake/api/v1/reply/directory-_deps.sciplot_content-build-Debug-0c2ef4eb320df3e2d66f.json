@@ -1,0 +1,96 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"include"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/sciplot_content-src/cmake_install_generation.cmake",
+			"cmake-build-debug/_deps/sciplot_content-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"cmake-build-debug/_deps/sciplot_content-src/sciplot"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "share/SpStochLib",
+			"exportName" : "sciplot-export",
+			"exportTargets" : 
+			[
+				{
+					"id" : "sciplot::@8076db3ff85bfbce3836",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"_deps/sciplot_content-build/CMakeFiles/Export/9bb465ea8e95b1c4e9f6f1c5a596b618/sciplotTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "share/SpStochLib",
+			"paths" : 
+			[
+				"cmake-build-debug/_deps/sciplot_content-build/sciplotConfig.cmake",
+				"cmake-build-debug/_deps/sciplot_content-build/sciplotConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/sciplot_content-build",
+		"source" : "cmake-build-debug/_deps/sciplot_content-src"
+	}
+}

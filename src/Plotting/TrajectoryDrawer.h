@@ -3,13 +3,17 @@
 
 #include "Simulation.h"
 #include "vector"
+#include "Point.h"
+#include <map>
+
+
 
 namespace SpStochLib::Plots {
     class TrajectoryDrawer {
-
+        std::map<std::string, std::vector<Point>> lines; // Linedata
 
     public:
-        void draw();
+        void draw(auto endTime);
         void addToGraph(const Simulation &sim);
     };
 }

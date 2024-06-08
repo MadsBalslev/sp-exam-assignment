@@ -8,3 +8,4 @@ include_directories(src)
 add_subdirectory(src)
 
 add_executable(SpStochLibMain main.cpp)
+target_link_libraries(SpStochLibMain PUBLIC sciplot)

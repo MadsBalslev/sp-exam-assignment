@@ -52,11 +52,9 @@ build cmake_object_order_depends_target_SpStochLibMain: phony || CMakeFiles/SpSt
 build CMakeFiles/SpStochLibMain.dir/main.cpp.obj: CXX_COMPILER__SpStochLibMain_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/main.cpp || cmake_object_order_depends_target_SpStochLibMain
   DEP_FILE = CMakeFiles\SpStochLibMain.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
   OBJECT_DIR = CMakeFiles\SpStochLibMain.dir
   OBJECT_FILE_DIR = CMakeFiles\SpStochLibMain.dir
-  TARGET_COMPILE_PDB = CMakeFiles\SpStochLibMain.dir\
-  TARGET_PDB = SpStochLibMain.pdb
 
 
 # =============================================================================
@@ -72,10 +70,9 @@ build SpStochLibMain.exe: CXX_EXECUTABLE_LINKER__SpStochLibMain_Debug CMakeFiles
   OBJECT_DIR = CMakeFiles\SpStochLibMain.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\SpStochLibMain.dir\
   TARGET_FILE = SpStochLibMain.exe
   TARGET_IMPLIB = libSpStochLibMain.dll.a
-  TARGET_PDB = SpStochLibMain.pdb
+  TARGET_PDB = SpStochLibMain.exe.dbg
 
 
 #############################################
@@ -100,6 +97,48 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
+
+#############################################
+# Utility command for list_install_components
+
+build list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build CMakeFiles/install.util: CUSTOM_COMMAND all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build install: phony CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build CMakeFiles/install/local.util: CUSTOM_COMMAND all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build install/local: phony CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build install/strip: phony CMakeFiles/install/strip.util
+
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
 # C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/CMakeLists.txt
@@ -120,8 +159,6 @@ build src/CMakeFiles/SpStochLib.dir/Agent.cpp.obj: CXX_COMPILER__SpStochLib_unsc
   INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src
   OBJECT_DIR = src\CMakeFiles\SpStochLib.dir
   OBJECT_FILE_DIR = src\CMakeFiles\SpStochLib.dir
-  TARGET_COMPILE_PDB = src\CMakeFiles\SpStochLib.dir\SpStochLib.pdb
-  TARGET_PDB = src\libSpStochLib.pdb
 
 build src/CMakeFiles/SpStochLib.dir/ReactionCompounds.cpp.obj: CXX_COMPILER__SpStochLib_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/ReactionCompounds.cpp || cmake_object_order_depends_target_SpStochLib
   DEP_FILE = src\CMakeFiles\SpStochLib.dir\ReactionCompounds.cpp.obj.d
@@ -129,8 +166,6 @@ build src/CMakeFiles/SpStochLib.dir/ReactionCompounds.cpp.obj: CXX_COMPILER__SpS
   INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src
   OBJECT_DIR = src\CMakeFiles\SpStochLib.dir
   OBJECT_FILE_DIR = src\CMakeFiles\SpStochLib.dir
-  TARGET_COMPILE_PDB = src\CMakeFiles\SpStochLib.dir\SpStochLib.pdb
-  TARGET_PDB = src\libSpStochLib.pdb
 
 build src/CMakeFiles/SpStochLib.dir/Reaction.cpp.obj: CXX_COMPILER__SpStochLib_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/Reaction.cpp || cmake_object_order_depends_target_SpStochLib
   DEP_FILE = src\CMakeFiles\SpStochLib.dir\Reaction.cpp.obj.d
@@ -138,8 +173,6 @@ build src/CMakeFiles/SpStochLib.dir/Reaction.cpp.obj: CXX_COMPILER__SpStochLib_u
   INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src
   OBJECT_DIR = src\CMakeFiles\SpStochLib.dir
   OBJECT_FILE_DIR = src\CMakeFiles\SpStochLib.dir
-  TARGET_COMPILE_PDB = src\CMakeFiles\SpStochLib.dir\SpStochLib.pdb
-  TARGET_PDB = src\libSpStochLib.pdb
 
 build src/CMakeFiles/SpStochLib.dir/Simulation.cpp.obj: CXX_COMPILER__SpStochLib_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/Simulation.cpp || cmake_object_order_depends_target_SpStochLib
   DEP_FILE = src\CMakeFiles\SpStochLib.dir\Simulation.cpp.obj.d
@@ -147,8 +180,6 @@ build src/CMakeFiles/SpStochLib.dir/Simulation.cpp.obj: CXX_COMPILER__SpStochLib
   INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src
   OBJECT_DIR = src\CMakeFiles\SpStochLib.dir
   OBJECT_FILE_DIR = src\CMakeFiles\SpStochLib.dir
-  TARGET_COMPILE_PDB = src\CMakeFiles\SpStochLib.dir\SpStochLib.pdb
-  TARGET_PDB = src\libSpStochLib.pdb
 
 
 # =============================================================================
@@ -163,9 +194,8 @@ build src/libSpStochLib.a: CXX_STATIC_LIBRARY_LINKER__SpStochLib_Debug src/CMake
   OBJECT_DIR = src\CMakeFiles\SpStochLib.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = src\CMakeFiles\SpStochLib.dir\SpStochLib.pdb
   TARGET_FILE = src\libSpStochLib.a
-  TARGET_PDB = src\libSpStochLib.pdb
+  TARGET_PDB = SpStochLib.a.dbg
 
 
 #############################################
@@ -190,6 +220,48 @@ build src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 
 build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
 
+
+#############################################
+# Utility command for list_install_components
+
+build src/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build src/CMakeFiles/install.util: CUSTOM_COMMAND src/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\src && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build src/install: phony src/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build src/CMakeFiles/install/local.util: CUSTOM_COMMAND src/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\src && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build src/install/local: phony src/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build src/CMakeFiles/install/strip.util: CUSTOM_COMMAND src/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\src && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build src/install/strip: phony src/CMakeFiles/install/strip.util
+
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
 # C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/CMakeLists.txt
@@ -210,8 +282,6 @@ build src/Examples/CMakeFiles/SpStochLibExamples.dir/Simple.cpp.obj: CXX_COMPILE
   INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src
   OBJECT_DIR = src\Examples\CMakeFiles\SpStochLibExamples.dir
   OBJECT_FILE_DIR = src\Examples\CMakeFiles\SpStochLibExamples.dir
-  TARGET_COMPILE_PDB = src\Examples\CMakeFiles\SpStochLibExamples.dir\SpStochLibExamples.pdb
-  TARGET_PDB = src\Examples\libSpStochLibExamples.pdb
 
 build src/Examples/CMakeFiles/SpStochLibExamples.dir/Circadian.cpp.obj: CXX_COMPILER__SpStochLibExamples_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/Examples/Circadian.cpp || cmake_object_order_depends_target_SpStochLibExamples
   DEP_FILE = src\Examples\CMakeFiles\SpStochLibExamples.dir\Circadian.cpp.obj.d
@@ -219,8 +289,6 @@ build src/Examples/CMakeFiles/SpStochLibExamples.dir/Circadian.cpp.obj: CXX_COMP
   INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src
   OBJECT_DIR = src\Examples\CMakeFiles\SpStochLibExamples.dir
   OBJECT_FILE_DIR = src\Examples\CMakeFiles\SpStochLibExamples.dir
-  TARGET_COMPILE_PDB = src\Examples\CMakeFiles\SpStochLibExamples.dir\SpStochLibExamples.pdb
-  TARGET_PDB = src\Examples\libSpStochLibExamples.pdb
 
 build src/Examples/CMakeFiles/SpStochLibExamples.dir/Seihr.cpp.obj: CXX_COMPILER__SpStochLibExamples_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/Examples/Seihr.cpp || cmake_object_order_depends_target_SpStochLibExamples
   DEP_FILE = src\Examples\CMakeFiles\SpStochLibExamples.dir\Seihr.cpp.obj.d
@@ -228,8 +296,6 @@ build src/Examples/CMakeFiles/SpStochLibExamples.dir/Seihr.cpp.obj: CXX_COMPILER
   INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src
   OBJECT_DIR = src\Examples\CMakeFiles\SpStochLibExamples.dir
   OBJECT_FILE_DIR = src\Examples\CMakeFiles\SpStochLibExamples.dir
-  TARGET_COMPILE_PDB = src\Examples\CMakeFiles\SpStochLibExamples.dir\SpStochLibExamples.pdb
-  TARGET_PDB = src\Examples\libSpStochLibExamples.pdb
 
 
 # =============================================================================
@@ -244,9 +310,8 @@ build src/Examples/libSpStochLibExamples.a: CXX_STATIC_LIBRARY_LINKER__SpStochLi
   OBJECT_DIR = src\Examples\CMakeFiles\SpStochLibExamples.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = src\Examples\CMakeFiles\SpStochLibExamples.dir\SpStochLibExamples.pdb
   TARGET_FILE = src\Examples\libSpStochLibExamples.a
-  TARGET_PDB = src\Examples\libSpStochLibExamples.pdb
+  TARGET_PDB = SpStochLibExamples.a.dbg
 
 
 #############################################
@@ -271,6 +336,48 @@ build src/Examples/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 
 build src/Examples/rebuild_cache: phony src/Examples/CMakeFiles/rebuild_cache.util
 
+
+#############################################
+# Utility command for list_install_components
+
+build src/Examples/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build src/Examples/CMakeFiles/install.util: CUSTOM_COMMAND src/Examples/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\src\Examples && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build src/Examples/install: phony src/Examples/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build src/Examples/CMakeFiles/install/local.util: CUSTOM_COMMAND src/Examples/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\src\Examples && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build src/Examples/install/local: phony src/Examples/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build src/Examples/CMakeFiles/install/strip.util: CUSTOM_COMMAND src/Examples/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\src\Examples && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build src/Examples/install/strip: phony src/Examples/CMakeFiles/install/strip.util
+
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
 # C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/CMakeLists.txt
@@ -288,29 +395,30 @@ build cmake_object_order_depends_target_SpStochLibPlots: phony || src/Plotting/C
 build src/Plotting/CMakeFiles/SpStochLibPlots.dir/ReactionDrawer.cpp.obj: CXX_COMPILER__SpStochLibPlots_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/Plotting/ReactionDrawer.cpp || cmake_object_order_depends_target_SpStochLibPlots
   DEP_FILE = src\Plotting\CMakeFiles\SpStochLibPlots.dir\ReactionDrawer.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
   OBJECT_DIR = src\Plotting\CMakeFiles\SpStochLibPlots.dir
   OBJECT_FILE_DIR = src\Plotting\CMakeFiles\SpStochLibPlots.dir
-  TARGET_COMPILE_PDB = src\Plotting\CMakeFiles\SpStochLibPlots.dir\SpStochLibPlots.pdb
-  TARGET_PDB = src\Plotting\libSpStochLibPlots.pdb
 
 build src/Plotting/CMakeFiles/SpStochLibPlots.dir/TrajectoryDrawer.cpp.obj: CXX_COMPILER__SpStochLibPlots_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/Plotting/TrajectoryDrawer.cpp || cmake_object_order_depends_target_SpStochLibPlots
   DEP_FILE = src\Plotting\CMakeFiles\SpStochLibPlots.dir\TrajectoryDrawer.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
   OBJECT_DIR = src\Plotting\CMakeFiles\SpStochLibPlots.dir
   OBJECT_FILE_DIR = src\Plotting\CMakeFiles\SpStochLibPlots.dir
-  TARGET_COMPILE_PDB = src\Plotting\CMakeFiles\SpStochLibPlots.dir\SpStochLibPlots.pdb
-  TARGET_PDB = src\Plotting\libSpStochLibPlots.pdb
 
 build src/Plotting/CMakeFiles/SpStochLibPlots.dir/LineData.cpp.obj: CXX_COMPILER__SpStochLibPlots_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/Plotting/LineData.cpp || cmake_object_order_depends_target_SpStochLibPlots
   DEP_FILE = src\Plotting\CMakeFiles\SpStochLibPlots.dir\LineData.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
   OBJECT_DIR = src\Plotting\CMakeFiles\SpStochLibPlots.dir
   OBJECT_FILE_DIR = src\Plotting\CMakeFiles\SpStochLibPlots.dir
-  TARGET_COMPILE_PDB = src\Plotting\CMakeFiles\SpStochLibPlots.dir\SpStochLibPlots.pdb
-  TARGET_PDB = src\Plotting\libSpStochLibPlots.pdb
+
+build src/Plotting/CMakeFiles/SpStochLibPlots.dir/Point.cpp.obj: CXX_COMPILER__SpStochLibPlots_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/Plotting/Point.cpp || cmake_object_order_depends_target_SpStochLibPlots
+  DEP_FILE = src\Plotting\CMakeFiles\SpStochLibPlots.dir\Point.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = src\Plotting\CMakeFiles\SpStochLibPlots.dir
+  OBJECT_FILE_DIR = src\Plotting\CMakeFiles\SpStochLibPlots.dir
 
 
 # =============================================================================
@@ -320,14 +428,13 @@ build src/Plotting/CMakeFiles/SpStochLibPlots.dir/LineData.cpp.obj: CXX_COMPILER
 #############################################
 # Link the static library src\Plotting\libSpStochLibPlots.a
 
-build src/Plotting/libSpStochLibPlots.a: CXX_STATIC_LIBRARY_LINKER__SpStochLibPlots_Debug src/Plotting/CMakeFiles/SpStochLibPlots.dir/ReactionDrawer.cpp.obj src/Plotting/CMakeFiles/SpStochLibPlots.dir/TrajectoryDrawer.cpp.obj src/Plotting/CMakeFiles/SpStochLibPlots.dir/LineData.cpp.obj
+build src/Plotting/libSpStochLibPlots.a: CXX_STATIC_LIBRARY_LINKER__SpStochLibPlots_Debug src/Plotting/CMakeFiles/SpStochLibPlots.dir/ReactionDrawer.cpp.obj src/Plotting/CMakeFiles/SpStochLibPlots.dir/TrajectoryDrawer.cpp.obj src/Plotting/CMakeFiles/SpStochLibPlots.dir/LineData.cpp.obj src/Plotting/CMakeFiles/SpStochLibPlots.dir/Point.cpp.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = src\Plotting\CMakeFiles\SpStochLibPlots.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = src\Plotting\CMakeFiles\SpStochLibPlots.dir\SpStochLibPlots.pdb
   TARGET_FILE = src\Plotting\libSpStochLibPlots.a
-  TARGET_PDB = src\Plotting\libSpStochLibPlots.pdb
+  TARGET_PDB = SpStochLibPlots.a.dbg
 
 
 #############################################
@@ -352,6 +459,1274 @@ build src/Plotting/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 
 build src/Plotting/rebuild_cache: phony src/Plotting/CMakeFiles/rebuild_cache.util
 
+
+#############################################
+# Utility command for list_install_components
+
+build src/Plotting/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build src/Plotting/CMakeFiles/install.util: CUSTOM_COMMAND src/Plotting/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\src\Plotting && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build src/Plotting/install: phony src/Plotting/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build src/Plotting/CMakeFiles/install/local.util: CUSTOM_COMMAND src/Plotting/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\src\Plotting && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build src/Plotting/install/local: phony src/Plotting/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build src/Plotting/CMakeFiles/install/strip.util: CUSTOM_COMMAND src/Plotting/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\src\Plotting && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build src/Plotting/install/strip: phony src/Plotting/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/Plotting/sciplot.cmake
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build _deps/sciplot_content-build/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build _deps/sciplot_content-build/edit_cache: phony _deps/sciplot_content-build/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build _deps/sciplot_content-build/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2 -BC:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build _deps/sciplot_content-build/rebuild_cache: phony _deps/sciplot_content-build/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build _deps/sciplot_content-build/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build _deps/sciplot_content-build/CMakeFiles/install.util: CUSTOM_COMMAND _deps/sciplot_content-build/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build _deps/sciplot_content-build/install: phony _deps/sciplot_content-build/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build _deps/sciplot_content-build/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/sciplot_content-build/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build _deps/sciplot_content-build/install/local: phony _deps/sciplot_content-build/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build _deps/sciplot_content-build/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/sciplot_content-build/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build _deps/sciplot_content-build/install/strip: phony _deps/sciplot_content-build/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target example-3d-helix
+
+
+#############################################
+# Order-only phony target for example-3d-helix
+
+build cmake_object_order_depends_target_example-3d-helix: phony || _deps/sciplot_content-build/examples/CMakeFiles/example-3d-helix.dir
+
+build _deps/sciplot_content-build/examples/CMakeFiles/example-3d-helix.dir/example-3d-helix.cpp.obj: CXX_COMPILER__example-3d-helix_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-3d-helix.cpp || cmake_object_order_depends_target_example-3d-helix
+  DEP_FILE = _deps\sciplot_content-build\examples\CMakeFiles\example-3d-helix.dir\example-3d-helix.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-3d-helix.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-3d-helix.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target example-3d-helix
+
+
+#############################################
+# Link the executable _deps\sciplot_content-build\examples\example-3d-helix.exe
+
+build _deps/sciplot_content-build/examples/example-3d-helix.exe: CXX_EXECUTABLE_LINKER__example-3d-helix_Debug _deps/sciplot_content-build/examples/CMakeFiles/example-3d-helix.dir/example-3d-helix.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-3d-helix.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = _deps\sciplot_content-build\examples\example-3d-helix.exe
+  TARGET_IMPLIB = _deps\sciplot_content-build\examples\libexample-3d-helix.dll.a
+  TARGET_PDB = example-3d-helix.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target example-bessel-functions
+
+
+#############################################
+# Order-only phony target for example-bessel-functions
+
+build cmake_object_order_depends_target_example-bessel-functions: phony || _deps/sciplot_content-build/examples/CMakeFiles/example-bessel-functions.dir
+
+build _deps/sciplot_content-build/examples/CMakeFiles/example-bessel-functions.dir/example-bessel-functions.cpp.obj: CXX_COMPILER__example-bessel-functions_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-bessel-functions.cpp || cmake_object_order_depends_target_example-bessel-functions
+  DEP_FILE = _deps\sciplot_content-build\examples\CMakeFiles\example-bessel-functions.dir\example-bessel-functions.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-bessel-functions.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-bessel-functions.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target example-bessel-functions
+
+
+#############################################
+# Link the executable _deps\sciplot_content-build\examples\example-bessel-functions.exe
+
+build _deps/sciplot_content-build/examples/example-bessel-functions.exe: CXX_EXECUTABLE_LINKER__example-bessel-functions_Debug _deps/sciplot_content-build/examples/CMakeFiles/example-bessel-functions.dir/example-bessel-functions.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-bessel-functions.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = _deps\sciplot_content-build\examples\example-bessel-functions.exe
+  TARGET_IMPLIB = _deps\sciplot_content-build\examples\libexample-bessel-functions.dll.a
+  TARGET_PDB = example-bessel-functions.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target example-boxes-ticklabels
+
+
+#############################################
+# Order-only phony target for example-boxes-ticklabels
+
+build cmake_object_order_depends_target_example-boxes-ticklabels: phony || _deps/sciplot_content-build/examples/CMakeFiles/example-boxes-ticklabels.dir
+
+build _deps/sciplot_content-build/examples/CMakeFiles/example-boxes-ticklabels.dir/example-boxes-ticklabels.cpp.obj: CXX_COMPILER__example-boxes-ticklabels_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-boxes-ticklabels.cpp || cmake_object_order_depends_target_example-boxes-ticklabels
+  DEP_FILE = _deps\sciplot_content-build\examples\CMakeFiles\example-boxes-ticklabels.dir\example-boxes-ticklabels.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-boxes-ticklabels.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-boxes-ticklabels.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target example-boxes-ticklabels
+
+
+#############################################
+# Link the executable _deps\sciplot_content-build\examples\example-boxes-ticklabels.exe
+
+build _deps/sciplot_content-build/examples/example-boxes-ticklabels.exe: CXX_EXECUTABLE_LINKER__example-boxes-ticklabels_Debug _deps/sciplot_content-build/examples/CMakeFiles/example-boxes-ticklabels.dir/example-boxes-ticklabels.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-boxes-ticklabels.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = _deps\sciplot_content-build\examples\example-boxes-ticklabels.exe
+  TARGET_IMPLIB = _deps\sciplot_content-build\examples\libexample-boxes-ticklabels.dll.a
+  TARGET_PDB = example-boxes-ticklabels.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target example-boxes
+
+
+#############################################
+# Order-only phony target for example-boxes
+
+build cmake_object_order_depends_target_example-boxes: phony || _deps/sciplot_content-build/examples/CMakeFiles/example-boxes.dir
+
+build _deps/sciplot_content-build/examples/CMakeFiles/example-boxes.dir/example-boxes.cpp.obj: CXX_COMPILER__example-boxes_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-boxes.cpp || cmake_object_order_depends_target_example-boxes
+  DEP_FILE = _deps\sciplot_content-build\examples\CMakeFiles\example-boxes.dir\example-boxes.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-boxes.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-boxes.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target example-boxes
+
+
+#############################################
+# Link the executable _deps\sciplot_content-build\examples\example-boxes.exe
+
+build _deps/sciplot_content-build/examples/example-boxes.exe: CXX_EXECUTABLE_LINKER__example-boxes_Debug _deps/sciplot_content-build/examples/CMakeFiles/example-boxes.dir/example-boxes.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-boxes.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = _deps\sciplot_content-build\examples\example-boxes.exe
+  TARGET_IMPLIB = _deps\sciplot_content-build\examples\libexample-boxes.dll.a
+  TARGET_PDB = example-boxes.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target example-figures-layout
+
+
+#############################################
+# Order-only phony target for example-figures-layout
+
+build cmake_object_order_depends_target_example-figures-layout: phony || _deps/sciplot_content-build/examples/CMakeFiles/example-figures-layout.dir
+
+build _deps/sciplot_content-build/examples/CMakeFiles/example-figures-layout.dir/example-figures-layout.cpp.obj: CXX_COMPILER__example-figures-layout_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-figures-layout.cpp || cmake_object_order_depends_target_example-figures-layout
+  DEP_FILE = _deps\sciplot_content-build\examples\CMakeFiles\example-figures-layout.dir\example-figures-layout.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-figures-layout.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-figures-layout.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target example-figures-layout
+
+
+#############################################
+# Link the executable _deps\sciplot_content-build\examples\example-figures-layout.exe
+
+build _deps/sciplot_content-build/examples/example-figures-layout.exe: CXX_EXECUTABLE_LINKER__example-figures-layout_Debug _deps/sciplot_content-build/examples/CMakeFiles/example-figures-layout.dir/example-figures-layout.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-figures-layout.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = _deps\sciplot_content-build\examples\example-figures-layout.exe
+  TARGET_IMPLIB = _deps\sciplot_content-build\examples\libexample-figures-layout.dll.a
+  TARGET_PDB = example-figures-layout.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target example-figures
+
+
+#############################################
+# Order-only phony target for example-figures
+
+build cmake_object_order_depends_target_example-figures: phony || _deps/sciplot_content-build/examples/CMakeFiles/example-figures.dir
+
+build _deps/sciplot_content-build/examples/CMakeFiles/example-figures.dir/example-figures.cpp.obj: CXX_COMPILER__example-figures_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-figures.cpp || cmake_object_order_depends_target_example-figures
+  DEP_FILE = _deps\sciplot_content-build\examples\CMakeFiles\example-figures.dir\example-figures.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-figures.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-figures.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target example-figures
+
+
+#############################################
+# Link the executable _deps\sciplot_content-build\examples\example-figures.exe
+
+build _deps/sciplot_content-build/examples/example-figures.exe: CXX_EXECUTABLE_LINKER__example-figures_Debug _deps/sciplot_content-build/examples/CMakeFiles/example-figures.dir/example-figures.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-figures.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = _deps\sciplot_content-build\examples\example-figures.exe
+  TARGET_IMPLIB = _deps\sciplot_content-build\examples\libexample-figures.dll.a
+  TARGET_PDB = example-figures.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target example-filled-curves
+
+
+#############################################
+# Order-only phony target for example-filled-curves
+
+build cmake_object_order_depends_target_example-filled-curves: phony || _deps/sciplot_content-build/examples/CMakeFiles/example-filled-curves.dir
+
+build _deps/sciplot_content-build/examples/CMakeFiles/example-filled-curves.dir/example-filled-curves.cpp.obj: CXX_COMPILER__example-filled-curves_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-filled-curves.cpp || cmake_object_order_depends_target_example-filled-curves
+  DEP_FILE = _deps\sciplot_content-build\examples\CMakeFiles\example-filled-curves.dir\example-filled-curves.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-filled-curves.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-filled-curves.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target example-filled-curves
+
+
+#############################################
+# Link the executable _deps\sciplot_content-build\examples\example-filled-curves.exe
+
+build _deps/sciplot_content-build/examples/example-filled-curves.exe: CXX_EXECUTABLE_LINKER__example-filled-curves_Debug _deps/sciplot_content-build/examples/CMakeFiles/example-filled-curves.dir/example-filled-curves.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-filled-curves.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = _deps\sciplot_content-build\examples\example-filled-curves.exe
+  TARGET_IMPLIB = _deps\sciplot_content-build\examples\libexample-filled-curves.dll.a
+  TARGET_PDB = example-filled-curves.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target example-logarithmic-axes
+
+
+#############################################
+# Order-only phony target for example-logarithmic-axes
+
+build cmake_object_order_depends_target_example-logarithmic-axes: phony || _deps/sciplot_content-build/examples/CMakeFiles/example-logarithmic-axes.dir
+
+build _deps/sciplot_content-build/examples/CMakeFiles/example-logarithmic-axes.dir/example-logarithmic-axes.cpp.obj: CXX_COMPILER__example-logarithmic-axes_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-logarithmic-axes.cpp || cmake_object_order_depends_target_example-logarithmic-axes
+  DEP_FILE = _deps\sciplot_content-build\examples\CMakeFiles\example-logarithmic-axes.dir\example-logarithmic-axes.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-logarithmic-axes.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-logarithmic-axes.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target example-logarithmic-axes
+
+
+#############################################
+# Link the executable _deps\sciplot_content-build\examples\example-logarithmic-axes.exe
+
+build _deps/sciplot_content-build/examples/example-logarithmic-axes.exe: CXX_EXECUTABLE_LINKER__example-logarithmic-axes_Debug _deps/sciplot_content-build/examples/CMakeFiles/example-logarithmic-axes.dir/example-logarithmic-axes.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-logarithmic-axes.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = _deps\sciplot_content-build\examples\example-logarithmic-axes.exe
+  TARGET_IMPLIB = _deps\sciplot_content-build\examples\libexample-logarithmic-axes.dll.a
+  TARGET_PDB = example-logarithmic-axes.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target example-missing-data
+
+
+#############################################
+# Order-only phony target for example-missing-data
+
+build cmake_object_order_depends_target_example-missing-data: phony || _deps/sciplot_content-build/examples/CMakeFiles/example-missing-data.dir
+
+build _deps/sciplot_content-build/examples/CMakeFiles/example-missing-data.dir/example-missing-data.cpp.obj: CXX_COMPILER__example-missing-data_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-missing-data.cpp || cmake_object_order_depends_target_example-missing-data
+  DEP_FILE = _deps\sciplot_content-build\examples\CMakeFiles\example-missing-data.dir\example-missing-data.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-missing-data.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-missing-data.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target example-missing-data
+
+
+#############################################
+# Link the executable _deps\sciplot_content-build\examples\example-missing-data.exe
+
+build _deps/sciplot_content-build/examples/example-missing-data.exe: CXX_EXECUTABLE_LINKER__example-missing-data_Debug _deps/sciplot_content-build/examples/CMakeFiles/example-missing-data.dir/example-missing-data.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-missing-data.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = _deps\sciplot_content-build\examples\example-missing-data.exe
+  TARGET_IMPLIB = _deps\sciplot_content-build\examples\libexample-missing-data.dll.a
+  TARGET_PDB = example-missing-data.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target example-multiplot-mixed
+
+
+#############################################
+# Order-only phony target for example-multiplot-mixed
+
+build cmake_object_order_depends_target_example-multiplot-mixed: phony || _deps/sciplot_content-build/examples/CMakeFiles/example-multiplot-mixed.dir
+
+build _deps/sciplot_content-build/examples/CMakeFiles/example-multiplot-mixed.dir/example-multiplot-mixed.cpp.obj: CXX_COMPILER__example-multiplot-mixed_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-multiplot-mixed.cpp || cmake_object_order_depends_target_example-multiplot-mixed
+  DEP_FILE = _deps\sciplot_content-build\examples\CMakeFiles\example-multiplot-mixed.dir\example-multiplot-mixed.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-multiplot-mixed.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-multiplot-mixed.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target example-multiplot-mixed
+
+
+#############################################
+# Link the executable _deps\sciplot_content-build\examples\example-multiplot-mixed.exe
+
+build _deps/sciplot_content-build/examples/example-multiplot-mixed.exe: CXX_EXECUTABLE_LINKER__example-multiplot-mixed_Debug _deps/sciplot_content-build/examples/CMakeFiles/example-multiplot-mixed.dir/example-multiplot-mixed.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-multiplot-mixed.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = _deps\sciplot_content-build\examples\example-multiplot-mixed.exe
+  TARGET_IMPLIB = _deps\sciplot_content-build\examples\libexample-multiplot-mixed.dll.a
+  TARGET_PDB = example-multiplot-mixed.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target example-multiplot
+
+
+#############################################
+# Order-only phony target for example-multiplot
+
+build cmake_object_order_depends_target_example-multiplot: phony || _deps/sciplot_content-build/examples/CMakeFiles/example-multiplot.dir
+
+build _deps/sciplot_content-build/examples/CMakeFiles/example-multiplot.dir/example-multiplot.cpp.obj: CXX_COMPILER__example-multiplot_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-multiplot.cpp || cmake_object_order_depends_target_example-multiplot
+  DEP_FILE = _deps\sciplot_content-build\examples\CMakeFiles\example-multiplot.dir\example-multiplot.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-multiplot.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-multiplot.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target example-multiplot
+
+
+#############################################
+# Link the executable _deps\sciplot_content-build\examples\example-multiplot.exe
+
+build _deps/sciplot_content-build/examples/example-multiplot.exe: CXX_EXECUTABLE_LINKER__example-multiplot_Debug _deps/sciplot_content-build/examples/CMakeFiles/example-multiplot.dir/example-multiplot.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-multiplot.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = _deps\sciplot_content-build\examples\example-multiplot.exe
+  TARGET_IMPLIB = _deps\sciplot_content-build\examples\libexample-multiplot.dll.a
+  TARGET_PDB = example-multiplot.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target example-plot-get
+
+
+#############################################
+# Order-only phony target for example-plot-get
+
+build cmake_object_order_depends_target_example-plot-get: phony || _deps/sciplot_content-build/examples/CMakeFiles/example-plot-get.dir
+
+build _deps/sciplot_content-build/examples/CMakeFiles/example-plot-get.dir/example-plot-get.cpp.obj: CXX_COMPILER__example-plot-get_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-plot-get.cpp || cmake_object_order_depends_target_example-plot-get
+  DEP_FILE = _deps\sciplot_content-build\examples\CMakeFiles\example-plot-get.dir\example-plot-get.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-plot-get.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-plot-get.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target example-plot-get
+
+
+#############################################
+# Link the executable _deps\sciplot_content-build\examples\example-plot-get.exe
+
+build _deps/sciplot_content-build/examples/example-plot-get.exe: CXX_EXECUTABLE_LINKER__example-plot-get_Debug _deps/sciplot_content-build/examples/CMakeFiles/example-plot-get.dir/example-plot-get.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-plot-get.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = _deps\sciplot_content-build\examples\example-plot-get.exe
+  TARGET_IMPLIB = _deps\sciplot_content-build\examples\libexample-plot-get.dll.a
+  TARGET_PDB = example-plot-get.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target example-readme
+
+
+#############################################
+# Order-only phony target for example-readme
+
+build cmake_object_order_depends_target_example-readme: phony || _deps/sciplot_content-build/examples/CMakeFiles/example-readme.dir
+
+build _deps/sciplot_content-build/examples/CMakeFiles/example-readme.dir/example-readme.cpp.obj: CXX_COMPILER__example-readme_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-readme.cpp || cmake_object_order_depends_target_example-readme
+  DEP_FILE = _deps\sciplot_content-build\examples\CMakeFiles\example-readme.dir\example-readme.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-readme.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-readme.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target example-readme
+
+
+#############################################
+# Link the executable _deps\sciplot_content-build\examples\example-readme.exe
+
+build _deps/sciplot_content-build/examples/example-readme.exe: CXX_EXECUTABLE_LINKER__example-readme_Debug _deps/sciplot_content-build/examples/CMakeFiles/example-readme.dir/example-readme.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-readme.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = _deps\sciplot_content-build\examples\example-readme.exe
+  TARGET_IMPLIB = _deps\sciplot_content-build\examples\libexample-readme.dll.a
+  TARGET_PDB = example-readme.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target example-sincos-functions
+
+
+#############################################
+# Order-only phony target for example-sincos-functions
+
+build cmake_object_order_depends_target_example-sincos-functions: phony || _deps/sciplot_content-build/examples/CMakeFiles/example-sincos-functions.dir
+
+build _deps/sciplot_content-build/examples/CMakeFiles/example-sincos-functions.dir/example-sincos-functions.cpp.obj: CXX_COMPILER__example-sincos-functions_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-sincos-functions.cpp || cmake_object_order_depends_target_example-sincos-functions
+  DEP_FILE = _deps\sciplot_content-build\examples\CMakeFiles\example-sincos-functions.dir\example-sincos-functions.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-sincos-functions.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-sincos-functions.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target example-sincos-functions
+
+
+#############################################
+# Link the executable _deps\sciplot_content-build\examples\example-sincos-functions.exe
+
+build _deps/sciplot_content-build/examples/example-sincos-functions.exe: CXX_EXECUTABLE_LINKER__example-sincos-functions_Debug _deps/sciplot_content-build/examples/CMakeFiles/example-sincos-functions.dir/example-sincos-functions.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-sincos-functions.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = _deps\sciplot_content-build\examples\example-sincos-functions.exe
+  TARGET_IMPLIB = _deps\sciplot_content-build\examples\libexample-sincos-functions.dll.a
+  TARGET_PDB = example-sincos-functions.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target example-sine-functions
+
+
+#############################################
+# Order-only phony target for example-sine-functions
+
+build cmake_object_order_depends_target_example-sine-functions: phony || _deps/sciplot_content-build/examples/CMakeFiles/example-sine-functions.dir
+
+build _deps/sciplot_content-build/examples/CMakeFiles/example-sine-functions.dir/example-sine-functions.cpp.obj: CXX_COMPILER__example-sine-functions_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-sine-functions.cpp || cmake_object_order_depends_target_example-sine-functions
+  DEP_FILE = _deps\sciplot_content-build\examples\CMakeFiles\example-sine-functions.dir\example-sine-functions.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-sine-functions.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-sine-functions.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target example-sine-functions
+
+
+#############################################
+# Link the executable _deps\sciplot_content-build\examples\example-sine-functions.exe
+
+build _deps/sciplot_content-build/examples/example-sine-functions.exe: CXX_EXECUTABLE_LINKER__example-sine-functions_Debug _deps/sciplot_content-build/examples/CMakeFiles/example-sine-functions.dir/example-sine-functions.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = _deps\sciplot_content-build\examples\CMakeFiles\example-sine-functions.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = _deps\sciplot_content-build\examples\example-sine-functions.exe
+  TARGET_IMPLIB = _deps\sciplot_content-build\examples\libexample-sine-functions.dll.a
+  TARGET_PDB = example-sine-functions.exe.dbg
+
+
+#############################################
+# Utility command for examples
+
+build _deps/sciplot_content-build/examples/examples: phony _deps/sciplot_content-build/examples/CMakeFiles/examples
+
+
+#############################################
+# Utility command for edit_cache
+
+build _deps/sciplot_content-build/examples/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\examples && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build _deps/sciplot_content-build/examples/edit_cache: phony _deps/sciplot_content-build/examples/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build _deps/sciplot_content-build/examples/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\examples && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2 -BC:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build _deps/sciplot_content-build/examples/rebuild_cache: phony _deps/sciplot_content-build/examples/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build _deps/sciplot_content-build/examples/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build _deps/sciplot_content-build/examples/CMakeFiles/install.util: CUSTOM_COMMAND _deps/sciplot_content-build/examples/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\examples && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build _deps/sciplot_content-build/examples/install: phony _deps/sciplot_content-build/examples/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build _deps/sciplot_content-build/examples/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/sciplot_content-build/examples/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\examples && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build _deps/sciplot_content-build/examples/install/local: phony _deps/sciplot_content-build/examples/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build _deps/sciplot_content-build/examples/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/sciplot_content-build/examples/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\examples && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build _deps/sciplot_content-build/examples/install/strip: phony _deps/sciplot_content-build/examples/CMakeFiles/install/strip.util
+
+
+#############################################
+# Custom command for _deps\sciplot_content-build\examples\CMakeFiles\examples
+
+build _deps/sciplot_content-build/examples/CMakeFiles/examples | ${cmake_ninja_workdir}_deps/sciplot_content-build/examples/CMakeFiles/examples: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" --build C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/examples"
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sciplot-cpptests
+
+
+#############################################
+# Order-only phony target for sciplot-cpptests
+
+build cmake_object_order_depends_target_sciplot-cpptests: phony || _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir
+
+build _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/AxisLabelSpecs.test.cxx.obj: CXX_COMPILER__sciplot-cpptests_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/AxisLabelSpecs.test.cxx || cmake_object_order_depends_target_sciplot-cpptests
+  DEP_FILE = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir\AxisLabelSpecs.test.cxx.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+
+build _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/BorderSpecs.test.cxx.obj: CXX_COMPILER__sciplot-cpptests_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/BorderSpecs.test.cxx || cmake_object_order_depends_target_sciplot-cpptests
+  DEP_FILE = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir\BorderSpecs.test.cxx.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+
+build _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/ColumnIndex.test.cxx.obj: CXX_COMPILER__sciplot-cpptests_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/ColumnIndex.test.cxx || cmake_object_order_depends_target_sciplot-cpptests
+  DEP_FILE = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir\ColumnIndex.test.cxx.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+
+build _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/DepthSpecsOf.test.cxx.obj: CXX_COMPILER__sciplot-cpptests_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/DepthSpecsOf.test.cxx || cmake_object_order_depends_target_sciplot-cpptests
+  DEP_FILE = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir\DepthSpecsOf.test.cxx.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+
+build _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/DrawSpecs.test.cxx.obj: CXX_COMPILER__sciplot-cpptests_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/DrawSpecs.test.cxx || cmake_object_order_depends_target_sciplot-cpptests
+  DEP_FILE = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir\DrawSpecs.test.cxx.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+
+build _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/FillSpecsOf.test.cxx.obj: CXX_COMPILER__sciplot-cpptests_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/FillSpecsOf.test.cxx || cmake_object_order_depends_target_sciplot-cpptests
+  DEP_FILE = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir\FillSpecsOf.test.cxx.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+
+build _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/FillStyleSpecs.test.cxx.obj: CXX_COMPILER__sciplot-cpptests_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/FillStyleSpecs.test.cxx || cmake_object_order_depends_target_sciplot-cpptests
+  DEP_FILE = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir\FillStyleSpecs.test.cxx.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+
+build _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/FilledCurvesSpecsOf.test.cxx.obj: CXX_COMPILER__sciplot-cpptests_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/FilledCurvesSpecsOf.test.cxx || cmake_object_order_depends_target_sciplot-cpptests
+  DEP_FILE = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir\FilledCurvesSpecsOf.test.cxx.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+
+build _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/FontSpecsOf.test.cxx.obj: CXX_COMPILER__sciplot-cpptests_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/FontSpecsOf.test.cxx || cmake_object_order_depends_target_sciplot-cpptests
+  DEP_FILE = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir\FontSpecsOf.test.cxx.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+
+build _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/FrameSpecsOf.test.cxx.obj: CXX_COMPILER__sciplot-cpptests_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/FrameSpecsOf.test.cxx || cmake_object_order_depends_target_sciplot-cpptests
+  DEP_FILE = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir\FrameSpecsOf.test.cxx.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+
+build _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/GridSpecs.test.cxx.obj: CXX_COMPILER__sciplot-cpptests_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/GridSpecs.test.cxx || cmake_object_order_depends_target_sciplot-cpptests
+  DEP_FILE = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir\GridSpecs.test.cxx.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+
+build _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/GridSpecsBase.test.cxx.obj: CXX_COMPILER__sciplot-cpptests_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/GridSpecsBase.test.cxx || cmake_object_order_depends_target_sciplot-cpptests
+  DEP_FILE = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir\GridSpecsBase.test.cxx.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+
+build _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/HistogramStyleSpecs.test.cxx.obj: CXX_COMPILER__sciplot-cpptests_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/HistogramStyleSpecs.test.cxx || cmake_object_order_depends_target_sciplot-cpptests
+  DEP_FILE = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir\HistogramStyleSpecs.test.cxx.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+
+build _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/LegendSpecs.test.cxx.obj: CXX_COMPILER__sciplot-cpptests_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/LegendSpecs.test.cxx || cmake_object_order_depends_target_sciplot-cpptests
+  DEP_FILE = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir\LegendSpecs.test.cxx.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+
+build _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/LineSpecsOf.test.cxx.obj: CXX_COMPILER__sciplot-cpptests_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/LineSpecsOf.test.cxx || cmake_object_order_depends_target_sciplot-cpptests
+  DEP_FILE = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir\LineSpecsOf.test.cxx.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+
+build _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/OffsetSpecsOf.test.cxx.obj: CXX_COMPILER__sciplot-cpptests_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/OffsetSpecsOf.test.cxx || cmake_object_order_depends_target_sciplot-cpptests
+  DEP_FILE = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir\OffsetSpecsOf.test.cxx.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+
+build _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/PointSpecsOf.test.cxx.obj: CXX_COMPILER__sciplot-cpptests_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/PointSpecsOf.test.cxx || cmake_object_order_depends_target_sciplot-cpptests
+  DEP_FILE = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir\PointSpecsOf.test.cxx.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+
+build _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/ShowSpecsOf.test.cxx.obj: CXX_COMPILER__sciplot-cpptests_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/ShowSpecsOf.test.cxx || cmake_object_order_depends_target_sciplot-cpptests
+  DEP_FILE = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir\ShowSpecsOf.test.cxx.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+
+build _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/TextSpecsOf.test.cxx.obj: CXX_COMPILER__sciplot-cpptests_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/TextSpecsOf.test.cxx || cmake_object_order_depends_target_sciplot-cpptests
+  DEP_FILE = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir\TextSpecsOf.test.cxx.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+
+build _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/TicsSpecs.test.cxx.obj: CXX_COMPILER__sciplot-cpptests_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/TicsSpecs.test.cxx || cmake_object_order_depends_target_sciplot-cpptests
+  DEP_FILE = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir\TicsSpecs.test.cxx.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+
+build _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/TicsSpecsMajor.test.cxx.obj: CXX_COMPILER__sciplot-cpptests_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/TicsSpecsMajor.test.cxx || cmake_object_order_depends_target_sciplot-cpptests
+  DEP_FILE = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir\TicsSpecsMajor.test.cxx.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+
+build _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/TicsSpecsMinor.test.cxx.obj: CXX_COMPILER__sciplot-cpptests_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/TicsSpecsMinor.test.cxx || cmake_object_order_depends_target_sciplot-cpptests
+  DEP_FILE = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir\TicsSpecsMinor.test.cxx.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+
+build _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/TitleSpecsOf.test.cxx.obj: CXX_COMPILER__sciplot-cpptests_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/TitleSpecsOf.test.cxx || cmake_object_order_depends_target_sciplot-cpptests
+  DEP_FILE = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir\TitleSpecsOf.test.cxx.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+
+build _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/Utils.test.cxx.obj: CXX_COMPILER__sciplot-cpptests_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/Utils.test.cxx || cmake_object_order_depends_target_sciplot-cpptests
+  DEP_FILE = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir\Utils.test.cxx.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+
+build _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/sciplot.test.cxx.obj: CXX_COMPILER__sciplot-cpptests_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/sciplot.test.cxx || cmake_object_order_depends_target_sciplot-cpptests
+  DEP_FILE = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir\sciplot.test.cxx.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sciplot-cpptests
+
+
+#############################################
+# Link the executable _deps\sciplot_content-build\tests\sciplot-cpptests.exe
+
+build _deps/sciplot_content-build/tests/sciplot-cpptests.exe: CXX_EXECUTABLE_LINKER__sciplot-cpptests_Debug _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/AxisLabelSpecs.test.cxx.obj _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/BorderSpecs.test.cxx.obj _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/ColumnIndex.test.cxx.obj _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/DepthSpecsOf.test.cxx.obj _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/DrawSpecs.test.cxx.obj _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/FillSpecsOf.test.cxx.obj _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/FillStyleSpecs.test.cxx.obj _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/FilledCurvesSpecsOf.test.cxx.obj _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/FontSpecsOf.test.cxx.obj _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/FrameSpecsOf.test.cxx.obj _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/GridSpecs.test.cxx.obj _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/GridSpecsBase.test.cxx.obj _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/HistogramStyleSpecs.test.cxx.obj _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/LegendSpecs.test.cxx.obj _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/LineSpecsOf.test.cxx.obj _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/OffsetSpecsOf.test.cxx.obj _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/PointSpecsOf.test.cxx.obj _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/ShowSpecsOf.test.cxx.obj _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/TextSpecsOf.test.cxx.obj _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/TicsSpecs.test.cxx.obj _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/TicsSpecsMajor.test.cxx.obj _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/TicsSpecsMinor.test.cxx.obj _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/TitleSpecsOf.test.cxx.obj _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/Utils.test.cxx.obj _deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/sciplot.test.cxx.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = _deps\sciplot_content-build\tests\CMakeFiles\sciplot-cpptests.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = _deps\sciplot_content-build\tests\sciplot-cpptests.exe
+  TARGET_IMPLIB = _deps\sciplot_content-build\tests\libsciplot-cpptests.dll.a
+  TARGET_PDB = sciplot-cpptests.exe.dbg
+
+
+#############################################
+# Utility command for tests
+
+build _deps/sciplot_content-build/tests/tests: phony _deps/sciplot_content-build/tests/CMakeFiles/tests _deps/sciplot_content-build/tests/sciplot-cpptests.exe
+
+
+#############################################
+# Utility command for edit_cache
+
+build _deps/sciplot_content-build/tests/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\tests && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build _deps/sciplot_content-build/tests/edit_cache: phony _deps/sciplot_content-build/tests/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build _deps/sciplot_content-build/tests/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\tests && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2 -BC:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build _deps/sciplot_content-build/tests/rebuild_cache: phony _deps/sciplot_content-build/tests/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build _deps/sciplot_content-build/tests/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build _deps/sciplot_content-build/tests/CMakeFiles/install.util: CUSTOM_COMMAND _deps/sciplot_content-build/tests/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\tests && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build _deps/sciplot_content-build/tests/install: phony _deps/sciplot_content-build/tests/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build _deps/sciplot_content-build/tests/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/sciplot_content-build/tests/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\tests && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build _deps/sciplot_content-build/tests/install/local: phony _deps/sciplot_content-build/tests/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build _deps/sciplot_content-build/tests/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/sciplot_content-build/tests/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\tests && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build _deps/sciplot_content-build/tests/install/strip: phony _deps/sciplot_content-build/tests/CMakeFiles/install/strip.util
+
+
+#############################################
+# Custom command for _deps\sciplot_content-build\tests\CMakeFiles\tests
+
+build _deps/sciplot_content-build/tests/CMakeFiles/tests | ${cmake_ninja_workdir}_deps/sciplot_content-build/tests/CMakeFiles/tests: CUSTOM_COMMAND || _deps/sciplot_content-build/tests/sciplot-cpptests.exe
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug && C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\tests\sciplot-cpptests.exe"
+  DESC = Running C++ tests...
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target testing-project
+
+
+#############################################
+# Order-only phony target for testing-project
+
+build cmake_object_order_depends_target_testing-project: phony || _deps/sciplot_content-build/tests/testing-project/CMakeFiles/testing-project.dir
+
+build _deps/sciplot_content-build/tests/testing-project/CMakeFiles/testing-project.dir/main.cpp.obj: CXX_COMPILER__testing-project_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/testing-project/main.cpp || cmake_object_order_depends_target_testing-project
+  DEP_FILE = _deps\sciplot_content-build\tests\testing-project\CMakeFiles\testing-project.dir\main.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2
+  OBJECT_DIR = _deps\sciplot_content-build\tests\testing-project\CMakeFiles\testing-project.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\testing-project\CMakeFiles\testing-project.dir
+
+build _deps/sciplot_content-build/tests/testing-project/CMakeFiles/testing-project.dir/util.cpp.obj: CXX_COMPILER__testing-project_unscanned_Debug C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/testing-project/util.cpp || cmake_object_order_depends_target_testing-project
+  DEP_FILE = _deps\sciplot_content-build\tests\testing-project\CMakeFiles\testing-project.dir\util.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src -IC:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2
+  OBJECT_DIR = _deps\sciplot_content-build\tests\testing-project\CMakeFiles\testing-project.dir
+  OBJECT_FILE_DIR = _deps\sciplot_content-build\tests\testing-project\CMakeFiles\testing-project.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target testing-project
+
+
+#############################################
+# Link the executable _deps\sciplot_content-build\tests\testing-project\testing-project.exe
+
+build _deps/sciplot_content-build/tests/testing-project/testing-project.exe: CXX_EXECUTABLE_LINKER__testing-project_Debug _deps/sciplot_content-build/tests/testing-project/CMakeFiles/testing-project.dir/main.cpp.obj _deps/sciplot_content-build/tests/testing-project/CMakeFiles/testing-project.dir/util.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = _deps\sciplot_content-build\tests\testing-project\CMakeFiles\testing-project.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = _deps\sciplot_content-build\tests\testing-project\testing-project.exe
+  TARGET_IMPLIB = _deps\sciplot_content-build\tests\testing-project\libtesting-project.dll.a
+  TARGET_PDB = testing-project.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build _deps/sciplot_content-build/tests/testing-project/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\tests\testing-project && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build _deps/sciplot_content-build/tests/testing-project/edit_cache: phony _deps/sciplot_content-build/tests/testing-project/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build _deps/sciplot_content-build/tests/testing-project/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\tests\testing-project && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2 -BC:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build _deps/sciplot_content-build/tests/testing-project/rebuild_cache: phony _deps/sciplot_content-build/tests/testing-project/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build _deps/sciplot_content-build/tests/testing-project/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build _deps/sciplot_content-build/tests/testing-project/CMakeFiles/install.util: CUSTOM_COMMAND _deps/sciplot_content-build/tests/testing-project/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\tests\testing-project && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build _deps/sciplot_content-build/tests/testing-project/install: phony _deps/sciplot_content-build/tests/testing-project/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build _deps/sciplot_content-build/tests/testing-project/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/sciplot_content-build/tests/testing-project/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\tests\testing-project && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build _deps/sciplot_content-build/tests/testing-project/install/local: phony _deps/sciplot_content-build/tests/testing-project/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build _deps/sciplot_content-build/tests/testing-project/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/sciplot_content-build/tests/testing-project/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\tests\testing-project && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build _deps/sciplot_content-build/tests/testing-project/install/strip: phony _deps/sciplot_content-build/tests/testing-project/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for docs-api
+
+build _deps/sciplot_content-build/docs/docs-api: phony _deps/sciplot_content-build/docs/CMakeFiles/docs-api
+
+
+#############################################
+# Utility command for docs
+
+build _deps/sciplot_content-build/docs/docs: phony _deps/sciplot_content-build/docs/CMakeFiles/docs _deps/sciplot_content-build/docs/docs-api _deps/sciplot_content-build/examples/examples
+
+
+#############################################
+# Utility command for edit_cache
+
+build _deps/sciplot_content-build/docs/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\docs && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build _deps/sciplot_content-build/docs/edit_cache: phony _deps/sciplot_content-build/docs/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build _deps/sciplot_content-build/docs/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\docs && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2 -BC:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build _deps/sciplot_content-build/docs/rebuild_cache: phony _deps/sciplot_content-build/docs/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build _deps/sciplot_content-build/docs/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build _deps/sciplot_content-build/docs/CMakeFiles/install.util: CUSTOM_COMMAND _deps/sciplot_content-build/docs/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\docs && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build _deps/sciplot_content-build/docs/install: phony _deps/sciplot_content-build/docs/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build _deps/sciplot_content-build/docs/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/sciplot_content-build/docs/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\docs && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build _deps/sciplot_content-build/docs/install/local: phony _deps/sciplot_content-build/docs/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build _deps/sciplot_content-build/docs/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/sciplot_content-build/docs/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\docs && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build _deps/sciplot_content-build/docs/install/strip: phony _deps/sciplot_content-build/docs/CMakeFiles/install/strip.util
+
+
+#############################################
+# Custom command for _deps\sciplot_content-build\docs\CMakeFiles\docs-api
+
+build _deps/sciplot_content-build/docs/CMakeFiles/docs-api | ${cmake_ninja_workdir}_deps/sciplot_content-build/docs/CMakeFiles/docs-api: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\docs\api && doxygen doxyfile"
+
+
+#############################################
+# Custom command for _deps\sciplot_content-build\docs\CMakeFiles\docs
+
+build _deps/sciplot_content-build/docs/CMakeFiles/docs | ${cmake_ninja_workdir}_deps/sciplot_content-build/docs/CMakeFiles/docs: CUSTOM_COMMAND || _deps/sciplot_content-build/docs/docs-api _deps/sciplot_content-build/examples/examples
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-src\docs && mkdocs build && bash C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/scripts/docs-update-tutorial-images && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E copy_directory C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/docs/site C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/docs/site && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E copy_directory C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/docs/api/html/ C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/docs/site/api/ && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -rf C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/docs/site"
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build _deps/sciplot_content-build/scripts/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\scripts && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build _deps/sciplot_content-build/scripts/edit_cache: phony _deps/sciplot_content-build/scripts/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build _deps/sciplot_content-build/scripts/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\scripts && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2 -BC:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build _deps/sciplot_content-build/scripts/rebuild_cache: phony _deps/sciplot_content-build/scripts/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build _deps/sciplot_content-build/scripts/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build _deps/sciplot_content-build/scripts/CMakeFiles/install.util: CUSTOM_COMMAND _deps/sciplot_content-build/scripts/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\scripts && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build _deps/sciplot_content-build/scripts/install: phony _deps/sciplot_content-build/scripts/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build _deps/sciplot_content-build/scripts/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/sciplot_content-build/scripts/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\scripts && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build _deps/sciplot_content-build/scripts/install/local: phony _deps/sciplot_content-build/scripts/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build _deps/sciplot_content-build/scripts/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/sciplot_content-build/scripts/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug\_deps\sciplot_content-build\scripts && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build _deps/sciplot_content-build/scripts/install/strip: phony _deps/sciplot_content-build/scripts/CMakeFiles/install/strip.util
+
 # =============================================================================
 # Target aliases.
 
@@ -363,11 +1738,87 @@ build SpStochLibMain: phony SpStochLibMain.exe
 
 build SpStochLibPlots: phony src/Plotting/libSpStochLibPlots.a
 
+build docs: phony _deps/sciplot_content-build/docs/docs
+
+build docs-api: phony _deps/sciplot_content-build/docs/docs-api
+
+build example-3d-helix: phony _deps/sciplot_content-build/examples/example-3d-helix.exe
+
+build example-3d-helix.exe: phony _deps/sciplot_content-build/examples/example-3d-helix.exe
+
+build example-bessel-functions: phony _deps/sciplot_content-build/examples/example-bessel-functions.exe
+
+build example-bessel-functions.exe: phony _deps/sciplot_content-build/examples/example-bessel-functions.exe
+
+build example-boxes: phony _deps/sciplot_content-build/examples/example-boxes.exe
+
+build example-boxes-ticklabels: phony _deps/sciplot_content-build/examples/example-boxes-ticklabels.exe
+
+build example-boxes-ticklabels.exe: phony _deps/sciplot_content-build/examples/example-boxes-ticklabels.exe
+
+build example-boxes.exe: phony _deps/sciplot_content-build/examples/example-boxes.exe
+
+build example-figures: phony _deps/sciplot_content-build/examples/example-figures.exe
+
+build example-figures-layout: phony _deps/sciplot_content-build/examples/example-figures-layout.exe
+
+build example-figures-layout.exe: phony _deps/sciplot_content-build/examples/example-figures-layout.exe
+
+build example-figures.exe: phony _deps/sciplot_content-build/examples/example-figures.exe
+
+build example-filled-curves: phony _deps/sciplot_content-build/examples/example-filled-curves.exe
+
+build example-filled-curves.exe: phony _deps/sciplot_content-build/examples/example-filled-curves.exe
+
+build example-logarithmic-axes: phony _deps/sciplot_content-build/examples/example-logarithmic-axes.exe
+
+build example-logarithmic-axes.exe: phony _deps/sciplot_content-build/examples/example-logarithmic-axes.exe
+
+build example-missing-data: phony _deps/sciplot_content-build/examples/example-missing-data.exe
+
+build example-missing-data.exe: phony _deps/sciplot_content-build/examples/example-missing-data.exe
+
+build example-multiplot: phony _deps/sciplot_content-build/examples/example-multiplot.exe
+
+build example-multiplot-mixed: phony _deps/sciplot_content-build/examples/example-multiplot-mixed.exe
+
+build example-multiplot-mixed.exe: phony _deps/sciplot_content-build/examples/example-multiplot-mixed.exe
+
+build example-multiplot.exe: phony _deps/sciplot_content-build/examples/example-multiplot.exe
+
+build example-plot-get: phony _deps/sciplot_content-build/examples/example-plot-get.exe
+
+build example-plot-get.exe: phony _deps/sciplot_content-build/examples/example-plot-get.exe
+
+build example-readme: phony _deps/sciplot_content-build/examples/example-readme.exe
+
+build example-readme.exe: phony _deps/sciplot_content-build/examples/example-readme.exe
+
+build example-sincos-functions: phony _deps/sciplot_content-build/examples/example-sincos-functions.exe
+
+build example-sincos-functions.exe: phony _deps/sciplot_content-build/examples/example-sincos-functions.exe
+
+build example-sine-functions: phony _deps/sciplot_content-build/examples/example-sine-functions.exe
+
+build example-sine-functions.exe: phony _deps/sciplot_content-build/examples/example-sine-functions.exe
+
+build examples: phony _deps/sciplot_content-build/examples/examples
+
 build libSpStochLib.a: phony src/libSpStochLib.a
 
 build libSpStochLibExamples.a: phony src/Examples/libSpStochLibExamples.a
 
 build libSpStochLibPlots.a: phony src/Plotting/libSpStochLibPlots.a
+
+build sciplot-cpptests: phony _deps/sciplot_content-build/tests/sciplot-cpptests.exe
+
+build sciplot-cpptests.exe: phony _deps/sciplot_content-build/tests/sciplot-cpptests.exe
+
+build testing-project: phony _deps/sciplot_content-build/tests/testing-project/testing-project.exe
+
+build testing-project.exe: phony _deps/sciplot_content-build/tests/testing-project/testing-project.exe
+
+build tests: phony _deps/sciplot_content-build/tests/tests
 
 # =============================================================================
 # Folder targets.
@@ -378,6 +1829,48 @@ build libSpStochLibPlots.a: phony src/Plotting/libSpStochLibPlots.a
 # Folder: C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug
 
 build all: phony SpStochLibMain.exe src/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build
+
+build _deps/sciplot_content-build/all: phony _deps/sciplot_content-build/examples/all _deps/sciplot_content-build/tests/all _deps/sciplot_content-build/docs/all _deps/sciplot_content-build/scripts/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/docs
+
+build _deps/sciplot_content-build/docs/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/examples
+
+build _deps/sciplot_content-build/examples/all: phony _deps/sciplot_content-build/examples/example-3d-helix.exe _deps/sciplot_content-build/examples/example-bessel-functions.exe _deps/sciplot_content-build/examples/example-boxes-ticklabels.exe _deps/sciplot_content-build/examples/example-boxes.exe _deps/sciplot_content-build/examples/example-figures-layout.exe _deps/sciplot_content-build/examples/example-figures.exe _deps/sciplot_content-build/examples/example-filled-curves.exe _deps/sciplot_content-build/examples/example-logarithmic-axes.exe _deps/sciplot_content-build/examples/example-missing-data.exe _deps/sciplot_content-build/examples/example-multiplot-mixed.exe _deps/sciplot_content-build/examples/example-multiplot.exe _deps/sciplot_content-build/examples/example-plot-get.exe _deps/sciplot_content-build/examples/example-readme.exe _deps/sciplot_content-build/examples/example-sincos-functions.exe _deps/sciplot_content-build/examples/example-sine-functions.exe
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/scripts
+
+build _deps/sciplot_content-build/scripts/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests
+
+build _deps/sciplot_content-build/tests/all: phony _deps/sciplot_content-build/tests/sciplot-cpptests.exe _deps/sciplot_content-build/tests/testing-project/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests/testing-project
+
+build _deps/sciplot_content-build/tests/testing-project/all: phony _deps/sciplot_content-build/tests/testing-project/testing-project.exe
 
 # =============================================================================
 
@@ -407,14 +1900,14 @@ build src/Plotting/all: phony src/Plotting/libSpStochLibPlots.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/CMakeLists.txt C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/CMakeLists.txt C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/Examples/CMakeLists.txt C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/Plotting/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/ExternalProject/shared_internal_commands.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/FetchContent.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/FetchContent/CMakeLists.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/FindGit.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/CMakeLists.txt C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/CMakeLists.txt C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/Examples/CMakeLists.txt C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/Plotting/CMakeLists.txt C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/Plotting/sciplot.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake _deps/sciplot_content-src/CMakeLists.txt _deps/sciplot_content-src/cmake/CCache.cmake _deps/sciplot_content-src/cmake/PackageConfigTemplates/sciplotConfig.cmake.in _deps/sciplot_content-src/cmake_install_generation.cmake _deps/sciplot_content-src/docs/CMakeLists.txt _deps/sciplot_content-src/docs/api/doxyfile _deps/sciplot_content-src/examples/CMakeLists.txt _deps/sciplot_content-src/scripts/CMakeLists.txt _deps/sciplot_content-src/tests/CMakeLists.txt _deps/sciplot_content-src/tests/testing-project/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/CMakeLists.txt C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/CMakeLists.txt C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/Examples/CMakeLists.txt C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/Plotting/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/ExternalProject/shared_internal_commands.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/FetchContent.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/FetchContent/CMakeLists.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/FindGit.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/CMakeLists.txt C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/CMakeLists.txt C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/Examples/CMakeLists.txt C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/Plotting/CMakeLists.txt C$:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/Plotting/sciplot.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake _deps/sciplot_content-src/CMakeLists.txt _deps/sciplot_content-src/cmake/CCache.cmake _deps/sciplot_content-src/cmake/PackageConfigTemplates/sciplotConfig.cmake.in _deps/sciplot_content-src/cmake_install_generation.cmake _deps/sciplot_content-src/docs/CMakeLists.txt _deps/sciplot_content-src/docs/api/doxyfile _deps/sciplot_content-src/examples/CMakeLists.txt _deps/sciplot_content-src/scripts/CMakeLists.txt _deps/sciplot_content-src/tests/CMakeLists.txt _deps/sciplot_content-src/tests/testing-project/CMakeLists.txt: phony
 
 
 #############################################
