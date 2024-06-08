@@ -2,9 +2,6 @@
 #include "Point.cpp"
 #include "sciplot/sciplot.hpp"
 
-
-
-
 namespace SpStochLib::Plots {
     void TrajectoryDrawer::addToGraph(const SpStochLib::Simulation &sim) {
         // For each line in sim add to correct linedata
@@ -24,7 +21,17 @@ namespace SpStochLib::Plots {
     }
 
     void TrajectoryDrawer::draw(auto endTime) {
-        //auto x = linspace(0, endTime);
+        using namespace sciplot;
+        Plot2D plot;
+
+        plot.xlabel("Time");
+        plot.ylabel("Count");
+        plot.xrange(0.0,endTime);
+
+        plot.legend()
+                .atOutsideBottom()
+                .displayHorizontal()
+                .displayExpandWidthBy(2);
 
 
         for (auto& entry : lines) {
@@ -40,10 +47,14 @@ namespace SpStochLib::Plots {
                 pYs.push_back(point.getY());
             }
 
+            plot.drawCurve(pXs, pYs).label(name);
 
         }
 
-//save("plots/plot", "jpeg");
+        Figure fig = {{plot}};
+        Canvas canvas = {{fig}};
+        canvas.show();
+        canvas.save("plot.pdf");
 
     }
 }
