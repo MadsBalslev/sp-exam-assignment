@@ -18,6 +18,7 @@ namespace SpStochLib {
         double m_time = 0;
         std::unique_ptr<SymbolTable<std::string, Reaction>> m_reactions = std::make_unique<SymbolTable<std::string, Reaction>>();
         std::unique_ptr<SymbolTable<std::string, Agent>> m_agents = std::make_unique<SymbolTable<std::string, Agent>>();
+        std::unique_ptr<Agent> env = std::make_unique<Agent>("env", 0);
 
         bool canReact(Reaction& reaction);
         void react(Reaction& reaction);
@@ -30,6 +31,7 @@ namespace SpStochLib {
         [[nodiscard]] double time() const;
         [[nodiscard]] SymbolTable<std::string, Reaction>& reactions() const;
         [[nodiscard]] SymbolTable<std::string, Agent>& agents() const;
+        [[nodiscard]] Agent &environment() const;
 
         void simulate(double endTime, std::optional<std::function<void(const Simulation &)>> callback);
 

@@ -15,3 +15,5 @@ set(SOURCE_FILES
 add_library(SpStochLib ${SOURCE_FILES})
 
 add_subdirectory(Examples)
+add_subdirectory(Plotting)
+

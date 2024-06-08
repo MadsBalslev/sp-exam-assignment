@@ -1,8 +1,8 @@
-# Install script for directory: C:/Github/Sp-Exam-Try-2/src/Examples
+# Install script for directory: C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/src/Examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Sp_Exam_Try_2")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/SpStochLib")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2023.3.3/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2024.1/bin/mingw/bin/objdump.exe")
 endif()
 

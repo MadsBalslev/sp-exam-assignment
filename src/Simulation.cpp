@@ -21,6 +21,10 @@ namespace SpStochLib {
         }
     }
 
+    Agent& Simulation::environment() const {
+        return *env;
+    }
+
     double Simulation::time() const {
         return m_time;
     }
@@ -47,8 +51,6 @@ namespace SpStochLib {
 
         if(!callback) {
             std::cout << *this;
-        } else {
-            std::cout << "There was a callback";
         }
     }
 

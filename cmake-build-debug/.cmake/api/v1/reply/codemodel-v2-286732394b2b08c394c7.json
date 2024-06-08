@@ -26,7 +26,8 @@
 					"build" : "src",
 					"childIndexes" : 
 					[
-						2
+						2,
+						3
 					],
 					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
 					"minimumCMakeVersion" : 
@@ -55,6 +56,21 @@
 					[
 						1
 					]
+				},
+				{
+					"build" : "src/Plotting",
+					"jsonFile" : "directory-src.Plotting-Debug-357ca7e5af91a374cbd0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/Plotting",
+					"targetIndexes" : 
+					[
+						3
+					]
 				}
 			],
 			"name" : "Debug",
@@ -65,14 +81,16 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					],
 					"name" : "SpStochLib",
 					"targetIndexes" : 
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -81,22 +99,29 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "SpStochLib::@145eef247bfb46b6828c",
-					"jsonFile" : "target-SpStochLib-Debug-51efd1862b6fde418492.json",
+					"jsonFile" : "target-SpStochLib-Debug-d4c7f623e48e58895eee.json",
 					"name" : "SpStochLib",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "SpStochLibExamples::@49f74252c2d04b365ba0",
-					"jsonFile" : "target-SpStochLibExamples-Debug-d08eb981e94b3964da33.json",
+					"jsonFile" : "target-SpStochLibExamples-Debug-8891030900f8a354dd9d.json",
 					"name" : "SpStochLibExamples",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "SpStochLibMain::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SpStochLibMain-Debug-1cdb0351cf995131678f.json",
+					"jsonFile" : "target-SpStochLibMain-Debug-d775cad97d18be28bf02.json",
 					"name" : "SpStochLibMain",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "SpStochLibPlots::@537fee5b03e468c395da",
+					"jsonFile" : "target-SpStochLibPlots-Debug-df9c86fff294cf44006c.json",
+					"name" : "SpStochLibPlots",
 					"projectIndex" : 0
 				}
 			]
@@ -105,8 +130,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Github/Sp-Exam-Try-2/cmake-build-debug",
-		"source" : "C:/Github/Sp-Exam-Try-2"
+		"build" : "C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug",
+		"source" : "C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2"
 	},
 	"version" : 
 	{
