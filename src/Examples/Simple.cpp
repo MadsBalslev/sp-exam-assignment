@@ -15,7 +15,7 @@ namespace SpStochLib::Examples {
         auto& agentB = simulation.addAgent("B", b);
         auto& agentC = simulation.addAgent("C", c);
 
-        ReactionCompounds compoundL = agentA + agentB;
+        ReactionCompounds compoundL = agentA + agentC;
         ReactionCompounds compoundR = agentB + agentC;
 
         simulation.addReaction(compoundL >>= compoundR, lambda);

@@ -5,20 +5,34 @@ namespace SpStochLib {
         return std::all_of(
                 reaction.reactants().begin(),
                 reaction.reactants().end(),
-                [](const auto &reactant) { return reactant.amount() > 0;}
+                [](const auto &reactant) { return reactant.get().amount() > 0;}
         );
     };
 
     void Simulation::react(Reaction &reaction) {
         for(auto &reactant : reaction.reactants()) {
-            Agent agent = reactant;
+            Agent agent = reactant.get();
+            std::cout << "Decreasing amount of " << agent.name() << " (" << &agent << ") " << " by 1" << std::endl;
             agent.decreaseAmount(1);
+            std::cout << "Amount of " << agent.name() << " (" << &agent << ") " << " is now " << agent.amount() << std::endl;
         }
 
         for(auto &reactant : reaction.products()) {
-            Agent product = reactant;
+            Agent product = reactant.get();
+            std::cout << "Increasing amount of " << product.name() << " (" << &product << ") " << " by 1" << std::endl;
             product.addAmount(1);
+            std::cout << "Amount of " << product.name() << " (" << &product << ") " << " is now " << product.amount() << std::endl;
         }
+    }
+
+    Reaction &Simulation::getMinDelayReaction() {
+        auto getMin = std::min_element(m_reactions->begin(), m_reactions->end(),
+                                       [](const auto &a, const auto &b) {
+                                           return a.second->delay < b.second->delay;
+                                       }
+        );
+
+        return *getMin->second;
     }
 
     Agent& Simulation::environment() const {
@@ -27,6 +41,14 @@ namespace SpStochLib {
 
     double Simulation::time() const {
         return m_time;
+    }
+
+    SymbolTable<Reaction> &Simulation::reactions() const {
+        return *m_reactions;
+    }
+
+    SymbolTable<Agent> &Simulation::agents() const {
+        return *m_agents;
     }
 
     void Simulation::simulate(const double endTime, std::optional<std::function<void(const Simulation &)>> callback) {
@@ -54,15 +76,6 @@ namespace SpStochLib {
         }
     }
 
-    Reaction &Simulation::getMinDelayReaction() {
-        auto getMin = std::min_element(m_reactions->begin(), m_reactions->end(),
-                       [](const auto &a, const auto &b) {
-                                return a.second->delay < b.second->delay;
-                            }
-                       );
-        return *getMin->second;
-    }
-
     Agent& Simulation::addAgent(const std::string &name, size_t amount) {
         Agent agent = Agent{name, amount};
         return m_agents->add(name, std::move(agent));
@@ -72,14 +85,6 @@ namespace SpStochLib {
         reaction.rate = rate;
         m_reactions->add(reaction.name(), std::move(reaction));
     };
-
-    SymbolTable<std::string, Reaction> &Simulation::reactions() const {
-        return *m_reactions;
-    }
-
-    SymbolTable<std::string, Agent> &Simulation::agents() const {
-        return *m_agents;
-    }
 
     std::ostream &operator<<(std::ostream &os, const Simulation &simulation) {
         for (const auto &[_, reaction]: simulation.reactions()) {

@@ -1,4 +1,21 @@
-"C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2 -B C:\Users\Patrick\Documents\GitHub\Sp-Exam-Try-2\cmake-build-debug
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/mads/dev/aau/Sp/Sp-Exam-Try-2 -B /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug
+CMake Deprecation Warning:
+  Support for "Extra Generators" like
+
+    CodeBlocks
+
+  is deprecated and will be removed from a future version of CMake.  IDEs may
+  use the cmake-file-api(7) to view CMake-generated project build trees.
+
+
+CMake Deprecation Warning at cmake-build-debug/_deps/doctest-src/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
 -- CCache: Could not find ccache. Install it to speed up the build operation.
 CMake Deprecation Warning at cmake-build-debug/_deps/sciplot_content-src/tests/testing-project/CMakeLists.txt:1 (cmake_minimum_required):
   Compatibility with CMake < 3.5 will be removed from a future version of
@@ -8,6 +25,6 @@ CMake Deprecation Warning at cmake-build-debug/_deps/sciplot_content-src/tests/t
   CMake that the project does not need compatibility with older versions.
 
 
--- Configuring done (1.7s)
--- Generating done (0.0s)
--- Build files have been written to: C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug
+-- Configuring done (0.5s)
+-- Generating done (0.1s)
+-- Build files have been written to: /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug

@@ -9,6 +9,8 @@ set(SOURCE_FILES
         Reaction.cpp
         Simulation.cpp
         SymbolTable.hpp
+        FileWriter.cpp
+        FileWriter.h
 )
 
 

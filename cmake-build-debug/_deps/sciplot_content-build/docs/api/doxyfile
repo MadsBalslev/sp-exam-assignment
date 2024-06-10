@@ -51,7 +51,7 @@ PROJECT_BRIEF          = "A modern C++ plotting library powered by gnuplot"
 # pixels and the maximum width should not exceed 200 pixels. Doxygen will copy
 # the logo to the output directory.
 
-PROJECT_LOGO           = C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/art/sciplot-logo.svg
+PROJECT_LOGO           = /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/art/sciplot-logo.svg
 
 # The OUTPUT_DIRECTORY tag is used to specify the (relative or absolute) path
 # into which the generated documentation will be written. If a relative path is
@@ -160,7 +160,7 @@ FULL_PATH_NAMES        = YES
 # will be relative from the directory where doxygen is started.
 # This tag requires that the tag FULL_PATH_NAMES is set to YES.
 
-STRIP_FROM_PATH        = C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2
+STRIP_FROM_PATH        = /Users/mads/dev/aau/Sp/Sp-Exam-Try-2
 
 # The STRIP_FROM_INC_PATH tag can be used to strip a user-defined part of the
 # path mentioned in the documentation of a class, which tells the reader which
@@ -752,7 +752,7 @@ FILE_VERSION_FILTER    =
 # DoxygenLayout.xml, doxygen will parse it automatically even if the LAYOUT_FILE
 # tag is left empty.
 
-LAYOUT_FILE            = C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/docs/api/template/layout.xml
+LAYOUT_FILE            = /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/docs/api/template/layout.xml
 
 # The CITE_BIB_FILES tag can be used to specify one or more bib files containing
 # the reference definitions. This must be a list of .bib files. The .bib
@@ -840,8 +840,8 @@ WARN_LOGFILE           =
 # spaces. See also FILE_PATTERNS and EXTENSION_MAPPING
 # Note: If this tag is empty the current directory is searched.
 
-INPUT                 += C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/sciplot
-INPUT                 += C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/docs/api/src
+INPUT                 += /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/sciplot
+INPUT                 += /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/docs/api/src
 
 # This tag can be used to specify the character encoding of the source files
 # that doxygen parses. Internally doxygen uses the UTF-8 encoding. Doxygen uses
@@ -916,7 +916,7 @@ EXCLUDE_SYMBOLS        =
 # that contain example code fragments that are included (see the \include
 # command).
 
-EXAMPLE_PATH           = C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/examples
+EXAMPLE_PATH           = /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/examples
 
 # If the value of the EXAMPLE_PATH tag contains directories, you can use the
 # EXAMPLE_PATTERNS tag to specify one or more wildcard pattern (like *.cpp and
@@ -936,7 +936,7 @@ EXAMPLE_RECURSIVE      = YES
 # that contain images that are to be included in the documentation (see the
 # \image command).
 
-IMAGE_PATH             += C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/art
+IMAGE_PATH             += /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/art
 
 # The INPUT_FILTER tag can be used to specify a program that doxygen should
 # invoke to filter for each input file. Doxygen will invoke the filter program
@@ -1148,7 +1148,7 @@ HTML_FILE_EXTENSION    = .html
 # of the possible markers and block names see the documentation.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_HEADER            = C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/docs/api/template/header.html
+HTML_HEADER            = /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/docs/api/template/header.html
 
 # The HTML_FOOTER tag can be used to specify a user-defined HTML footer for each
 # generated HTML page. If the tag is left blank doxygen will generate a standard
@@ -1158,7 +1158,7 @@ HTML_HEADER            = C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/docs/ap
 # that doxygen normally uses.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_FOOTER            = C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/docs/api/template/footer.html
+HTML_FOOTER            = /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/docs/api/template/footer.html
 
 # The HTML_STYLESHEET tag can be used to specify a user-defined cascading style
 # sheet that is used by each HTML page. It can be used to fine-tune the look of
@@ -1183,8 +1183,8 @@ HTML_STYLESHEET        =
 # list). For an example see the documentation.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_EXTRA_STYLESHEET  += C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/docs/api/css/doxystrap.css
-HTML_EXTRA_STYLESHEET  += C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/docs/api/css/sciplot.css
+HTML_EXTRA_STYLESHEET  += /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/docs/api/css/doxystrap.css
+HTML_EXTRA_STYLESHEET  += /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/docs/api/css/sciplot.css
 
 # The HTML_EXTRA_FILES tag can be used to specify one or more extra images or
 # other source files which should be copied to the HTML output directory. Note
@@ -1194,7 +1194,7 @@ HTML_EXTRA_STYLESHEET  += C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/docs/a
 # files will be copied as-is; there are no commands or markers available.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_EXTRA_FILES       += C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/docs/api/js/doxystrap.js
+HTML_EXTRA_FILES       += /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/docs/api/js/doxystrap.js
 
 # The HTML_COLORSTYLE_HUE tag controls the color of the HTML output. Doxygen
 # will adjust the colors in the style sheet and background images according to

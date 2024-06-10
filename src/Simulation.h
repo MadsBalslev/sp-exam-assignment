@@ -16,12 +16,12 @@ namespace SpStochLib {
 
     class Simulation {
         double m_time = 0;
-        std::unique_ptr<SymbolTable<std::string, Reaction>> m_reactions = std::make_unique<SymbolTable<std::string, Reaction>>();
-        std::unique_ptr<SymbolTable<std::string, Agent>> m_agents = std::make_unique<SymbolTable<std::string, Agent>>();
+        std::unique_ptr<SymbolTable<Reaction>> m_reactions = std::make_unique<SymbolTable<Reaction>>();
+        std::unique_ptr<SymbolTable<Agent>> m_agents = std::make_unique<SymbolTable<Agent>>();
         std::unique_ptr<Agent> env = std::make_unique<Agent>("env", 0);
 
-        bool canReact(Reaction& reaction);
-        void react(Reaction& reaction);
+        static bool canReact(Reaction& reaction);
+        static void react(Reaction& reaction);
         Reaction& getMinDelayReaction();
 
     public:
@@ -29,9 +29,9 @@ namespace SpStochLib {
         void addReaction(Reaction &&reaction, double rate);
 
         [[nodiscard]] double time() const;
-        [[nodiscard]] SymbolTable<std::string, Reaction>& reactions() const;
-        [[nodiscard]] SymbolTable<std::string, Agent>& agents() const;
-        [[nodiscard]] Agent &environment() const;
+        [[nodiscard]] SymbolTable<Reaction>& reactions() const;
+        [[nodiscard]] SymbolTable<Agent>& agents() const;
+        [[nodiscard]] Agent& environment() const;
 
         void simulate(double endTime, std::optional<std::function<void(const Simulation &)>> callback);
 

@@ -22,17 +22,22 @@ namespace SpStochLib::Plots {
 
     void TrajectoryDrawer::draw(auto endTime) {
         using namespace sciplot;
+
+        // Create a Plot object
         Plot2D plot;
 
+        // Set the x and y labels
         plot.xlabel("Time");
         plot.ylabel("Count");
-        plot.xrange(0.0,endTime);
 
+        // Set the x and y ranges
+        plot.xrange(0.0, endTime);
+
+        // Set the legend to be on the bottom along the horizontal
         plot.legend()
                 .atOutsideBottom()
                 .displayHorizontal()
                 .displayExpandWidthBy(2);
-
 
         for (auto& entry : lines) {
             auto name = entry.first;
@@ -46,15 +51,25 @@ namespace SpStochLib::Plots {
                 pXs.push_back(point.getX());
                 pYs.push_back(point.getY());
             }
+            std::cout << "Drawing " << name << std::endl;
+            std::cout << "Xs: " << pXs.size() << std::endl;
+            std::cout << "Ys: " << pYs.size() << std::endl;
 
             plot.drawCurve(pXs, pYs).label(name);
 
         }
 
+        // Create figure to hold plot
         Figure fig = {{plot}};
+        // Create canvas to hold figure
         Canvas canvas = {{fig}};
+        canvas.size(1500, 1000);
+
+        // Show the plot in a pop-up window
         canvas.show();
-        canvas.save("plot.pdf");
+
+        // Save the plot to a PDF file
+        canvas.save("trajectory.png");
 
     }
 }

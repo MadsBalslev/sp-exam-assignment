@@ -19,22 +19,22 @@ namespace SpStochLib {
     };
 
 
-    void Reaction::addProduct(Agent &product) {
+    void Reaction::addProduct(const Agent &product) {
         m_products.addAgent(product);
     };
 
-    void Reaction::addReactant(Agent &reactant) {
+    void Reaction::addReactant(const Agent &reactant) {
         m_reactants.addAgent(reactant);
     };
 
     void Reaction::computeDelay(std::mt19937 &generator) {
-        double lambda = rate;
+        double lambdaK = rate;
 
         for(auto &agent : reactants()) {
-            lambda *= static_cast<double>(agent.amount());
+            lambdaK *= static_cast<double>(agent.get().amount());
         }
 
-        std::exponential_distribution<double> distribution(lambda);
+        std::exponential_distribution<double> distribution(lambdaK);
         delay = distribution(generator);
     }
 
@@ -43,10 +43,10 @@ namespace SpStochLib {
     };
 
     // A + B -> C
-    Reaction operator>>=(ReactionCompounds &&compounds, Agent &agent) {
+    Reaction operator>>=(ReactionCompounds &&compounds, const Agent &agent) {
         Reaction reaction;
 
-        for(auto a : compounds.agents()) {
+        for(const auto &a : compounds.agents()) {
             reaction.addReactant(a);
         }
 
@@ -54,20 +54,13 @@ namespace SpStochLib {
 
         return reaction;
     };
-    // A -> B
-    Reaction operator>>=(Agent &agentL, Agent &agentR) {
-        Reaction reaction;
 
-        reaction.addReactant(agentL);
-        reaction.addProduct(agentR);
-        return reaction;
-    };
     // A -> B + C
-    Reaction operator>>=(Agent &agent, ReactionCompounds &&compounds) {
+    Reaction operator>>=(const Agent &agent, ReactionCompounds &&compounds) {
         Reaction reaction;
         reaction.addReactant(agent);
 
-        for(auto a : compounds.agents()) {
+        for(const auto &a : compounds.agents()) {
             reaction.addProduct(a);
         }
 
@@ -75,16 +68,25 @@ namespace SpStochLib {
 
     };
     // A + B -> C + D
-    Reaction operator>>= (ReactionCompounds &compoundsL, ReactionCompounds &compoundsR) {
+    Reaction operator>>= (const ReactionCompounds &compoundsL, const ReactionCompounds &compoundsR) {
         Reaction reaction;
 
-        for(auto a : compoundsL.agents()) {
+        for(const auto &a : compoundsL.agents()) {
             reaction.addReactant(a);
         }
-        for(auto a : compoundsR.agents()) {
+        for(const auto &a : compoundsR.agents()) {
             reaction.addProduct(a);
         }
 
+        return reaction;
+    };
+
+    // A -> B
+    Reaction operator>>=(const Agent &agentL, const Agent &agentR) {
+        Reaction reaction;
+
+        reaction.addReactant(agentL);
+        reaction.addProduct(agentR);
         return reaction;
     };
 

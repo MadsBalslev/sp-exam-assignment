@@ -15,15 +15,13 @@ namespace SpStochLib {
         double rate = 0;
         double delay = 0;
 
-        /** Returns the reaction as a human readable string.
-         * This fulfills part of requirement 2: "Pretty-print the reaction network in a human readable format". */
         [[nodiscard]] std::string name() const;
 
         [[nodiscard]]ReactionCompounds &reactants();
         [[nodiscard]]ReactionCompounds &products();
 
-        void addReactant(Agent &reactant);
-        void addProduct (Agent &product);
+        void addReactant(const Agent& reactant);
+        void addProduct (const Agent& product);
 
         void computeDelay(std::mt19937 &generator);
 
@@ -32,14 +30,14 @@ namespace SpStochLib {
     };
 
 
-    // A + B -> C + D
-    Reaction operator>>= (ReactionCompounds &compoundsL, ReactionCompounds &compoundsR);
     // A + B -> C
-    Reaction operator>>=(ReactionCompounds &&compounds, Agent &agent);
-    // A -> B
-    Reaction operator>>=(Agent &agentL,Agent &agentR);
+    Reaction operator>>=(ReactionCompounds &&compounds, const Agent &agent);
     // A -> B + C
-    Reaction operator>>=(Agent &agent, ReactionCompounds &&compounds);
+    Reaction operator>>=(const Agent &agent, ReactionCompounds &&compounds);
+    // A + B -> C + D
+    Reaction operator>>= (const ReactionCompounds &compoundsL, const ReactionCompounds &compoundsR);
+    // A -> B
+    Reaction operator>>=(const Agent &agentL, const Agent &agentR);
 
 }
 

@@ -7,7 +7,7 @@ if(CMAKE_VERSION VERSION_LESS "2.8.3")
    message(FATAL_ERROR "CMake >= 2.8.3 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 2.8.3...3.26)
+cmake_policy(VERSION 2.8.3...3.25)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -55,7 +55,7 @@ add_library(sciplot::sciplot INTERFACE IMPORTED)
 
 set_target_properties(sciplot::sciplot PROPERTIES
   INTERFACE_COMPILE_FEATURES "cxx_std_17"
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src"
 )
 
 # This file does not depend on other imported targets which have

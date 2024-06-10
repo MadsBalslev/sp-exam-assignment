@@ -9,17 +9,17 @@
 
 namespace SpStochLib {
 
-    template<class KT, class VT>
+    template<typename T>
     class SymbolTable {
-        std::unordered_map<KT, std::unique_ptr<VT>> m_table;
+        std::unordered_map<std::string, std::unique_ptr<T>> m_table;
 
-        bool checkExists(const KT &symbol) { return m_table.find(symbol) != m_table.end(); };
+        bool checkExists(const std::string &symbol) { return m_table.find(symbol) != m_table.end(); };
 
     public:
-        VT& add(const KT &symbol, VT &&object) {
+        T& add(const std::string &symbol, T &&object) {
             if(!checkExists(symbol)) {
                 // Add
-                auto ptr = std::make_unique<VT>(std::move(object));
+                auto ptr = std::make_unique<T>(std::move(object));
                 auto& ref = *ptr;
                 m_table[symbol] = std::move(ptr);
 
@@ -30,8 +30,8 @@ namespace SpStochLib {
             }
         };
 
-        void remove(const KT &symbol) {
-            if(!checkExists(symbol)) {
+        void remove(const std::string &symbol) {
+            if(checkExists(symbol)) {
                 // Add
                 m_table.erase(symbol);
             } else {
@@ -39,7 +39,7 @@ namespace SpStochLib {
             }
         };
 
-        VT* get(const KT &symbol) {
+        T* get(const std::string &symbol) {
             if(checkExists(symbol)) {
 
                 return m_table.find(symbol)->second.get();
@@ -47,7 +47,7 @@ namespace SpStochLib {
             throw std::runtime_error("The symbol does not exist in the table");
         };
 
-        VT& operator[](const KT &symbol) {
+        T& operator[](const std::string &symbol) {
             auto item = get(symbol);
 
             return *item;

@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src"
-  "C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build"
-  "C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-subbuild/sciplot_content-populate-prefix"
-  "C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-subbuild/sciplot_content-populate-prefix/tmp"
-  "C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-subbuild/sciplot_content-populate-prefix/src/sciplot_content-populate-stamp"
-  "C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-subbuild/sciplot_content-populate-prefix/src"
-  "C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-subbuild/sciplot_content-populate-prefix/src/sciplot_content-populate-stamp"
+  "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src"
+  "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build"
+  "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-subbuild/sciplot_content-populate-prefix"
+  "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-subbuild/sciplot_content-populate-prefix/tmp"
+  "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-subbuild/sciplot_content-populate-prefix/src/sciplot_content-populate-stamp"
+  "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-subbuild/sciplot_content-populate-prefix/src"
+  "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-subbuild/sciplot_content-populate-prefix/src/sciplot_content-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-subbuild/sciplot_content-populate-prefix/src/sciplot_content-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-subbuild/sciplot_content-populate-prefix/src/sciplot_content-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-subbuild/sciplot_content-populate-prefix/src/sciplot_content-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-subbuild/sciplot_content-populate-prefix/src/sciplot_content-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

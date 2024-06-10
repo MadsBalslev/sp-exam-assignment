@@ -2,6 +2,6 @@
 # The patch step will be re-executed if anything in this file changes.
 # No other meaning or use of this file is supported.
 
-command (connected)=C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/bin/cmake.exe;-Dcan_fetch=YES;-P;C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-subbuild/sciplot_content-populate-prefix/tmp/sciplot_content-populate-gitupdate.cmake
-command (disconnected)=C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/bin/cmake.exe;-Dcan_fetch=NO;-P;C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-subbuild/sciplot_content-populate-prefix/tmp/sciplot_content-populate-gitupdate.cmake
-work_dir=C:/Users/Patrick/Documents/GitHub/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src
+command (connected)=/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake;-Dcan_fetch=YES;-P;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-subbuild/sciplot_content-populate-prefix/tmp/sciplot_content-populate-gitupdate.cmake
+command (disconnected)=/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake;-Dcan_fetch=NO;-P;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-subbuild/sciplot_content-populate-prefix/tmp/sciplot_content-populate-gitupdate.cmake
+work_dir=/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src

@@ -1,33 +1,30 @@
-#include <iostream>
-#include "Reaction.cpp"
+#include "FileWriter.cpp"
 #include "Agent.cpp"
-#include "ReactionCompounds.cpp"
-#include "Simulation.cpp"
-#include "SymbolTable.hpp"
 #include "examples/Simple.cpp"
 #include "examples/Seihr.cpp"
 #include "examples/Circadian.cpp"
 #include "Plotting/TrajectoryDrawer.cpp"
-#include "sciplot/sciplot.hpp"
 
 using namespace SpStochLib;
-using namespace SpStochLib::Examples;
 using namespace SpStochLib::Plots;
 
 
 int main() {
     auto example1 = Examples::simple();
-    auto example2 = Examples::seihr(10000);
-    auto example3 = Examples::circadian();
+    auto example2 = Examples::circadian();
+    auto example3 = Examples::seihr(10000);
 
     TrajectoryDrawer drawer = TrajectoryDrawer();
 
+    FileWriter fileWriter1{example1, "simple.csv"};
+    FileWriter fileWriter2{example2, "circadian.csv"};
+    FileWriter fileWriter3{example3, "seihr.csv"};
 
-    example1.simulate(2000, [&drawer](const Simulation &simulation) {
-        drawer.addToGraph(simulation);
+
+    example1.simulate(2000, [&fileWriter1](const Simulation &simulation) {
+        fileWriter1.write(simulation);
     });
 
-    drawer.draw(2000);
 
     return 0;
 }
