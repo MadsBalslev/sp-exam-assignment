@@ -1,14 +1,17 @@
-//
-// Created by Patrick on 08-06-2024.
-//
-
 #ifndef SPSTOCHLIB_REACTIONDRAWER_H
 #define SPSTOCHLIB_REACTIONDRAWER_H
 
+#include "Simulation.h"
 
-class ReactionDrawer {
+namespace SpStochLib::Plots {
+    class ReactionDrawer {
+        void createNode();
 
-};
+        void createEdge();
 
+    public:
+        void draw(SpStochLib::Simulation &simulation, const std::string &fileName);
+    };
 
+}
 #endif //SPSTOCHLIB_REACTIONDRAWER_H

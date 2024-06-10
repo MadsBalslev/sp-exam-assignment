@@ -43,13 +43,24 @@ namespace SpStochLib::Plots {
             auto name = entry.first;
             auto points = entry.second;
 
+            bool scale = false;
+
+            if(name == "H") {
+                scale = true;
+                name += " * 1000";
+            }
+
             std::vector<double> pXs;
             std::vector<double> pYs;
 
 
             for (auto& point : points) {
                 pXs.push_back(point.getX());
-                pYs.push_back(point.getY());
+                if(scale) {
+                    pYs.push_back(point.getY() * 1000);
+                } else {
+                    pYs.push_back(point.getY());
+                }
             }
             std::cout << "Drawing " << name << std::endl;
             std::cout << "Xs: " << pXs.size() << std::endl;

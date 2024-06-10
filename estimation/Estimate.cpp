@@ -18,8 +18,6 @@ namespace SpStochLib::Estimation {
             if (quantity > maxValues[index]) {
                 maxValues[index] = quantity;
             }
-
-            std::cout << "Simulation " << index << " has peak value " << quantity << std::endl;
         });
 
         runner.run(simulationCount, endTime, [N]() { return Examples::seihr(N); }, 0);
