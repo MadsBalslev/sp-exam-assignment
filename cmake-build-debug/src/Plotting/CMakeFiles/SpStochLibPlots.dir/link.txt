@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libSpStochLibPlots.a CMakeFiles/SpStochLibPlots.dir/ReactionDrawer.cpp.o CMakeFiles/SpStochLibPlots.dir/TrajectoryDrawer.cpp.o CMakeFiles/SpStochLibPlots.dir/Point.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libSpStochLibPlots.a

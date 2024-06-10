@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libSpStochLib.a CMakeFiles/SpStochLib.dir/Agent.cpp.o CMakeFiles/SpStochLib.dir/ReactionCompounds.cpp.o CMakeFiles/SpStochLib.dir/Reaction.cpp.o CMakeFiles/SpStochLib.dir/Simulation.cpp.o CMakeFiles/SpStochLib.dir/FileWriter.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libSpStochLib.a

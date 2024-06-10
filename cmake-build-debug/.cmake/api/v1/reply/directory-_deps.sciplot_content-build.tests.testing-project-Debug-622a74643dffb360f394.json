@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/sciplot_content-build/tests/testing-project",
+		"source" : "cmake-build-debug/_deps/sciplot_content-src/tests/testing-project"
+	}
+}
