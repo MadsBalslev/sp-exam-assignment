@@ -9,19 +9,15 @@
 namespace SpStochLib {
 
     class ReactionCompounds {
-        std::vector<std::reference_wrapper<const Agent>> m_agents;
+        std::vector<std::reference_wrapper<Agent>> m_agents;
     public:
-        [[nodiscard]] const std::vector<std::reference_wrapper<Agent const>> &agents() const;
+        [[nodiscard]] std::vector<std::reference_wrapper<Agent>> &agents();
 
-        void addAgent(const Agent& agent);
+        void addAgent(Agent& agent);
 
-        [[nodiscard]] std::vector<std::reference_wrapper<const Agent>>::const_iterator begin() const;
+        std::vector<std::reference_wrapper<Agent>>::iterator begin();
 
-        [[nodiscard]] std::vector<std::reference_wrapper<const Agent>>::const_iterator end() const;
-
-        std::vector<std::reference_wrapper<const Agent>>::iterator begin();
-
-        std::vector<std::reference_wrapper<const Agent>>::iterator end();
+        std::vector<std::reference_wrapper<Agent>>::iterator end();
 
         /** Operator overload for pretty-printing a ReactionCompounds object to an output stream.
          * Fulfills part of requirement 2: "Pretty-print the reaction network in human readable format". */

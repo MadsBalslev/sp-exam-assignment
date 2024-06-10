@@ -2,27 +2,19 @@
 
 namespace SpStochLib {
 
-    const std::vector<std::reference_wrapper<const Agent>> &ReactionCompounds::agents() const {
+    std::vector<std::reference_wrapper<Agent>> &ReactionCompounds::agents() {
         return m_agents;
     };
 
-    void ReactionCompounds::addAgent(const Agent& agent) {
+    void ReactionCompounds::addAgent(Agent& agent) {
         m_agents.emplace_back(agent);
     };
 
-    std::vector<std::reference_wrapper<const Agent>>::const_iterator ReactionCompounds::begin() const {
+    std::vector<std::reference_wrapper<Agent>>::iterator ReactionCompounds::begin() {
         return m_agents.begin();
     };
 
-    std::vector<std::reference_wrapper<const Agent>>::const_iterator ReactionCompounds::end() const {
-        return m_agents.end();
-    };
-
-    std::vector<std::reference_wrapper<const Agent>>::iterator ReactionCompounds::begin() {
-        return m_agents.begin();
-    };
-
-    std::vector<std::reference_wrapper<const Agent>>::iterator ReactionCompounds::end() {
+    std::vector<std::reference_wrapper<Agent>>::iterator ReactionCompounds::end() {
         return m_agents.end();
     };
 

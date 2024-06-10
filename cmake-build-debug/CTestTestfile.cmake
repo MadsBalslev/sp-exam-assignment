@@ -7,3 +7,4 @@
 subdirs("_deps/doctest-build")
 subdirs("src")
 subdirs("tests")
+subdirs("estimation")

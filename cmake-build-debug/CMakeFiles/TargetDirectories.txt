@@ -110,3 +110,12 @@
 /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/tests/CMakeFiles/install.dir
 /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/tests/CMakeFiles/install/local.dir
 /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/tests/CMakeFiles/install/strip.dir
+/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/CMakeFiles/Estimate.dir
+/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/CMakeFiles/main.dir
+/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/CMakeFiles/test.dir
+/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/CMakeFiles/edit_cache.dir
+/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/CMakeFiles/rebuild_cache.dir
+/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/CMakeFiles/list_install_components.dir
+/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/CMakeFiles/install.dir
+/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/CMakeFiles/install/local.dir
+/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/CMakeFiles/install/strip.dir

@@ -20,8 +20,8 @@ namespace SpStochLib {
         [[nodiscard]]ReactionCompounds &reactants();
         [[nodiscard]]ReactionCompounds &products();
 
-        void addReactant(const Agent& reactant);
-        void addProduct (const Agent& product);
+        void addReactant(Agent& reactant);
+        void addProduct (Agent& product);
 
         void computeDelay(std::mt19937 &generator);
 
@@ -31,13 +31,13 @@ namespace SpStochLib {
 
 
     // A + B -> C
-    Reaction operator>>=(ReactionCompounds &&compounds, const Agent &agent);
+    Reaction operator>>=(ReactionCompounds &&compounds, Agent &agent);
     // A -> B + C
-    Reaction operator>>=(const Agent &agent, ReactionCompounds &&compounds);
+    Reaction operator>>=(Agent &agent, ReactionCompounds &&compounds);
     // A + B -> C + D
-    Reaction operator>>= (const ReactionCompounds &compoundsL, const ReactionCompounds &compoundsR);
+    Reaction operator>>= (ReactionCompounds &compoundsL, ReactionCompounds &compoundsR);
     // A -> B
-    Reaction operator>>=(const Agent &agentL, const Agent &agentR);
+    Reaction operator>>=(Agent &agentL, Agent &agentR);
 
 }
 

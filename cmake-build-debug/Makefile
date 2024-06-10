@@ -535,6 +535,32 @@ ReactionTests/fast:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ReactionTests.dir/build.make tests/CMakeFiles/ReactionTests.dir/build
 .PHONY : ReactionTests/fast
 
+#=============================================================================
+# Target rules for targets named Estimate
+
+# Build rule for target.
+Estimate: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Estimate
+.PHONY : Estimate
+
+# fast build rule for target.
+Estimate/fast:
+	$(MAKE) $(MAKESILENT) -f estimation/CMakeFiles/Estimate.dir/build.make estimation/CMakeFiles/Estimate.dir/build
+.PHONY : Estimate/fast
+
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) $(MAKESILENT) -f estimation/CMakeFiles/main.dir/build.make estimation/CMakeFiles/main.dir/build
+.PHONY : main/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -576,6 +602,7 @@ help:
 	@echo "... docs-api"
 	@echo "... examples"
 	@echo "... tests"
+	@echo "... Estimate"
 	@echo "... ReactionTests"
 	@echo "... SpStochLib"
 	@echo "... SpStochLibExamples"
@@ -598,6 +625,7 @@ help:
 	@echo "... example-readme"
 	@echo "... example-sincos-functions"
 	@echo "... example-sine-functions"
+	@echo "... main"
 	@echo "... sciplot-cpptests"
 	@echo "... testing-project"
 	@echo "... main.o"

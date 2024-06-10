@@ -14,16 +14,26 @@ int main() {
     auto example2 = Examples::circadian();
     auto example3 = Examples::seihr(10000);
 
-    TrajectoryDrawer drawer = TrajectoryDrawer();
-
-    FileWriter fileWriter1{example1, "simple.csv"};
-    FileWriter fileWriter2{example2, "circadian.csv"};
-    FileWriter fileWriter3{example3, "seihr.csv"};
+    TrajectoryDrawer simpleDrawer = TrajectoryDrawer();
+    TrajectoryDrawer circadianDrawer = TrajectoryDrawer();
+    TrajectoryDrawer seihrDrawer = TrajectoryDrawer();
 
 
-    example1.simulate(2000, [&fileWriter1](const Simulation &simulation) {
-        fileWriter1.write(simulation);
+    example1.simulate(2000, [&simpleDrawer](const Simulation &simulation) {
+        simpleDrawer.addToGraph(simulation);
     });
+
+    example2.simulate(100, [&circadianDrawer](const Simulation &simulation) {
+        circadianDrawer.addToGraph(simulation);
+    });
+
+    example3.simulate(100, [&seihrDrawer](const Simulation &simulation) {
+        seihrDrawer.addToGraph(simulation);
+    });
+
+    simpleDrawer.draw(2000, "simple");
+    circadianDrawer.draw(100, "circadian");
+    seihrDrawer.draw(100, "seihr");
 
 
     return 0;

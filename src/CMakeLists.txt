@@ -11,6 +11,9 @@ set(SOURCE_FILES
         SymbolTable.hpp
         FileWriter.cpp
         FileWriter.h
+        ParallelRunner.cpp
+        ParallelRunner.h
+        ThreadPool.hpp
 )
 
 

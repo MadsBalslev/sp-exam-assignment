@@ -5,7 +5,7 @@
 		<Option title="sciplot"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\doctest-src\;CMake Files\cmake-build-debug\_deps\doctest-src\scripts\;CMake Files\cmake-build-debug\_deps\doctest-src\scripts\cmake\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\cmake\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\cmake\PackageConfigTemplates\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\examples\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\tests\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\tests\testing-project\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\docs\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\docs\api\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\scripts\;CMake Files\src\;CMake Files\src\Examples\;CMake Files\src\Plotting\;CMake Files\tests\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\doctest-src\;CMake Files\cmake-build-debug\_deps\doctest-src\scripts\;CMake Files\cmake-build-debug\_deps\doctest-src\scripts\cmake\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\cmake\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\cmake\PackageConfigTemplates\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\examples\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\tests\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\tests\testing-project\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\docs\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\docs\api\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\scripts\;CMake Files\src\;CMake Files\src\Examples\;CMake Files\src\Plotting\;CMake Files\tests\;CMake Files\estimation\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build"/>
@@ -960,6 +960,9 @@
 		</Unit>
 		<Unit filename="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/tests/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/estimation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\estimation\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -20,7 +20,7 @@ namespace SpStochLib::Plots {
         }
     }
 
-    void TrajectoryDrawer::draw(auto endTime) {
+    void TrajectoryDrawer::draw(double endTime, const std::string filename, bool showPlot = false) {
         using namespace sciplot;
 
         // Create a Plot object
@@ -65,11 +65,13 @@ namespace SpStochLib::Plots {
         Canvas canvas = {{fig}};
         canvas.size(1500, 1000);
 
-        // Show the plot in a pop-up window
-        canvas.show();
-
         // Save the plot to a PDF file
-        canvas.save("trajectory.png");
+        canvas.save(filename + ".png");
+
+        if(showPlot) {
+            canvas.show();
+        }
+
 
     }
 }

@@ -17,3 +17,4 @@ target_link_libraries(SpStochLibMain PRIVATE SpStochLib)
 target_link_libraries(SpStochLibMain PUBLIC sciplot)
 
 add_subdirectory(tests)
+add_subdirectory(estimation)

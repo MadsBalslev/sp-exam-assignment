@@ -233,6 +233,30 @@ FileWriter.cpp.s:
 	cd /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/SpStochLib.dir/build.make src/CMakeFiles/SpStochLib.dir/FileWriter.cpp.s
 .PHONY : FileWriter.cpp.s
 
+ParallelRunner.o: ParallelRunner.cpp.o
+.PHONY : ParallelRunner.o
+
+# target to build an object file
+ParallelRunner.cpp.o:
+	cd /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/SpStochLib.dir/build.make src/CMakeFiles/SpStochLib.dir/ParallelRunner.cpp.o
+.PHONY : ParallelRunner.cpp.o
+
+ParallelRunner.i: ParallelRunner.cpp.i
+.PHONY : ParallelRunner.i
+
+# target to preprocess a source file
+ParallelRunner.cpp.i:
+	cd /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/SpStochLib.dir/build.make src/CMakeFiles/SpStochLib.dir/ParallelRunner.cpp.i
+.PHONY : ParallelRunner.cpp.i
+
+ParallelRunner.s: ParallelRunner.cpp.s
+.PHONY : ParallelRunner.s
+
+# target to generate assembly for a file
+ParallelRunner.cpp.s:
+	cd /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/SpStochLib.dir/build.make src/CMakeFiles/SpStochLib.dir/ParallelRunner.cpp.s
+.PHONY : ParallelRunner.cpp.s
+
 Reaction.o: Reaction.cpp.o
 .PHONY : Reaction.o
 
@@ -325,6 +349,9 @@ help:
 	@echo "... FileWriter.o"
 	@echo "... FileWriter.i"
 	@echo "... FileWriter.s"
+	@echo "... ParallelRunner.o"
+	@echo "... ParallelRunner.i"
+	@echo "... ParallelRunner.s"
 	@echo "... Reaction.o"
 	@echo "... Reaction.i"
 	@echo "... Reaction.s"

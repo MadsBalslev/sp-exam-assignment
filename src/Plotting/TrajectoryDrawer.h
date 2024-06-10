@@ -13,7 +13,7 @@ namespace SpStochLib::Plots {
         std::map<std::string, std::vector<Point>> lines; // Linedata
 
     public:
-        void draw(auto endTime);
+        void draw(double endTime, const std::string filename, bool showPlot);
         void addToGraph(const Simulation &sim);
     };
 }

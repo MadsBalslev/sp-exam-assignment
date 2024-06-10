@@ -139,13 +139,28 @@ src/CMakeFiles/SpStochLib.dir/FileWriter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SpStochLib.dir/FileWriter.cpp.s"
 	cd /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/FileWriter.cpp -o CMakeFiles/SpStochLib.dir/FileWriter.cpp.s
 
+src/CMakeFiles/SpStochLib.dir/ParallelRunner.cpp.o: src/CMakeFiles/SpStochLib.dir/flags.make
+src/CMakeFiles/SpStochLib.dir/ParallelRunner.cpp.o: /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/ParallelRunner.cpp
+src/CMakeFiles/SpStochLib.dir/ParallelRunner.cpp.o: src/CMakeFiles/SpStochLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/SpStochLib.dir/ParallelRunner.cpp.o"
+	cd /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/SpStochLib.dir/ParallelRunner.cpp.o -MF CMakeFiles/SpStochLib.dir/ParallelRunner.cpp.o.d -o CMakeFiles/SpStochLib.dir/ParallelRunner.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/ParallelRunner.cpp
+
+src/CMakeFiles/SpStochLib.dir/ParallelRunner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SpStochLib.dir/ParallelRunner.cpp.i"
+	cd /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/ParallelRunner.cpp > CMakeFiles/SpStochLib.dir/ParallelRunner.cpp.i
+
+src/CMakeFiles/SpStochLib.dir/ParallelRunner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SpStochLib.dir/ParallelRunner.cpp.s"
+	cd /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/ParallelRunner.cpp -o CMakeFiles/SpStochLib.dir/ParallelRunner.cpp.s
+
 # Object files for target SpStochLib
 SpStochLib_OBJECTS = \
 "CMakeFiles/SpStochLib.dir/Agent.cpp.o" \
 "CMakeFiles/SpStochLib.dir/ReactionCompounds.cpp.o" \
 "CMakeFiles/SpStochLib.dir/Reaction.cpp.o" \
 "CMakeFiles/SpStochLib.dir/Simulation.cpp.o" \
-"CMakeFiles/SpStochLib.dir/FileWriter.cpp.o"
+"CMakeFiles/SpStochLib.dir/FileWriter.cpp.o" \
+"CMakeFiles/SpStochLib.dir/ParallelRunner.cpp.o"
 
 # External object files for target SpStochLib
 SpStochLib_EXTERNAL_OBJECTS =
@@ -155,9 +170,10 @@ src/libSpStochLib.a: src/CMakeFiles/SpStochLib.dir/ReactionCompounds.cpp.o
 src/libSpStochLib.a: src/CMakeFiles/SpStochLib.dir/Reaction.cpp.o
 src/libSpStochLib.a: src/CMakeFiles/SpStochLib.dir/Simulation.cpp.o
 src/libSpStochLib.a: src/CMakeFiles/SpStochLib.dir/FileWriter.cpp.o
+src/libSpStochLib.a: src/CMakeFiles/SpStochLib.dir/ParallelRunner.cpp.o
 src/libSpStochLib.a: src/CMakeFiles/SpStochLib.dir/build.make
 src/libSpStochLib.a: src/CMakeFiles/SpStochLib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libSpStochLib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libSpStochLib.a"
 	cd /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/src && $(CMAKE_COMMAND) -P CMakeFiles/SpStochLib.dir/cmake_clean_target.cmake
 	cd /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SpStochLib.dir/link.txt --verbose=$(VERBOSE)
 

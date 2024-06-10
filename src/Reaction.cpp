@@ -19,11 +19,11 @@ namespace SpStochLib {
     };
 
 
-    void Reaction::addProduct(const Agent &product) {
+    void Reaction::addProduct(Agent &product) {
         m_products.addAgent(product);
     };
 
-    void Reaction::addReactant(const Agent &reactant) {
+    void Reaction::addReactant(Agent &reactant) {
         m_reactants.addAgent(reactant);
     };
 
@@ -43,7 +43,7 @@ namespace SpStochLib {
     };
 
     // A + B -> C
-    Reaction operator>>=(ReactionCompounds &&compounds, const Agent &agent) {
+    Reaction operator>>=(ReactionCompounds &&compounds, Agent &agent) {
         Reaction reaction;
 
         for(const auto &a : compounds.agents()) {
@@ -56,7 +56,7 @@ namespace SpStochLib {
     };
 
     // A -> B + C
-    Reaction operator>>=(const Agent &agent, ReactionCompounds &&compounds) {
+    Reaction operator>>=(Agent &agent, ReactionCompounds &&compounds) {
         Reaction reaction;
         reaction.addReactant(agent);
 
@@ -68,10 +68,10 @@ namespace SpStochLib {
 
     };
     // A + B -> C + D
-    Reaction operator>>= (const ReactionCompounds &compoundsL, const ReactionCompounds &compoundsR) {
+    Reaction operator>>= (ReactionCompounds &compoundsL, ReactionCompounds &compoundsR) {
         Reaction reaction;
 
-        for(const auto &a : compoundsL.agents()) {
+        for( auto &a : compoundsL.agents()) {
             reaction.addReactant(a);
         }
         for(const auto &a : compoundsR.agents()) {
@@ -82,7 +82,7 @@ namespace SpStochLib {
     };
 
     // A -> B
-    Reaction operator>>=(const Agent &agentL, const Agent &agentR) {
+    Reaction operator>>=(Agent &agentL, Agent &agentR) {
         Reaction reaction;
 
         reaction.addReactant(agentL);

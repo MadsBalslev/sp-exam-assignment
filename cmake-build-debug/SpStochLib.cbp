@@ -5,7 +5,7 @@
 		<Option title="SpStochLib"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\doctest-src\;CMake Files\cmake-build-debug\_deps\doctest-src\scripts\;CMake Files\cmake-build-debug\_deps\doctest-src\scripts\cmake\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\cmake\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\cmake\PackageConfigTemplates\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\examples\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\tests\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\tests\testing-project\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\docs\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\docs\api\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\scripts\;CMake Files\src\;CMake Files\src\Examples\;CMake Files\src\Plotting\;CMake Files\tests\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\doctest-src\;CMake Files\cmake-build-debug\_deps\doctest-src\scripts\;CMake Files\cmake-build-debug\_deps\doctest-src\scripts\cmake\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\cmake\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\cmake\PackageConfigTemplates\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\examples\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\tests\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\tests\testing-project\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\docs\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\docs\api\;CMake Files\cmake-build-debug\_deps\sciplot_content-src\scripts\;CMake Files\src\;CMake Files\src\Examples\;CMake Files\src\Plotting\;CMake Files\tests\;CMake Files\estimation\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug"/>
@@ -1135,6 +1135,86 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Estimate">
+				<Option output="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/Estimate" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/Makefile&quot;  VERBOSE=1 Estimate"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Estimate/fast">
+				<Option output="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/Estimate" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/Makefile&quot;  VERBOSE=1 Estimate/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/doctest-src/doctest/parts/doctest.cpp">
 			<Option target="doctest_with_main"/>
@@ -1268,6 +1348,12 @@
 		<Unit filename="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/testing-project/util.hpp">
 			<Option target="testing-project"/>
 		</Unit>
+		<Unit filename="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/estimation/Estimate.cpp">
+			<Option target="Estimate"/>
+		</Unit>
+		<Unit filename="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/estimation/main.cpp">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/main.cpp">
 			<Option target="SpStochLibMain"/>
 		</Unit>
@@ -1290,6 +1376,12 @@
 			<Option target="SpStochLib"/>
 		</Unit>
 		<Unit filename="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/FileWriter.h">
+			<Option target="SpStochLib"/>
+		</Unit>
+		<Unit filename="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/ParallelRunner.cpp">
+			<Option target="SpStochLib"/>
+		</Unit>
+		<Unit filename="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/ParallelRunner.h">
 			<Option target="SpStochLib"/>
 		</Unit>
 		<Unit filename="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Plotting/Point.cpp">
@@ -1329,6 +1421,9 @@
 			<Option target="SpStochLib"/>
 		</Unit>
 		<Unit filename="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/SymbolTable.hpp">
+			<Option target="SpStochLib"/>
+		</Unit>
+		<Unit filename="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/ThreadPool.hpp">
 			<Option target="SpStochLib"/>
 		</Unit>
 		<Unit filename="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/tests/ReactionTests.cpp">
@@ -1396,6 +1491,9 @@
 		</Unit>
 		<Unit filename="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/tests/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/estimation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\estimation\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

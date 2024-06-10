@@ -11,13 +11,11 @@ namespace SpStochLib {
 
     void Simulation::react(Reaction &reaction) {
         for(auto &reactant : reaction.reactants()) {
-            Agent agent = reactant.get();
-            agent.decreaseAmount(1);
+            reactant.get().decreaseAmount(1);
         }
 
         for(auto &reactant : reaction.products()) {
-            Agent product = reactant.get();
-            product.addAmount(1);
+            reactant.get().addAmount(1);
         }
     }
 
@@ -65,10 +63,6 @@ namespace SpStochLib {
             if(callback) {
                 (*callback)(*this);
             }
-        }
-
-        if(!callback) {
-            std::cout << *this;
         }
     }
 
