@@ -12,16 +12,12 @@ namespace SpStochLib {
     void Simulation::react(Reaction &reaction) {
         for(auto &reactant : reaction.reactants()) {
             Agent agent = reactant.get();
-            std::cout << "Decreasing amount of " << agent.name() << " (" << &agent << ") " << " by 1" << std::endl;
             agent.decreaseAmount(1);
-            std::cout << "Amount of " << agent.name() << " (" << &agent << ") " << " is now " << agent.amount() << std::endl;
         }
 
         for(auto &reactant : reaction.products()) {
             Agent product = reactant.get();
-            std::cout << "Increasing amount of " << product.name() << " (" << &product << ") " << " by 1" << std::endl;
             product.addAmount(1);
-            std::cout << "Amount of " << product.name() << " (" << &product << ") " << " is now " << product.amount() << std::endl;
         }
     }
 

@@ -17,6 +17,7 @@ namespace SpStochLib {
 
     void FileWriter::write(const Simulation &simulation) {
         for (const auto &agent : simulation.agents()) {
+            std::cout << agent.second->name() << ": "<< agent.second->amount() << std::endl;
             *m_outputFile << agent.second->amount() << ",";
         }
 
