@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-subbuild/CMakeFiles/benchmark-populate"
+		},
+		{
+			"file" : "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-subbuild/CMakeFiles/benchmark-populate.rule"
+		},
+		{
+			"file" : "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-subbuild/CMakeFiles/benchmark-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-subbuild/benchmark-populate-prefix/src/benchmark-populate-stamp/benchmark-populate-build.rule"
+		},
+		{
+			"file" : "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-subbuild/benchmark-populate-prefix/src/benchmark-populate-stamp/benchmark-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-subbuild/benchmark-populate-prefix/src/benchmark-populate-stamp/benchmark-populate-download.rule"
+		},
+		{
+			"file" : "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-subbuild/benchmark-populate-prefix/src/benchmark-populate-stamp/benchmark-populate-install.rule"
+		},
+		{
+			"file" : "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-subbuild/benchmark-populate-prefix/src/benchmark-populate-stamp/benchmark-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-subbuild/benchmark-populate-prefix/src/benchmark-populate-stamp/benchmark-populate-patch_disconnected.rule"
+		},
+		{
+			"file" : "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-subbuild/benchmark-populate-prefix/src/benchmark-populate-stamp/benchmark-populate-test.rule"
+		},
+		{
+			"file" : "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-subbuild/benchmark-populate-prefix/src/benchmark-populate-stamp/benchmark-populate-update_disconnected.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"benchmark-populate"
+		],
+		"name" : "benchmark-populate"
+	}
+}

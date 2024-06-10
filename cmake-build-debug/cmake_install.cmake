@@ -44,6 +44,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/src/cmake_install.cmake")
 endif()
 
@@ -55,6 +60,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/benchmarking/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

@@ -295,8 +295,6 @@ CMakeFiles/SpStochLibMain.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/cstring \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/string.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/string.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_rsize_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_errno_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_ssize_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/strings.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__chrono/duration.h \
@@ -640,6 +638,8 @@ CMakeFiles/SpStochLibMain.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_nlink_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_useconds_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_suseconds_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_rsize_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_errno_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_fd_def.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_fd_setsize.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_fd_set.h \
@@ -971,4 +971,25 @@ CMakeFiles/SpStochLibMain.dir/main.cpp.o: \
   /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/sciplot/specs/TicsSpecsMinor.hpp \
   /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/sciplot/Plot3D.hpp \
   /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/sciplot/specs/LayoutSpecs.hpp \
-  /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/sciplot/Vec.hpp
+  /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/sciplot/Vec.hpp \
+  /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Plotting/ReactionDrawer.cpp \
+  /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Plotting/ReactionDrawer.h \
+  /opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/gvc.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/stdbool.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdbool.h \
+  /opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/assert.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/signal.h \
+  /opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/geom.h \
+  /opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/arith.h \
+  /opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/gvcext.h \
+  /opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/pathgeom.h \
+  /opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/textspan.h \
+  /opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/cgraph.h \
+  /opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/cdt.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/inttypes.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/inttypes.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/inttypes.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_inttypes.h \
+  /opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/usershape.h \
+  /opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/gvplugin.h

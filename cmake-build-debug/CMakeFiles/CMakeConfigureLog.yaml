@@ -926,3 +926,1098 @@ events:
       
       
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "cmake-build-debug/_deps/benchmark-src/CMakeLists.txt:125 (check_library_exists)"
+    checks:
+      - "Looking for shm_open in rt"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yJapWV"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yJapWV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "HAVE_LIB_RT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yJapWV'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ed9b2/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ed9b2.dir/build.make CMakeFiles/cmTC_ed9b2.dir/build
+        Building C object CMakeFiles/cmTC_ed9b2.dir/CheckFunctionExists.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shm_open -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_ed9b2.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_ed9b2.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_ed9b2.dir/CheckFunctionExists.c.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yJapWV/CheckFunctionExists.c
+        Linking C executable cmTC_ed9b2
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed9b2.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shm_open -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ed9b2.dir/CheckFunctionExists.c.o -o cmTC_ed9b2  -lrt 
+        ld: library 'rt' not found
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_ed9b2] Error 1
+        make: *** [cmTC_ed9b2/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/CMakeLists.txt:174 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WALL"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OF7gnn"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OF7gnn"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WALL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OF7gnn'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_90844/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_90844.dir/build.make CMakeFiles/cmTC_90844.dir/build
+        Building CXX object CMakeFiles/cmTC_90844.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -Wall -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics   -Wall -MD -MT CMakeFiles/cmTC_90844.dir/src.cxx.o -MF CMakeFiles/cmTC_90844.dir/src.cxx.o.d -o CMakeFiles/cmTC_90844.dir/src.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OF7gnn/src.cxx
+        Linking CXX executable cmTC_90844
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90844.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_90844.dir/src.cxx.o -o cmTC_90844 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/CMakeLists.txt:175 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WEXTRA"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TxmS7C"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TxmS7C"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WEXTRA"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TxmS7C'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0c1d5/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_0c1d5.dir/build.make CMakeFiles/cmTC_0c1d5.dir/build
+        Building CXX object CMakeFiles/cmTC_0c1d5.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -Wall  -Wextra -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics   -Wextra -MD -MT CMakeFiles/cmTC_0c1d5.dir/src.cxx.o -MF CMakeFiles/cmTC_0c1d5.dir/src.cxx.o.d -o CMakeFiles/cmTC_0c1d5.dir/src.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TxmS7C/src.cxx
+        Linking CXX executable cmTC_0c1d5
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c1d5.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0c1d5.dir/src.cxx.o -o cmTC_0c1d5 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/CMakeLists.txt:176 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHADOW"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rbkHhT"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rbkHhT"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHADOW"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rbkHhT'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_19b21/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_19b21.dir/build.make CMakeFiles/cmTC_19b21.dir/build
+        Building CXX object CMakeFiles/cmTC_19b21.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -Wall  -Wextra  -Wshadow -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics   -Wshadow -MD -MT CMakeFiles/cmTC_19b21.dir/src.cxx.o -MF CMakeFiles/cmTC_19b21.dir/src.cxx.o.d -o CMakeFiles/cmTC_19b21.dir/src.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rbkHhT/src.cxx
+        Linking CXX executable cmTC_19b21
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19b21.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_19b21.dir/src.cxx.o -o cmTC_19b21 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/CMakeLists.txt:177 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kXyE24"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kXyE24"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WFLOAT_EQUAL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kXyE24'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ec8e5/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ec8e5.dir/build.make CMakeFiles/cmTC_ec8e5.dir/build
+        Building CXX object CMakeFiles/cmTC_ec8e5.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wall  -Wextra  -Wshadow  -Wfloat-equal -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics   -Wfloat-equal -MD -MT CMakeFiles/cmTC_ec8e5.dir/src.cxx.o -MF CMakeFiles/cmTC_ec8e5.dir/src.cxx.o.d -o CMakeFiles/cmTC_ec8e5.dir/src.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kXyE24/src.cxx
+        Linking CXX executable cmTC_ec8e5
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec8e5.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ec8e5.dir/src.cxx.o -o cmTC_ec8e5 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/CMakeLists.txt:179 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WERROR"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-i5N3cs"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-i5N3cs"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WERROR"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-i5N3cs'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fd4be/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_fd4be.dir/build.make CMakeFiles/cmTC_fd4be.dir/build
+        Building CXX object CMakeFiles/cmTC_fd4be.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WERROR  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics   -Werror -MD -MT CMakeFiles/cmTC_fd4be.dir/src.cxx.o -MF CMakeFiles/cmTC_fd4be.dir/src.cxx.o.d -o CMakeFiles/cmTC_fd4be.dir/src.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-i5N3cs/src.cxx
+        Linking CXX executable cmTC_fd4be
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd4be.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fd4be.dir/src.cxx.o -o cmTC_fd4be 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/CMakeLists.txt:185 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-UpFhWP"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-UpFhWP"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-UpFhWP'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d7bd6/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d7bd6.dir/build.make CMakeFiles/cmTC_d7bd6.dir/build
+        Building CXX object CMakeFiles/cmTC_d7bd6.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics   -pedantic -MD -MT CMakeFiles/cmTC_d7bd6.dir/src.cxx.o -MF CMakeFiles/cmTC_d7bd6.dir/src.cxx.o.d -o CMakeFiles/cmTC_d7bd6.dir/src.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-UpFhWP/src.cxx
+        Linking CXX executable cmTC_d7bd6
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7bd6.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d7bd6.dir/src.cxx.o -o cmTC_d7bd6 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/CMakeLists.txt:186 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nn5xXF"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nn5xXF"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nn5xXF'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b54cb/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b54cb.dir/build.make CMakeFiles/cmTC_b54cb.dir/build
+        Building CXX object CMakeFiles/cmTC_b54cb.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics   -pedantic-errors -MD -MT CMakeFiles/cmTC_b54cb.dir/src.cxx.o -MF CMakeFiles/cmTC_b54cb.dir/src.cxx.o.d -o CMakeFiles/cmTC_b54cb.dir/src.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nn5xXF/src.cxx
+        Linking CXX executable cmTC_b54cb
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b54cb.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b54cb.dir/src.cxx.o -o cmTC_b54cb 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/CMakeLists.txt:187 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-WeBvFF"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-WeBvFF"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-WeBvFF'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d7061/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d7061.dir/build.make CMakeFiles/cmTC_d7061.dir/build
+        Building CXX object CMakeFiles/cmTC_d7061.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics   -Wshorten-64-to-32 -MD -MT CMakeFiles/cmTC_d7061.dir/src.cxx.o -MF CMakeFiles/cmTC_d7061.dir/src.cxx.o.d -o CMakeFiles/cmTC_d7061.dir/src.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-WeBvFF/src.cxx
+        Linking CXX executable cmTC_d7061
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7061.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d7061.dir/src.cxx.o -o cmTC_d7061 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/CMakeLists.txt:188 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wCfk0y"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wCfk0y"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_FSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wCfk0y'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_561ac/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_561ac.dir/build.make CMakeFiles/cmTC_561ac.dir/build
+        Building CXX object CMakeFiles/cmTC_561ac.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics   -fstrict-aliasing -MD -MT CMakeFiles/cmTC_561ac.dir/src.cxx.o -MF CMakeFiles/cmTC_561ac.dir/src.cxx.o.d -o CMakeFiles/cmTC_561ac.dir/src.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wCfk0y/src.cxx
+        Linking CXX executable cmTC_561ac
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_561ac.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_561ac.dir/src.cxx.o -o cmTC_561ac 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/CMakeLists.txt:191 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xVwIeO"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xVwIeO"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xVwIeO'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_94804/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_94804.dir/build.make CMakeFiles/cmTC_94804.dir/build
+        Building CXX object CMakeFiles/cmTC_94804.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics   -Wno-deprecated-declarations -MD -MT CMakeFiles/cmTC_94804.dir/src.cxx.o -MF CMakeFiles/cmTC_94804.dir/src.cxx.o.d -o CMakeFiles/cmTC_94804.dir/src.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xVwIeO/src.cxx
+        Linking CXX executable cmTC_94804
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94804.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_94804.dir/src.cxx.o -o cmTC_94804 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/CMakeLists.txt:200 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Sa3FXs"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Sa3FXs"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Sa3FXs'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c6494/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c6494.dir/build.make CMakeFiles/cmTC_c6494.dir/build
+        Building CXX object CMakeFiles/cmTC_c6494.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics   -Wno-deprecated -MD -MT CMakeFiles/cmTC_c6494.dir/src.cxx.o -MF CMakeFiles/cmTC_c6494.dir/src.cxx.o.d -o CMakeFiles/cmTC_c6494.dir/src.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Sa3FXs/src.cxx
+        Linking CXX executable cmTC_c6494
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6494.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c6494.dir/src.cxx.o -o cmTC_c6494 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/CMakeLists.txt:208 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HnAWUl"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HnAWUl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HnAWUl'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b809b/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b809b.dir/build.make CMakeFiles/cmTC_b809b.dir/build
+        Building CXX object CMakeFiles/cmTC_b809b.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics   -Wstrict-aliasing -MD -MT CMakeFiles/cmTC_b809b.dir/src.cxx.o -MF CMakeFiles/cmTC_b809b.dir/src.cxx.o.d -o CMakeFiles/cmTC_b809b.dir/src.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HnAWUl/src.cxx
+        Linking CXX executable cmTC_b809b
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b809b.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b809b.dir/src.cxx.o -o cmTC_b809b 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/CMakeLists.txt:213 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WD654"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3igGD6"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3igGD6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WD654"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3igGD6'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_92151/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_92151.dir/build.make CMakeFiles/cmTC_92151.dir/build
+        Building CXX object CMakeFiles/cmTC_92151.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -wd654 -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics   -wd654 -MD -MT CMakeFiles/cmTC_92151.dir/src.cxx.o -MF CMakeFiles/cmTC_92151.dir/src.cxx.o.d -o CMakeFiles/cmTC_92151.dir/src.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3igGD6/src.cxx
+        clang: \x1b[0;1;31merror: \x1b[0m\x1b[1munknown argument: '-wd654'\x1b[0m
+        clang: \x1b[0;1;31merror: \x1b[0m\x1b[1munknown argument: '-wd654'\x1b[0m
+        make[1]: *** [CMakeFiles/cmTC_92151.dir/src.cxx.o] Error 1
+        make: *** [cmTC_92151/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/CMakeLists.txt:214 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TOAjkN"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TOAjkN"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WTHREAD_SAFETY"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TOAjkN'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_eb974/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_eb974.dir/build.make CMakeFiles/cmTC_eb974.dir/build
+        Building CXX object CMakeFiles/cmTC_eb974.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics   -Wthread-safety -MD -MT CMakeFiles/cmTC_eb974.dir/src.cxx.o -MF CMakeFiles/cmTC_eb974.dir/src.cxx.o.d -o CMakeFiles/cmTC_eb974.dir/src.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TOAjkN/src.cxx
+        Linking CXX executable cmTC_eb974
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb974.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_eb974.dir/src.cxx.o -o cmTC_eb974 
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "cmake-build-debug/_deps/benchmark-src/CMakeLists.txt:216 (cxx_feature_check)"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_THREAD_SAFETY_ATTRIBUTES"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8952f/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_8952f.dir/build.make CMakeFiles/cmTC_8952f.dir/build
+        Building CXX object CMakeFiles/cmTC_8952f.dir/thread_safety_attributes.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_8952f.dir/thread_safety_attributes.cpp.o -MF CMakeFiles/cmTC_8952f.dir/thread_safety_attributes.cpp.o.d -o CMakeFiles/cmTC_8952f.dir/thread_safety_attributes.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/thread_safety_attributes.cpp
+        Linking CXX executable cmTC_8952f
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8952f.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8952f.dir/thread_safety_attributes.cpp.o -o cmTC_8952f 
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_THREAD_SAFETY_ATTRIBUTES"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/CMakeLists.txt:265 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_COVERAGE"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-X5V2dy"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-X5V2dy"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_COVERAGE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-X5V2dy'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_30917/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_30917.dir/build.make CMakeFiles/cmTC_30917.dir/build
+        Building CXX object CMakeFiles/cmTC_30917.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  --coverage -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics   --coverage -MD -MT CMakeFiles/cmTC_30917.dir/src.cxx.o -MF CMakeFiles/cmTC_30917.dir/src.cxx.o.d -o CMakeFiles/cmTC_30917.dir/src.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-X5V2dy/src.cxx
+        Linking CXX executable cmTC_30917
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30917.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  --coverage -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_30917.dir/src.cxx.o -o cmTC_30917 
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "cmake-build-debug/_deps/benchmark-src/CMakeLists.txt:294 (cxx_feature_check)"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fba75/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_fba75.dir/build.make CMakeFiles/cmTC_fba75.dir/build
+        Building CXX object CMakeFiles/cmTC_fba75.dir/std_regex.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_fba75.dir/std_regex.cpp.o -MF CMakeFiles/cmTC_fba75.dir/std_regex.cpp.o.d -o CMakeFiles/cmTC_fba75.dir/std_regex.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/std_regex.cpp
+        Linking CXX executable cmTC_fba75
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fba75.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fba75.dir/std_regex.cpp.o -o cmTC_fba75 
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "cmake-build-debug/_deps/benchmark-src/CMakeLists.txt:295 (cxx_feature_check)"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_GNU_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e361f/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e361f.dir/build.make CMakeFiles/cmTC_e361f.dir/build
+        Building CXX object CMakeFiles/cmTC_e361f.dir/gnu_posix_regex.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_e361f.dir/gnu_posix_regex.cpp.o -MF CMakeFiles/cmTC_e361f.dir/gnu_posix_regex.cpp.o.d -o CMakeFiles/cmTC_e361f.dir/gnu_posix_regex.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/gnu_posix_regex.cpp
+        \x1b[1m/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/gnu_posix_regex.cpp:1:10: \x1b[0m\x1b[0;1;31mfatal error: \x1b[0m\x1b[1m'gnuregex.h' file not found\x1b[0m
+        #include <gnuregex.h>
+        \x1b[0;1;32m         ^~~~~~~~~~~~
+        \x1b[0m1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_e361f.dir/gnu_posix_regex.cpp.o] Error 1
+        make: *** [cmTC_e361f/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "RUN_HAVE_GNU_POSIX_REGEX"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "cmake-build-debug/_deps/benchmark-src/CMakeLists.txt:296 (cxx_feature_check)"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3bcc0/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3bcc0.dir/build.make CMakeFiles/cmTC_3bcc0.dir/build
+        Building CXX object CMakeFiles/cmTC_3bcc0.dir/posix_regex.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_3bcc0.dir/posix_regex.cpp.o -MF CMakeFiles/cmTC_3bcc0.dir/posix_regex.cpp.o.d -o CMakeFiles/cmTC_3bcc0.dir/posix_regex.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/posix_regex.cpp
+        Linking CXX executable cmTC_3bcc0
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bcc0.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3bcc0.dir/posix_regex.cpp.o -o cmTC_3bcc0 
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "cmake-build-debug/_deps/benchmark-src/CMakeLists.txt:305 (cxx_feature_check)"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_03d09/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_03d09.dir/build.make CMakeFiles/cmTC_03d09.dir/build
+        Building CXX object CMakeFiles/cmTC_03d09.dir/steady_clock.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_03d09.dir/steady_clock.cpp.o -MF CMakeFiles/cmTC_03d09.dir/steady_clock.cpp.o.d -o CMakeFiles/cmTC_03d09.dir/steady_clock.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/steady_clock.cpp
+        Linking CXX executable cmTC_03d09
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03d09.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_03d09.dir/steady_clock.cpp.o -o cmTC_03d09 
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "cmake-build-debug/_deps/benchmark-src/CMakeLists.txt:308 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ODF46x"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ODF46x"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ODF46x'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2458b/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2458b.dir/build.make CMakeFiles/cmTC_2458b.dir/build
+        Building C object CMakeFiles/cmTC_2458b.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_2458b.dir/src.c.o -MF CMakeFiles/cmTC_2458b.dir/src.c.o.d -o CMakeFiles/cmTC_2458b.dir/src.c.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ODF46x/src.c
+        Linking C executable cmTC_2458b
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2458b.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2458b.dir/src.c.o -o cmTC_2458b 
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "cmake-build-debug/_deps/benchmark-src/CMakeLists.txt:309 (cxx_feature_check)"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_PTHREAD_AFFINITY"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c9c1f/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c9c1f.dir/build.make CMakeFiles/cmTC_c9c1f.dir/build
+        Building CXX object CMakeFiles/cmTC_c9c1f.dir/pthread_affinity.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_c9c1f.dir/pthread_affinity.cpp.o -MF CMakeFiles/cmTC_c9c1f.dir/pthread_affinity.cpp.o.d -o CMakeFiles/cmTC_c9c1f.dir/pthread_affinity.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/pthread_affinity.cpp
+        \x1b[1m/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/pthread_affinity.cpp:3:3: \x1b[0m\x1b[0;1;31merror: \x1b[0m\x1b[1munknown type name 'cpu_set_t'\x1b[0m
+          cpu_set_t set;
+        \x1b[0;1;32m  ^
+        \x1b[0m\x1b[1m/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/pthread_affinity.cpp:5:23: \x1b[0m\x1b[0;1;31merror: \x1b[0m\x1b[1muse of undeclared identifier 'CPU_SETSIZE'\x1b[0m
+          for (int i = 0; i < CPU_SETSIZE; ++i) {
+        \x1b[0;1;32m                      ^
+        \x1b[0m2 errors generated.
+        make[1]: *** [CMakeFiles/cmTC_c9c1f.dir/pthread_affinity.cpp.o] Error 1
+        make: *** [cmTC_c9c1f/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "RUN_HAVE_PTHREAD_AFFINITY"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/test/CMakeLists.txt:31 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test BENCHMARK_HAS_O3_FLAG"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Uc4S8W"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Uc4S8W"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "BENCHMARK_HAS_O3_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Uc4S8W'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1abeb/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1abeb.dir/build.make CMakeFiles/cmTC_1abeb.dir/build
+        Building CXX object CMakeFiles/cmTC_1abeb.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_HAS_O3_FLAG  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics   -O3 -MD -MT CMakeFiles/cmTC_1abeb.dir/src.cxx.o -MF CMakeFiles/cmTC_1abeb.dir/src.cxx.o.d -o CMakeFiles/cmTC_1abeb.dir/src.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Uc4S8W/src.cxx
+        Linking CXX executable cmTC_1abeb
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1abeb.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1abeb.dir/src.cxx.o -o cmTC_1abeb 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/test/CMakeLists.txt:191 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test BENCHMARK_HAS_WNO_ODR"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-U2ijp6"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-U2ijp6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "BENCHMARK_HAS_WNO_ODR"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-U2ijp6'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b82b9/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b82b9.dir/build.make CMakeFiles/cmTC_b82b9.dir/build
+        Building CXX object CMakeFiles/cmTC_b82b9.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_HAS_WNO_ODR  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics   -Wno-odr -MD -MT CMakeFiles/cmTC_b82b9.dir/src.cxx.o -MF CMakeFiles/cmTC_b82b9.dir/src.cxx.o.d -o CMakeFiles/cmTC_b82b9.dir/src.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-U2ijp6/src.cxx
+        Linking CXX executable cmTC_b82b9
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b82b9.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b82b9.dir/src.cxx.o -o cmTC_b82b9 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/test/CMakeLists.txt:192 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test BENCHMARK_HAS_WNO_LTO_TYPE_MISMATCH"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5JIBvv"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5JIBvv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "BENCHMARK_HAS_WNO_LTO_TYPE_MISMATCH"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5JIBvv'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c0a4d/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c0a4d.dir/build.make CMakeFiles/cmTC_c0a4d.dir/build
+        Building CXX object CMakeFiles/cmTC_c0a4d.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_HAS_WNO_LTO_TYPE_MISMATCH  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics   -Wno-lto-type-mismatch -MD -MT CMakeFiles/cmTC_c0a4d.dir/src.cxx.o -MF CMakeFiles/cmTC_c0a4d.dir/src.cxx.o.d -o CMakeFiles/cmTC_c0a4d.dir/src.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5JIBvv/src.cxx
+        \x1b[0;1;31merror: \x1b[0m\x1b[1munknown warning option '-Wno-lto-type-mismatch'; did you mean '-Wno-selector-type-mismatch'? [-Werror,-Wunknown-warning-option]\x1b[0m
+        make[1]: *** [CMakeFiles/cmTC_c0a4d.dir/src.cxx.o] Error 1
+        make: *** [cmTC_c0a4d/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/CMakeLists.txt:192 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dvp8Cb"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dvp8Cb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WOLD_STYLE_CAST"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dvp8Cb'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3f782/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3f782.dir/build.make CMakeFiles/cmTC_3f782.dir/build
+        Building CXX object CMakeFiles/cmTC_3f782.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WOLD_STYLE_CAST  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics   -Wold-style-cast -MD -MT CMakeFiles/cmTC_3f782.dir/src.cxx.o -MF CMakeFiles/cmTC_3f782.dir/src.cxx.o.d -o CMakeFiles/cmTC_3f782.dir/src.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dvp8Cb/src.cxx
+        Linking CXX executable cmTC_3f782
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f782.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3f782.dir/src.cxx.o -o cmTC_3f782 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/CMakeLists.txt:193 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WCONVERSION"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XCP3I9"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XCP3I9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WCONVERSION"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XCP3I9'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ddedb/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ddedb.dir/build.make CMakeFiles/cmTC_ddedb.dir/build
+        Building CXX object CMakeFiles/cmTC_ddedb.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WCONVERSION  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics   -Wconversion -MD -MT CMakeFiles/cmTC_ddedb.dir/src.cxx.o -MF CMakeFiles/cmTC_ddedb.dir/src.cxx.o.d -o CMakeFiles/cmTC_ddedb.dir/src.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XCP3I9/src.cxx
+        Linking CXX executable cmTC_ddedb
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddedb.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ddedb.dir/src.cxx.o -o cmTC_ddedb 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/test/CMakeLists.txt:8 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_UNUSED_VARIABLE"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Gy9Z8F"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Gy9Z8F"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_UNUSED_VARIABLE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Gy9Z8F'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bbd4b/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_bbd4b.dir/build.make CMakeFiles/cmTC_bbd4b.dir/build
+        Building CXX object CMakeFiles/cmTC_bbd4b.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_FLAG_WNO_UNUSED_VARIABLE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics   -Wno-unused-variable -MD -MT CMakeFiles/cmTC_bbd4b.dir/src.cxx.o -MF CMakeFiles/cmTC_bbd4b.dir/src.cxx.o.d -o CMakeFiles/cmTC_bbd4b.dir/src.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Gy9Z8F/src.cxx
+        Linking CXX executable cmTC_bbd4b
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbd4b.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_bbd4b.dir/src.cxx.o -o cmTC_bbd4b 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/benchmark-src/test/CMakeLists.txt:136 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test BENCHMARK_HAS_DEPRECATED_DECLARATIONS_FLAG"
+    directories:
+      source: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iGgM87"
+      binary: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iGgM87"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake/Modules;/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.4"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "BENCHMARK_HAS_DEPRECATED_DECLARATIONS_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iGgM87'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0053a/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_0053a.dir/build.make CMakeFiles/cmTC_0053a.dir/build
+        Building CXX object CMakeFiles/cmTC_0053a.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_HAS_DEPRECATED_DECLARATIONS_FLAG  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable  -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics   -Werror=deprecated-declarations -MD -MT CMakeFiles/cmTC_0053a.dir/src.cxx.o -MF CMakeFiles/cmTC_0053a.dir/src.cxx.o.d -o CMakeFiles/cmTC_0053a.dir/src.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iGgM87/src.cxx
+        Linking CXX executable cmTC_0053a
+        /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0053a.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0053a.dir/src.cxx.o -o cmTC_0053a 
+        
+      exitCode: 0
+...

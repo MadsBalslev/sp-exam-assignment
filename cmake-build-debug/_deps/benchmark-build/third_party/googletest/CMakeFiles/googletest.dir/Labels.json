@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/CMakeFiles/googletest"
+		},
+		{
+			"file" : "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/CMakeFiles/googletest.rule"
+		},
+		{
+			"file" : "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/CMakeFiles/googletest-complete.rule"
+		},
+		{
+			"file" : "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/stamp/googletest-build.rule"
+		},
+		{
+			"file" : "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/stamp/googletest-configure.rule"
+		},
+		{
+			"file" : "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/stamp/googletest-download.rule"
+		},
+		{
+			"file" : "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/stamp/googletest-install.rule"
+		},
+		{
+			"file" : "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/stamp/googletest-mkdir.rule"
+		},
+		{
+			"file" : "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/stamp/googletest-patch.rule"
+		},
+		{
+			"file" : "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/stamp/googletest-test.rule"
+		},
+		{
+			"file" : "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/stamp/googletest-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest"
+		],
+		"name" : "googletest"
+	}
+}

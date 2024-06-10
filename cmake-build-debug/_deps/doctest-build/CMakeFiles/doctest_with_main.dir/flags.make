@@ -6,7 +6,7 @@ CXX_DEFINES = -DDOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 
 CXX_INCLUDES = -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/doctest-src
 
-CXX_FLAGSarm64 = -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics
+CXX_FLAGSarm64 = -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics
 
-CXX_FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics
+CXX_FLAGS = -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics
 

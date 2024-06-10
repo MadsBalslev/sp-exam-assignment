@@ -32,6 +32,7 @@ CMakeFiles/SpStochLibMain.dir/main.cpp.o: /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/m
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/arm/limits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/arm/signal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/arm/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/all_of.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/any_of.h \
@@ -748,6 +749,7 @@ CMakeFiles/SpStochLibMain.dir/main.cpp.o: /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/m
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/fstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/functional \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/initializer_list \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/inttypes.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/iomanip \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/ios \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/iosfwd \
@@ -768,6 +770,7 @@ CMakeFiles/SpStochLibMain.dir/main.cpp.o: /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/m
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/random \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/ratio \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/sstream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/stdbool.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/stdexcept \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/stdint.h \
@@ -790,6 +793,7 @@ CMakeFiles/SpStochLibMain.dir/main.cpp.o: /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/m
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/errno.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/inttypes.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/libkern/_OSByteOrder.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/libkern/arm/OSByteOrder.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/limits.h \
@@ -813,6 +817,7 @@ CMakeFiles/SpStochLibMain.dir/main.cpp.o: /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/m
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/pthread/sched.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/runetype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sched.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/signal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/stdlib.h \
@@ -909,6 +914,7 @@ CMakeFiles/SpStochLibMain.dir/main.cpp.o: /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/m
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/__wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_ctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_inttypes.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_stdlib.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_string.h \
@@ -916,8 +922,10 @@ CMakeFiles/SpStochLibMain.dir/main.cpp.o: /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/m
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_wctype.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/__stddef_max_align_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/inttypes.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/limits.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdarg.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdbool.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdint.h \
   _deps/sciplot_content-src/sciplot/Canvas.hpp \
@@ -965,6 +973,8 @@ CMakeFiles/SpStochLibMain.dir/main.cpp.o: /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/m
   /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/FileWriter.h \
   /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Plotting/Point.cpp \
   /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Plotting/Point.h \
+  /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Plotting/ReactionDrawer.cpp \
+  /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Plotting/ReactionDrawer.h \
   /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Plotting/TrajectoryDrawer.cpp \
   /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Plotting/TrajectoryDrawer.h \
   /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Reaction.h \
@@ -973,8 +983,33 @@ CMakeFiles/SpStochLibMain.dir/main.cpp.o: /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/m
   /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/SymbolTable.hpp \
   /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/examples/Circadian.cpp \
   /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/examples/Seihr.cpp \
-  /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/examples/Simple.cpp
+  /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/examples/Simple.cpp \
+  /opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/arith.h \
+  /opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/cdt.h \
+  /opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/cgraph.h \
+  /opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/geom.h \
+  /opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/gvc.h \
+  /opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/gvcext.h \
+  /opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/gvplugin.h \
+  /opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/pathgeom.h \
+  /opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/textspan.h \
+  /opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/types.h \
+  /opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/usershape.h
 
+
+/opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/usershape.h:
+
+/opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/types.h:
+
+/opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/textspan.h:
+
+/opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/pathgeom.h:
+
+/opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/gvc.h:
+
+/opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/cgraph.h:
+
+/opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/cdt.h:
 
 /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/examples/Circadian.cpp:
 
@@ -1004,6 +1039,8 @@ _deps/sciplot_content-src/sciplot/specs/LegendSpecs.hpp:
 
 _deps/sciplot_content-src/sciplot/specs/HistogramStyleSpecs.hpp:
 
+/opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/gvplugin.h:
+
 _deps/sciplot_content-src/sciplot/specs/GridSpecs.hpp:
 
 _deps/sciplot_content-src/sciplot/specs/FilledCurvesSpecsOf.hpp:
@@ -1027,6 +1064,8 @@ _deps/sciplot_content-src/sciplot/Canvas.hpp:
 _deps/sciplot_content-src/sciplot/specs/DrawSpecs.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stddef.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdbool.h:
 
 _deps/sciplot_content-src/sciplot/specs/FrameSpecsOf.hpp:
 
@@ -1124,8 +1163,6 @@ _deps/sciplot_content-src/sciplot/specs/FrameSpecsOf.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_errno_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_dev_t.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_ct_rune_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_caddr_t.h:
@@ -1166,6 +1203,8 @@ _deps/sciplot_content-src/sciplot/Plot3D.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/stdint.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/signal.h:
+
 /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/FileWriter.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sched.h:
@@ -1190,6 +1229,8 @@ _deps/sciplot_content-src/sciplot/Plot3D.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/machine/types.h:
 
+/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Plotting/ReactionDrawer.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/machine/signal.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/machine/limits.h:
@@ -1197,6 +1238,10 @@ _deps/sciplot_content-src/sciplot/Plot3D.hpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/machine/endian.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/machine/_types.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/machine/_mcontext.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/mach/machine/_structs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/mach/arm/_structs.h:
 
@@ -1720,6 +1765,10 @@ _deps/sciplot_content-src/sciplot/specs/AxisLabelSpecs.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__numeric/partial_sum.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_dev_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/stdbool.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h:
@@ -1786,6 +1835,8 @@ _deps/sciplot_content-src/sciplot/specs/FontSpecsOf.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__memory/compressed_pair.h:
 
+/opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/geom.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/sys/_types/_ino_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__memory/auto_ptr.h:
@@ -1813,6 +1864,8 @@ _deps/sciplot_content-src/sciplot/specs/FontSpecsOf.hpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/_locale.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__system_error/errc.h:
+
+/opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/gvcext.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__mbstate_t.h:
 
@@ -1994,6 +2047,8 @@ _deps/sciplot_content-src/sciplot/specs/Specs.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/result_of.h:
 
+/opt/homebrew/Cellar/graphviz/11.0.0/include/graphviz/arith.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__filesystem/path_iterator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h:
@@ -2071,6 +2126,8 @@ _deps/sciplot_content-src/sciplot/specs/Specs.hpp:
 _deps/sciplot_content-src/sciplot/specs/LayoutSpecs.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/inttypes.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/search_n.h:
 
@@ -2376,6 +2433,8 @@ _deps/sciplot_content-src/sciplot/Enums.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_set_difference.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_inttypes.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_minmax_element.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_sample.h:
@@ -2433,6 +2492,8 @@ _deps/sciplot_content-src/sciplot/Enums.hpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_copy_n.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_max.h:
+
+/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Plotting/ReactionDrawer.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__functional/identity.h:
 
@@ -2556,6 +2617,8 @@ _deps/sciplot_content-src/sciplot/Enums.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/pop_heap.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/assert.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/pstl_generate.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/in_out_result.h:
@@ -2640,6 +2703,8 @@ _deps/sciplot_content-src/sciplot/specs/LineSpecsOf.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_min.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/make_heap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/common_reference.h:
@@ -2694,6 +2759,8 @@ _deps/sciplot_content-src/sciplot/specs/LineSpecsOf.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__debug_utils/randomize_range.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/inttypes.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/in_in_result.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/is_class.h:
@@ -2738,15 +2805,17 @@ _deps/sciplot_content-src/sciplot/specs/TicsSpecsMajor.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/half_positive.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/pstl_count.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/xlocale/_stdlib.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__atomic/atomic_sync.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/uniform_random_bit_generator_adaptor.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/pstl_for_each.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/inttypes.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/machine/_mcontext.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/pstl_for_each.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/for_each_segment.h:
 
@@ -2763,6 +2832,8 @@ _deps/sciplot_content-src/sciplot/specs/TicsSpecsMajor.hpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/fill_n.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/fill.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/predicate_traits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h:
 
@@ -2844,8 +2915,6 @@ _deps/sciplot_content-src/sciplot/specs/TicsSpecsMajor.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_generate.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/predicate_traits.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__iterator/move_sentinel.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/pstl_frontend_dispatch.h:
@@ -2855,8 +2924,6 @@ _deps/sciplot_content-src/sciplot/specs/TicsSpecsMajor.hpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/arm/endian.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_replace_copy_if.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/mach/machine/_structs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/_xlocale.h:
 
@@ -2877,8 +2944,6 @@ _deps/sciplot_content-src/sciplot/specs/TicsSpecsMajor.hpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/_ctype.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/pstl_merge.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_reverse_copy.h:
 
@@ -2917,7 +2982,5 @@ _deps/sciplot_content-src/sciplot/StringOrDouble.hpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_generate_n.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/ranges_make_heap.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__algorithm/pstl_count.h:
 
 /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/main.cpp:

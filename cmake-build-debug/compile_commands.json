@@ -1,0 +1,758 @@
+[
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/include/graphviz -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/SpStochLibMain.dir/main.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/main.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/main.cpp",
+  "output": "CMakeFiles/SpStochLibMain.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/doctest-build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DDOCTEST_CONFIG_IMPLEMENT_WITH_MAIN -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/doctest-src -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/doctest-src/doctest/parts/doctest.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/doctest-src/doctest/parts/doctest.cpp",
+  "output": "_deps/doctest-build/CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DBENCHMARK_VERSION=\\\"v1.8.4\\\" -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark.dir/benchmark.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/benchmark.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/benchmark.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/benchmark_api_internal.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/benchmark_api_internal.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark.dir/benchmark_name.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/benchmark_name.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/benchmark_name.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_name.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark.dir/benchmark_register.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/benchmark_register.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/benchmark_register.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark.dir/benchmark_runner.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/benchmark_runner.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/benchmark_runner.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_runner.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark.dir/check.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/check.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/check.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/check.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark.dir/colorprint.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/colorprint.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/colorprint.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/colorprint.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark.dir/commandlineflags.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/commandlineflags.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/commandlineflags.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/commandlineflags.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark.dir/complexity.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/complexity.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/complexity.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/complexity.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark.dir/console_reporter.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/console_reporter.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/console_reporter.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/console_reporter.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark.dir/counter.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/counter.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/counter.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/counter.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark.dir/csv_reporter.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/csv_reporter.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/csv_reporter.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/csv_reporter.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark.dir/json_reporter.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/json_reporter.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/json_reporter.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/json_reporter.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark.dir/perf_counters.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/perf_counters.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/perf_counters.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/perf_counters.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark.dir/reporter.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/reporter.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/reporter.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/reporter.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark.dir/statistics.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/statistics.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/statistics.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/statistics.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark.dir/string_util.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/string_util.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/string_util.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/string_util.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark.dir/sysinfo.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/sysinfo.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/sysinfo.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/sysinfo.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark.dir/timers.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/timers.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/timers.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/timers.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark_main.dir/benchmark_main.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/benchmark_main.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/src/benchmark_main.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/build/googlemock",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -w -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock/src/gmock-all.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock/src/gmock-all.cc",
+  "output": "_deps/benchmark-build/third_party/googletest/build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/build/googlemock",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -w -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock/src/gmock_main.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock/src/gmock_main.cc",
+  "output": "_deps/benchmark-build/third_party/googletest/build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/build/googletest",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -w -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest/src/gtest-all.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest/src/gtest-all.cc",
+  "output": "_deps/benchmark-build/third_party/googletest/build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/build/googletest",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -w -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest/src/gtest_main.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest/src/gtest_main.cc",
+  "output": "_deps/benchmark-build/third_party/googletest/build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/output_test_helper.dir/output_test_helper.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/output_test_helper.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/output_test_helper.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/output_test_helper.dir/output_test_helper.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark_test.dir/benchmark_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/benchmark_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/benchmark_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/benchmark_test.dir/benchmark_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/spec_arg_test.dir/spec_arg_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/spec_arg_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/spec_arg_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/spec_arg_test.dir/spec_arg_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/spec_arg_verbosity_test.dir/spec_arg_verbosity_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/spec_arg_verbosity_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/spec_arg_verbosity_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/spec_arg_verbosity_test.dir/spec_arg_verbosity_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark_setup_teardown_test.dir/benchmark_setup_teardown_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/benchmark_setup_teardown_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/benchmark_setup_teardown_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/benchmark_setup_teardown_test.dir/benchmark_setup_teardown_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/filter_test.dir/filter_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/filter_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/filter_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/filter_test.dir/filter_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark_min_time_flag_time_test.dir/benchmark_min_time_flag_time_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/benchmark_min_time_flag_time_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/benchmark_min_time_flag_time_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/benchmark_min_time_flag_time_test.dir/benchmark_min_time_flag_time_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark_min_time_flag_iters_test.dir/benchmark_min_time_flag_iters_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/benchmark_min_time_flag_iters_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/benchmark_min_time_flag_iters_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/benchmark_min_time_flag_iters_test.dir/benchmark_min_time_flag_iters_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/options_test.dir/options_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/options_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/options_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/options_test.dir/options_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/basic_test.dir/basic_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/basic_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/basic_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/basic_test.dir/basic_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/repetitions_test.dir/repetitions_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/repetitions_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/repetitions_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/repetitions_test.dir/repetitions_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/diagnostics_test.dir/diagnostics_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/diagnostics_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/diagnostics_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/diagnostics_test.dir/diagnostics_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/skip_with_error_test.dir/skip_with_error_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/skip_with_error_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/skip_with_error_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/skip_with_error_test.dir/skip_with_error_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -O3 -Werror=deprecated-declarations -o CMakeFiles/donotoptimize_test.dir/donotoptimize_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/donotoptimize_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/donotoptimize_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/donotoptimize_test.dir/donotoptimize_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/fixture_test.dir/fixture_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/fixture_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/fixture_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/fixture_test.dir/fixture_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/register_benchmark_test.dir/register_benchmark_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/register_benchmark_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/register_benchmark_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/register_benchmark_test.dir/register_benchmark_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/map_test.dir/map_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/map_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/map_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/map_test.dir/map_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/multiple_ranges_test.dir/multiple_ranges_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/multiple_ranges_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/multiple_ranges_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/multiple_ranges_test.dir/multiple_ranges_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/args_product_test.dir/args_product_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/args_product_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/args_product_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/args_product_test.dir/args_product_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/link_main_test.dir/link_main_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/link_main_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/link_main_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/link_main_test.dir/link_main_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/reporter_output_test.dir/reporter_output_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/reporter_output_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/reporter_output_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/reporter_output_test.dir/reporter_output_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/templated_fixture_test.dir/templated_fixture_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/templated_fixture_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/templated_fixture_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/templated_fixture_test.dir/templated_fixture_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/user_counters_test.dir/user_counters_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/user_counters_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/user_counters_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/user_counters_test.dir/user_counters_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/perf_counters_test.dir/perf_counters_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/perf_counters_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/perf_counters_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/perf_counters_test.dir/perf_counters_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/internal_threading_test.dir/internal_threading_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/internal_threading_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/internal_threading_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/internal_threading_test.dir/internal_threading_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/report_aggregates_only_test.dir/report_aggregates_only_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/report_aggregates_only_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/report_aggregates_only_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/report_aggregates_only_test.dir/report_aggregates_only_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/display_aggregates_only_test.dir/display_aggregates_only_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/display_aggregates_only_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/display_aggregates_only_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/display_aggregates_only_test.dir/display_aggregates_only_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/user_counters_tabular_test.dir/user_counters_tabular_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/user_counters_tabular_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/user_counters_tabular_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/user_counters_tabular_test.dir/user_counters_tabular_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/user_counters_thousands_test.dir/user_counters_thousands_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/user_counters_thousands_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/user_counters_thousands_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/user_counters_thousands_test.dir/user_counters_thousands_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/memory_manager_test.dir/memory_manager_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/memory_manager_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/memory_manager_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/memory_manager_test.dir/memory_manager_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++98 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/cxx03_test.dir/cxx03_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/cxx03_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/cxx03_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/cxx03_test.dir/cxx03_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/complexity_test.dir/complexity_test.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/complexity_test.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/complexity_test.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/complexity_test.dir/complexity_test.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark_gtest.dir/benchmark_gtest.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/benchmark_gtest.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/benchmark_gtest.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/benchmark_gtest.dir/benchmark_gtest.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark_name_gtest.dir/benchmark_name_gtest.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/benchmark_name_gtest.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/benchmark_name_gtest.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/benchmark_name_gtest.dir/benchmark_name_gtest.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/benchmark_random_interleaving_gtest.dir/benchmark_random_interleaving_gtest.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/benchmark_random_interleaving_gtest.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/benchmark_random_interleaving_gtest.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/benchmark_random_interleaving_gtest.dir/benchmark_random_interleaving_gtest.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/commandlineflags_gtest.dir/commandlineflags_gtest.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/commandlineflags_gtest.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/commandlineflags_gtest.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/commandlineflags_gtest.dir/commandlineflags_gtest.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/statistics_gtest.dir/statistics_gtest.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/statistics_gtest.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/statistics_gtest.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/statistics_gtest.dir/statistics_gtest.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/string_util_gtest.dir/string_util_gtest.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/string_util_gtest.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/string_util_gtest.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/string_util_gtest.dir/string_util_gtest.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/perf_counters_gtest.dir/perf_counters_gtest.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/perf_counters_gtest.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/perf_counters_gtest.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/perf_counters_gtest.dir/perf_counters_gtest.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/time_unit_gtest.dir/time_unit_gtest.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/time_unit_gtest.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/time_unit_gtest.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/time_unit_gtest.dir/time_unit_gtest.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googlemock -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest/include -isystem /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/src/googletest   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -Wno-unused-variable -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics -o CMakeFiles/min_time_parse_gtest.dir/min_time_parse_gtest.cc.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/min_time_parse_gtest.cc",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/test/min_time_parse_gtest.cc",
+  "output": "_deps/benchmark-build/test/CMakeFiles/min_time_parse_gtest.dir/min_time_parse_gtest.cc.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -g -std=c++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/SpStochLib.dir/Agent.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Agent.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Agent.cpp",
+  "output": "src/CMakeFiles/SpStochLib.dir/Agent.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -g -std=c++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/SpStochLib.dir/ReactionCompounds.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/ReactionCompounds.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/ReactionCompounds.cpp",
+  "output": "src/CMakeFiles/SpStochLib.dir/ReactionCompounds.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -g -std=c++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/SpStochLib.dir/Reaction.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Reaction.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Reaction.cpp",
+  "output": "src/CMakeFiles/SpStochLib.dir/Reaction.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -g -std=c++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/SpStochLib.dir/Simulation.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Simulation.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Simulation.cpp",
+  "output": "src/CMakeFiles/SpStochLib.dir/Simulation.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -g -std=c++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/SpStochLib.dir/FileWriter.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/FileWriter.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/FileWriter.cpp",
+  "output": "src/CMakeFiles/SpStochLib.dir/FileWriter.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -g -std=c++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/SpStochLib.dir/ParallelRunner.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/ParallelRunner.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/ParallelRunner.cpp",
+  "output": "src/CMakeFiles/SpStochLib.dir/ParallelRunner.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/src/Examples",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -g -std=c++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/SpStochLibExamples.dir/Simple.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Examples/Simple.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Examples/Simple.cpp",
+  "output": "src/Examples/CMakeFiles/SpStochLibExamples.dir/Simple.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/src/Examples",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -g -std=c++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/SpStochLibExamples.dir/Circadian.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Examples/Circadian.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Examples/Circadian.cpp",
+  "output": "src/Examples/CMakeFiles/SpStochLibExamples.dir/Circadian.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/src/Examples",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -g -std=c++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/SpStochLibExamples.dir/Seihr.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Examples/Seihr.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Examples/Seihr.cpp",
+  "output": "src/Examples/CMakeFiles/SpStochLibExamples.dir/Seihr.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/src/Plotting",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/SpStochLibPlots.dir/ReactionDrawer.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Plotting/ReactionDrawer.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Plotting/ReactionDrawer.cpp",
+  "output": "src/Plotting/CMakeFiles/SpStochLibPlots.dir/ReactionDrawer.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/src/Plotting",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/SpStochLibPlots.dir/TrajectoryDrawer.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Plotting/TrajectoryDrawer.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Plotting/TrajectoryDrawer.cpp",
+  "output": "src/Plotting/CMakeFiles/SpStochLibPlots.dir/TrajectoryDrawer.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/src/Plotting",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/SpStochLibPlots.dir/Point.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Plotting/Point.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src/Plotting/Point.cpp",
+  "output": "src/Plotting/CMakeFiles/SpStochLibPlots.dir/Point.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/examples",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/example-3d-helix.dir/example-3d-helix.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-3d-helix.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-3d-helix.cpp",
+  "output": "_deps/sciplot_content-build/examples/CMakeFiles/example-3d-helix.dir/example-3d-helix.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/examples",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/example-bessel-functions.dir/example-bessel-functions.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-bessel-functions.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-bessel-functions.cpp",
+  "output": "_deps/sciplot_content-build/examples/CMakeFiles/example-bessel-functions.dir/example-bessel-functions.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/examples",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/example-boxes-ticklabels.dir/example-boxes-ticklabels.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-boxes-ticklabels.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-boxes-ticklabels.cpp",
+  "output": "_deps/sciplot_content-build/examples/CMakeFiles/example-boxes-ticklabels.dir/example-boxes-ticklabels.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/examples",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/example-boxes.dir/example-boxes.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-boxes.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-boxes.cpp",
+  "output": "_deps/sciplot_content-build/examples/CMakeFiles/example-boxes.dir/example-boxes.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/examples",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/example-figures-layout.dir/example-figures-layout.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-figures-layout.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-figures-layout.cpp",
+  "output": "_deps/sciplot_content-build/examples/CMakeFiles/example-figures-layout.dir/example-figures-layout.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/examples",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/example-figures.dir/example-figures.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-figures.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-figures.cpp",
+  "output": "_deps/sciplot_content-build/examples/CMakeFiles/example-figures.dir/example-figures.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/examples",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/example-filled-curves.dir/example-filled-curves.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-filled-curves.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-filled-curves.cpp",
+  "output": "_deps/sciplot_content-build/examples/CMakeFiles/example-filled-curves.dir/example-filled-curves.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/examples",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/example-logarithmic-axes.dir/example-logarithmic-axes.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-logarithmic-axes.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-logarithmic-axes.cpp",
+  "output": "_deps/sciplot_content-build/examples/CMakeFiles/example-logarithmic-axes.dir/example-logarithmic-axes.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/examples",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/example-missing-data.dir/example-missing-data.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-missing-data.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-missing-data.cpp",
+  "output": "_deps/sciplot_content-build/examples/CMakeFiles/example-missing-data.dir/example-missing-data.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/examples",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/example-multiplot-mixed.dir/example-multiplot-mixed.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-multiplot-mixed.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-multiplot-mixed.cpp",
+  "output": "_deps/sciplot_content-build/examples/CMakeFiles/example-multiplot-mixed.dir/example-multiplot-mixed.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/examples",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/example-multiplot.dir/example-multiplot.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-multiplot.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-multiplot.cpp",
+  "output": "_deps/sciplot_content-build/examples/CMakeFiles/example-multiplot.dir/example-multiplot.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/examples",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/example-plot-get.dir/example-plot-get.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-plot-get.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-plot-get.cpp",
+  "output": "_deps/sciplot_content-build/examples/CMakeFiles/example-plot-get.dir/example-plot-get.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/examples",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/example-readme.dir/example-readme.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-readme.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-readme.cpp",
+  "output": "_deps/sciplot_content-build/examples/CMakeFiles/example-readme.dir/example-readme.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/examples",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/example-sincos-functions.dir/example-sincos-functions.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-sincos-functions.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-sincos-functions.cpp",
+  "output": "_deps/sciplot_content-build/examples/CMakeFiles/example-sincos-functions.dir/example-sincos-functions.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/examples",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/example-sine-functions.dir/example-sine-functions.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-sine-functions.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/examples/example-sine-functions.cpp",
+  "output": "_deps/sciplot_content-build/examples/CMakeFiles/example-sine-functions.dir/example-sine-functions.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/sciplot-cpptests.dir/AxisLabelSpecs.test.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/AxisLabelSpecs.test.cxx",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/AxisLabelSpecs.test.cxx",
+  "output": "_deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/AxisLabelSpecs.test.cxx.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/sciplot-cpptests.dir/BorderSpecs.test.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/BorderSpecs.test.cxx",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/BorderSpecs.test.cxx",
+  "output": "_deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/BorderSpecs.test.cxx.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/sciplot-cpptests.dir/ColumnIndex.test.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/ColumnIndex.test.cxx",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/ColumnIndex.test.cxx",
+  "output": "_deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/ColumnIndex.test.cxx.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/sciplot-cpptests.dir/DepthSpecsOf.test.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/DepthSpecsOf.test.cxx",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/DepthSpecsOf.test.cxx",
+  "output": "_deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/DepthSpecsOf.test.cxx.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/sciplot-cpptests.dir/DrawSpecs.test.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/DrawSpecs.test.cxx",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/DrawSpecs.test.cxx",
+  "output": "_deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/DrawSpecs.test.cxx.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/sciplot-cpptests.dir/FillSpecsOf.test.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/FillSpecsOf.test.cxx",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/FillSpecsOf.test.cxx",
+  "output": "_deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/FillSpecsOf.test.cxx.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/sciplot-cpptests.dir/FillStyleSpecs.test.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/FillStyleSpecs.test.cxx",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/FillStyleSpecs.test.cxx",
+  "output": "_deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/FillStyleSpecs.test.cxx.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/sciplot-cpptests.dir/FilledCurvesSpecsOf.test.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/FilledCurvesSpecsOf.test.cxx",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/FilledCurvesSpecsOf.test.cxx",
+  "output": "_deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/FilledCurvesSpecsOf.test.cxx.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/sciplot-cpptests.dir/FontSpecsOf.test.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/FontSpecsOf.test.cxx",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/FontSpecsOf.test.cxx",
+  "output": "_deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/FontSpecsOf.test.cxx.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/sciplot-cpptests.dir/FrameSpecsOf.test.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/FrameSpecsOf.test.cxx",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/FrameSpecsOf.test.cxx",
+  "output": "_deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/FrameSpecsOf.test.cxx.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/sciplot-cpptests.dir/GridSpecs.test.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/GridSpecs.test.cxx",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/GridSpecs.test.cxx",
+  "output": "_deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/GridSpecs.test.cxx.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/sciplot-cpptests.dir/GridSpecsBase.test.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/GridSpecsBase.test.cxx",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/GridSpecsBase.test.cxx",
+  "output": "_deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/GridSpecsBase.test.cxx.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/sciplot-cpptests.dir/HistogramStyleSpecs.test.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/HistogramStyleSpecs.test.cxx",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/HistogramStyleSpecs.test.cxx",
+  "output": "_deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/HistogramStyleSpecs.test.cxx.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/sciplot-cpptests.dir/LegendSpecs.test.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/LegendSpecs.test.cxx",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/LegendSpecs.test.cxx",
+  "output": "_deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/LegendSpecs.test.cxx.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/sciplot-cpptests.dir/LineSpecsOf.test.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/LineSpecsOf.test.cxx",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/LineSpecsOf.test.cxx",
+  "output": "_deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/LineSpecsOf.test.cxx.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/sciplot-cpptests.dir/OffsetSpecsOf.test.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/OffsetSpecsOf.test.cxx",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/OffsetSpecsOf.test.cxx",
+  "output": "_deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/OffsetSpecsOf.test.cxx.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/sciplot-cpptests.dir/PointSpecsOf.test.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/PointSpecsOf.test.cxx",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/PointSpecsOf.test.cxx",
+  "output": "_deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/PointSpecsOf.test.cxx.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/sciplot-cpptests.dir/ShowSpecsOf.test.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/ShowSpecsOf.test.cxx",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/ShowSpecsOf.test.cxx",
+  "output": "_deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/ShowSpecsOf.test.cxx.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/sciplot-cpptests.dir/TextSpecsOf.test.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/TextSpecsOf.test.cxx",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/TextSpecsOf.test.cxx",
+  "output": "_deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/TextSpecsOf.test.cxx.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/sciplot-cpptests.dir/TicsSpecs.test.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/TicsSpecs.test.cxx",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/TicsSpecs.test.cxx",
+  "output": "_deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/TicsSpecs.test.cxx.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/sciplot-cpptests.dir/TicsSpecsMajor.test.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/TicsSpecsMajor.test.cxx",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/TicsSpecsMajor.test.cxx",
+  "output": "_deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/TicsSpecsMajor.test.cxx.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/sciplot-cpptests.dir/TicsSpecsMinor.test.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/TicsSpecsMinor.test.cxx",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/TicsSpecsMinor.test.cxx",
+  "output": "_deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/TicsSpecsMinor.test.cxx.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/sciplot-cpptests.dir/TitleSpecsOf.test.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/TitleSpecsOf.test.cxx",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/TitleSpecsOf.test.cxx",
+  "output": "_deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/TitleSpecsOf.test.cxx.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/sciplot-cpptests.dir/Utils.test.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/Utils.test.cxx",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/Utils.test.cxx",
+  "output": "_deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/Utils.test.cxx.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/sciplot-cpptests.dir/sciplot.test.cxx.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/sciplot.test.cxx",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/sciplot.test.cxx",
+  "output": "_deps/sciplot_content-build/tests/CMakeFiles/sciplot-cpptests.dir/sciplot.test.cxx.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests/testing-project",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2 -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/testing-project.dir/main.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/testing-project/main.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/testing-project/main.cpp",
+  "output": "_deps/sciplot_content-build/tests/testing-project/CMakeFiles/testing-project.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-build/tests/testing-project",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2 -g -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/testing-project.dir/util.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/testing-project/util.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-src/tests/testing-project/util.cpp",
+  "output": "_deps/sciplot_content-build/tests/testing-project/CMakeFiles/testing-project.dir/util.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DDOCTEST_CONFIG_IMPLEMENT_WITH_MAIN -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/include/graphviz -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/doctest-src -g -std=c++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/SymbolTableTests.dir/SymbolTableTests.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/tests/SymbolTableTests.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/tests/SymbolTableTests.cpp",
+  "output": "tests/CMakeFiles/SymbolTableTests.dir/SymbolTableTests.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DDOCTEST_CONFIG_IMPLEMENT_WITH_MAIN -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/include/graphviz -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/doctest-src -g -std=c++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/ReactionTests.dir/ReactionTests.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/tests/ReactionTests.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/tests/ReactionTests.cpp",
+  "output": "tests/CMakeFiles/ReactionTests.dir/ReactionTests.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/include/graphviz -g -std=c++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/Estimate.dir/Estimate.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/estimation/Estimate.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/estimation/Estimate.cpp",
+  "output": "estimation/CMakeFiles/Estimate.dir/Estimate.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/estimation",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/include/graphviz -g -std=c++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/main.dir/main.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/estimation/main.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/estimation/main.cpp",
+  "output": "estimation/CMakeFiles/main.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/benchmarking",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/src -I/opt/homebrew/Cellar/graphviz/11.0.0/include -I/include/graphviz -I/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-src/include -g -std=c++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics -o CMakeFiles/Benchmarks.dir/Benchmarks.cpp.o -c /Users/mads/dev/aau/Sp/Sp-Exam-Try-2/benchmarking/Benchmarks.cpp",
+  "file": "/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/benchmarking/Benchmarks.cpp",
+  "output": "benchmarking/CMakeFiles/Benchmarks.dir/Benchmarks.cpp.o"
+}
+]
