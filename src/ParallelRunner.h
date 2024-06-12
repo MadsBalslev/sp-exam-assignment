@@ -3,6 +3,9 @@
 
 #include "Simulation.h"
 
+// 8. Implement support for multiple computer cores by parallelizing the computation of several simulations at the same time.
+// Estimate the likely (average) value of the hospitalized peak over 100 simulations.
+
 namespace SpStochLib {
 
     class ParallelRunner {

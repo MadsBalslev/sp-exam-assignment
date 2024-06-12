@@ -11,6 +11,7 @@ namespace SpStochLib {
         return m_products;
     }
 
+    // 2. Provide pretty-printing of the reaction network in a) human readable format
     std::string Reaction::name() const {
         std::stringstream ss;
         ss << m_reactants << " -> " << m_products << " (rate = " << rate << ")";
@@ -38,9 +39,12 @@ namespace SpStochLib {
         delay = distribution(generator);
     }
 
+    // 2. Provide pretty-printing of the reaction network in a) human readable format
     std::ostream &operator<<(std::ostream &os, Reaction &reaction) {
         return os << reaction.name();
     };
+
+    // 1. The library should overload operators to support the reaction rule typesetting directly in C++ code.
 
     // A + B -> C
     Reaction operator>>=(ReactionCompounds &&compounds, Agent &agent) {

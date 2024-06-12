@@ -45,6 +45,9 @@ namespace SpStochLib {
         return *m_agents;
     }
 
+    // 4. Implement the stochastic simulation (Alg. 1) of the system using the reaction rules.
+    // 7. Implement a generic support for (any) user-supplied state observer function object or provide a lazy trajectory generation interface (coroutine).
+    // The observer itself should be supplied by the user/test and not be part of the library.
     void Simulation::simulate(const double endTime, std::optional<std::function<void(const Simulation &)>> callback) {
         std::random_device random;
         std::mt19937 generator(random());

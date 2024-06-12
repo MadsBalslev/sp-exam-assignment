@@ -1,7 +1,7 @@
 #include "ReactionDrawer.h"
 
 namespace SpStochLib::Plots {
-
+    // 2. Provide pretty-printing of the reaction network in b) network graph (e.g. Fig. 4).
     std::string ReactionDrawer::round(double& num) {
         std::ostringstream out;
         out << std::setprecision(9) << std::fixed << num;

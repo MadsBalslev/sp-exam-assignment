@@ -3,6 +3,9 @@
 #include "vector"
 #include "Examples/Seihr.cpp"
 
+// 8. Implement support for multiple computer cores by parallelizing the computation of several simulations at the same time.
+// Estimate the likely (average) value of the hospitalized peak over 100 simulations.
+
 namespace SpStochLib::Estimation {
     std::pair<double, double> estimatePeakMean(size_t N, size_t endTime, size_t simulationCount = 100) {
         std::vector<double> maxValues(simulationCount, 0);

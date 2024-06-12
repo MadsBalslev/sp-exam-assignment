@@ -3,6 +3,8 @@
 
 using namespace SpStochLib;
 
+// 9. Implement unit tests (e.g. test symbol table methods, their failure cases, and pretty-printing of reaction rules).
+
 TEST_SUITE("SymbolTable") {
     TEST_CASE("Adding and getting a symbol") {
         SymbolTable<int> table;

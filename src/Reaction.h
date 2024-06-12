@@ -29,7 +29,7 @@ namespace SpStochLib {
         friend std::ostream &operator<<(std::ostream &os, Reaction &reaction);
     };
 
-
+    // 1. The library should overload operators to support the reaction rule typesetting directly in C++ code.
     // A + B -> C
     Reaction operator>>=(ReactionCompounds &&compounds, Agent &agent);
     // A -> B + C

@@ -7,6 +7,10 @@
 #include <stdexcept>
 #include <any>
 
+// 3. Implement a generic symbol table to store and lookup objects of user-defined key and value types.
+// Support failure cases when a) the table does not contain a looked up symbol, b) the table already contains a symbol that is being added.
+// Demonstrate the usage of the symbol table with the reactants (names and initial counts).
+
 namespace SpStochLib {
 
     template<typename T>

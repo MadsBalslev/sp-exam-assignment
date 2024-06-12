@@ -2,6 +2,8 @@
 #include "Point.cpp"
 #include "sciplot/sciplot.hpp"
 
+// 6. Display simulation trajectories of how the amounts change. External tools/libraries can be used to visualize.
+
 namespace SpStochLib::Plots {
     void TrajectoryDrawer::addToGraph(const SpStochLib::Simulation &sim) {
         // For each line in sim add to correct linedata
