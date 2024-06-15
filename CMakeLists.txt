@@ -14,8 +14,8 @@ enable_testing()
 include_directories(src)
 
 # Graphviz paths
-set(GRAPHVIZ_INCLUDE_DIR "/opt/homebrew/Cellar/graphviz/11.0.0/include")
-set(GRAPHVIZ_LIBRARY_DIR "/opt/homebrew/Cellar/graphviz/11.0.0/lib")
+set(GRAPHVIZ_INCLUDE_DIR "C:/Program Files/Graphviz/include")
+set(GRAPHVIZ_LIBRARY_DIR "C:/Program Files/Graphviz/lib")
 
 # Add Graphviz directories
 include_directories(${GRAPHVIZ_INCLUDE_DIR})

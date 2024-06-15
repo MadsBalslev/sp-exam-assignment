@@ -1,3 +1,4 @@
+#include <iomanip>
 #include "ReactionDrawer.h"
 
 namespace SpStochLib::Plots {
