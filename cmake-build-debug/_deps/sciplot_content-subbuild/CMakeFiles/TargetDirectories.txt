@@ -1,3 +1,0 @@
-/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-subbuild/CMakeFiles/sciplot_content-populate.dir
-/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-subbuild/CMakeFiles/edit_cache.dir
-/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/sciplot_content-subbuild/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,0 @@
-/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/CMakeFiles/googletest.dir
-/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/CMakeFiles/edit_cache.dir
-/Users/mads/dev/aau/Sp/Sp-Exam-Try-2/cmake-build-debug/_deps/benchmark-build/third_party/googletest/CMakeFiles/rebuild_cache.dir
