@@ -1,2 +1,7 @@
 
 /cmake-build-debug
+latex-code.sh
+listing.aux
+listing.log
+listing.pdf
+listing.tex
